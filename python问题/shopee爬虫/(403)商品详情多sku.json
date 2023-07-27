@@ -1,0 +1,454 @@
+{
+	"error": null,
+	"error_msg": null,
+	"data": {
+		"itemid": 16279823402,
+		"shopid": 810429922,
+		"userid": 0,
+		"price_max_before_discount": -1,
+		"has_lowest_price_guarantee": false,
+		"price_before_discount": 0,
+		"price_min_before_discount": -1,
+		"exclusive_price_info": null,
+		"hidden_price_display": null,
+		"price_min": 86900000,
+		"price_max": 94900000,
+		"price": 86900000,
+		"stock": 38,
+		"discount": null,
+		"historical_sold": 40,
+		"sold": 11,
+		"show_discount": 0,
+		"raw_discount": 0,
+		"min_purchase_limit": 0,
+		"overall_purchase_limit": {
+			"order_max_purchase_limit": 0,
+			"overall_purchase_limit": null,
+			"item_overall_quota": null,
+			"start_date": null,
+			"end_date": null
+		},
+		"pack_size": null,
+		"is_live_streaming_price": null,
+		"show_free_return": null,
+		"name": "Nothing Phone (1) | 8GB + 256GB / 12GB + 256GB | Glyph Interface | 50MP Dual Camera | Pure Nothing OS | Snapdragon 778G+",
+		"ctime": 1658311301,
+		"item_status": "normal",
+		"status": 1,
+		"condition": 1,
+		"catid": 100013,
+		"description": "Nothing is here to make tech fun again. To inspire creativity, and build the future together with their community. By creating an ecosystem of iconic and connected tech products, Nothing aims to bring artistry and passion back to the industry.\n\nPure Instinct.\nLess distractions. More soul.\nJust pure instinct, formed as a machine. Told through beautiful symbols. Deeper interactions. And brave simplicity.\nPhone ( 1 ) can bring us back. To us.\n\nMeet the Glyph Interface.\nA new way to communicate. Unique light patterns indicate who’s calling. Signals app notifications, charging status and\nmore. Everyday interactions, made joyful.\n\nBetter quality isn’t more cameras. This extraordinary dual camera has two advanced 50 MP sensors for brilliant realism.\nSony IMX766, Samsung JN1.\n\nNothing OS delivers only the best of Android. No bloatware. Just speed and a smooth experience. Hardware and software speak a single visual language, with bespoke widgets, fonts, sounds and wallpapers. Enables seamless integration with third party products.\n\nMeet all your needs\nDisplay: 1 billion colors, HDR10+, 120Hz 6.55” OLED display\nPerformance: Qualcomm Snapdragon 778G+, UFS 3.1, LPDDR5, All accelerated by 5G.\nCharging: 50% power in just 30 minutes.\nCharge fast.\nCharge wirelessly. 5W reverse charge.\n\nIn the box\nNothing phone (1)\nC2C cable (1m)\nSafety information and warranty card\n(QSG and user manual offered by weblink)\nScreen protector (pre-applied)\nSIM tray ejector",
+		"is_mart": false,
+		"rich_text_description": null,
+		"show_shopee_verified_label": false,
+		"size_chart": null,
+		"reference_item_id": "",
+		"brand": "Nothing",
+		"item_rating": {
+			"rating_star": 4.9523809523809526,
+			"rating_count": [21, 0, 0, 0, 1, 20]
+		},
+		"label_ids": [1000035, 700066181],
+		"attributes": [{
+			"name": "存储容量",
+			"value": "256GB",
+			"id": 100465,
+			"is_timestamp": false,
+			"brand_option": null,
+			"val_id": null
+		}, {
+			"name": "保修种类",
+			"value": "制造商保修",
+			"id": 100370,
+			"is_timestamp": false,
+			"brand_option": null,
+			"val_id": null
+		}, {
+			"name": "质保期限",
+			"value": "12个月",
+			"id": 100121,
+			"is_timestamp": false,
+			"brand_option": null,
+			"val_id": null
+		}, {
+			"name": "SIM卡插口数量",
+			"value": "2",
+			"id": 100938,
+			"is_timestamp": false,
+			"brand_option": null,
+			"val_id": null
+		}, {
+			"name": "镜头数量",
+			"value": "2",
+			"id": 100937,
+			"is_timestamp": false,
+			"brand_option": null,
+			"val_id": null
+		}, {
+			"name": "电话特点",
+			"value": "指纹感应, NFC",
+			"id": 100482,
+			"is_timestamp": false,
+			"brand_option": null,
+			"val_id": null
+		}, {
+			"name": "电话种类",
+			"value": "智能电话",
+			"id": 100491,
+			"is_timestamp": false,
+			"brand_option": null,
+			"val_id": null
+		}, {
+			"name": "支援作业系统",
+			"value": "Android",
+			"id": 100507,
+			"is_timestamp": false,
+			"brand_option": null,
+			"val_id": null
+		}, {
+			"name": "充电线种类",
+			"value": "Type C",
+			"id": 100481,
+			"is_timestamp": false,
+			"brand_option": null,
+			"val_id": null
+		}, {
+			"name": "SIM卡种类",
+			"value": "Nano",
+			"id": 100504,
+			"is_timestamp": false,
+			"brand_option": null,
+			"val_id": null
+		}, {
+			"name": "电池容量",
+			"value": "4500mAh",
+			"id": 100272,
+			"is_timestamp": false,
+			"brand_option": null,
+			"val_id": null
+		}, {
+			"name": "RAM",
+			"value": "12GB",
+			"id": 100461,
+			"is_timestamp": false,
+			"brand_option": null,
+			"val_id": null
+		}, {
+			"name": "处理器种类",
+			"value": "Snapdragon 778G+",
+			"id": 100460,
+			"is_timestamp": false,
+			"brand_option": null,
+			"val_id": null
+		}, {
+			"name": "电话型号",
+			"value": "A063",
+			"id": 100490,
+			"is_timestamp": false,
+			"brand_option": null,
+			"val_id": null
+		}, {
+			"name": "蜂窝",
+			"value": "5G",
+			"id": 100513,
+			"is_timestamp": false,
+			"brand_option": null,
+			"val_id": null
+		}, {
+			"name": "状态",
+			"value": "New",
+			"id": 100413,
+			"is_timestamp": false,
+			"brand_option": null,
+			"val_id": null
+		}, {
+			"name": "主相机解析度",
+			"value": "50MP",
+			"id": 100500,
+			"is_timestamp": false,
+			"brand_option": null,
+			"val_id": null
+		}, {
+			"name": "屏幕尺寸",
+			"value": "6.55inches",
+			"id": 100988,
+			"is_timestamp": false,
+			"brand_option": null,
+			"val_id": null
+		}, {
+			"name": "ROM",
+			"value": "256GB",
+			"id": 101037,
+			"is_timestamp": false,
+			"brand_option": null,
+			"val_id": null
+		}],
+		"liked": false,
+		"liked_count": 231,
+		"cmt_count": 21,
+		"flag": 196608,
+		"shopee_verified": false,
+		"is_adult": false,
+		"is_preferred_plus_seller": false,
+		"tier_variations": [{
+			"name": "Colours",
+			"options": ["Black", "White"],
+			"images": ["sg-11134201-22100-ovetiian1miv7d", "sg-11134201-22100-pfmsqken1mive8"],
+			"properties": null,
+			"type": 0,
+			"summed_stocks": [19, 19]
+		}, {
+			"name": "Storage",
+			"options": ["8GB + 256GB", "12GB + 256GB"],
+			"images": null,
+			"properties": null,
+			"type": 0,
+			"summed_stocks": null
+		}],
+		"bundle_deal_id": 0,
+		"can_use_bundle_deal": false,
+		"size_chart_info": null,
+		"add_on_deal_info": null,
+		"bundle_deal_info": null,
+		"can_use_wholesale": false,
+		"wholesale_tier_list": [],
+		"is_group_buy_item": null,
+		"group_buy_info": null,
+		"welcome_package_type": 0,
+		"welcome_package_info": null,
+		"tax_code": null,
+		"invoice_option": null,
+		"complaint_policy": null,
+		"wp_eligibility": null,
+		"images": ["135ea7423d137b42801d85779634c73c", "60eef8e7bcabff57c7607dec608fa9aa", "70849c51545c983946583935703f83bd", "f08c4bc5a04cef055456695c58de9540", "7f272d015b70f9840561005c3b9b9359", "63e566d33b2725b86da0225b04dfae2d", "3efe2a1fdecd82fa603cb7fe954f6ea6", "369ad937af9e5652f261df389d56b525"],
+		"image": "135ea7423d137b42801d85779634c73c",
+		"video_info_list": [{
+			"video_id": "b4a73dbed1831f9eaff09670eb1b0729",
+			"thumb_url": "e58ce71fec08e749340dc3eb00181dc2",
+			"duration": 17,
+			"version": 2,
+			"vid": "sg_fd2af6af-2d77-4a06-953d-1735f65af108_000187",
+			"formats": [{
+				"format": 1600003,
+				"defn": "V480P",
+				"profile": "MP4",
+				"path": "c3/98934353/105/A3oxOFJvAPiU5eEIEQkHACc.mp4",
+				"url": "",
+				"width": 480,
+				"height": 480
+			}, {
+				"format": 1600010,
+				"defn": "V540P",
+				"profile": "MP4",
+				"path": "c3/98934353/105/A3oxOLtKAICX5eEIERkLACc.mp4",
+				"url": "",
+				"width": 540,
+				"height": 540
+			}, {
+				"format": 1600008,
+				"defn": "V720P",
+				"profile": "MP4",
+				"path": "c3/98934353/105/A3oxOKaEAHit5eEIEQMFACc.mp4",
+				"url": "",
+				"width": 720,
+				"height": 720
+			}],
+			"default_format": {
+				"format": 600001,
+				"defn": "ORI",
+				"profile": "MP4",
+				"path": "",
+				"url": "http://play-aka.vod.shopee.com/c3/98934353/105/A3oxOBlKAIBj5eEIESoJACY.mp4",
+				"width": 1080,
+				"height": 1080
+			}
+		}],
+		"item_type": 0,
+		"is_official_shop": true,
+		"show_official_shop_label_in_title": true,
+		"shop_location": "新加坡",
+		"coin_earn_label": null,
+		"cb_option": 0,
+		"is_pre_order": false,
+		"estimated_days": 2,
+		"badge_icon_type": 0,
+		"show_free_shipping": false,
+		"shipping_icon_type": 0,
+		"cod_flag": 0,
+		"is_service_by_shopee": false,
+		"show_original_guarantee": true,
+		"categories": [{
+			"catid": 100013,
+			"display_name": "Mobile \u0026 Gadgets",
+			"no_sub": false,
+			"is_default_subcat": false
+		}, {
+			"catid": 100073,
+			"display_name": "Mobile Phones",
+			"no_sub": true,
+			"is_default_subcat": false
+		}],
+		"other_stock": 38,
+		"item_has_post": false,
+		"discount_stock": 0,
+		"current_promotion_has_reserve_stock": false,
+		"current_promotion_reserved_stock": 0,
+		"normal_stock": 38,
+		"brand_id": 2133607,
+		"is_alcohol_product": false,
+		"show_recycling_info": false,
+		"coin_info": {
+			"spend_cash_unit": 1000,
+			"coin_earn_items": [{
+				"coin_earn": 0
+			}, {
+				"coin_earn": 0
+			}, {
+				"coin_earn": 0
+			}, {
+				"coin_earn": 0
+			}]
+		},
+		"models": [{
+			"itemid": 16279823402,
+			"status": 1,
+			"current_promotion_reserved_stock": 0,
+			"name": "White,12GB + 256GB",
+			"promotionid": 0,
+			"price": 94900000,
+			"price_stocks": [{
+				"allocated_stock": 0,
+				"stock_breakdown_by_location": null
+			}],
+			"current_promotion_has_reserve_stock": false,
+			"normal_stock": 9,
+			"extinfo": {
+				"tier_index": [1, 1],
+				"group_buy_info": null,
+				"is_pre_order": false,
+				"estimated_days": 2
+			},
+			"price_before_discount": 0,
+			"modelid": 155232164691,
+			"stock": 9,
+			"has_gimmick_tag": false,
+			"key_measurement": null
+		}, {
+			"itemid": 16279823402,
+			"status": 1,
+			"current_promotion_reserved_stock": 0,
+			"name": "Black,8GB + 256GB",
+			"promotionid": 0,
+			"price": 86900000,
+			"price_stocks": [{
+				"allocated_stock": 0,
+				"stock_breakdown_by_location": null
+			}],
+			"current_promotion_has_reserve_stock": false,
+			"normal_stock": 10,
+			"extinfo": {
+				"tier_index": [0, 0],
+				"group_buy_info": null,
+				"is_pre_order": false,
+				"estimated_days": 2
+			},
+			"price_before_discount": 0,
+			"modelid": 155232164688,
+			"stock": 10,
+			"has_gimmick_tag": false,
+			"key_measurement": null
+		}, {
+			"itemid": 16279823402,
+			"status": 1,
+			"current_promotion_reserved_stock": 0,
+			"name": "Black,12GB + 256GB",
+			"promotionid": 0,
+			"price": 94900000,
+			"price_stocks": [{
+				"allocated_stock": 0,
+				"stock_breakdown_by_location": null
+			}],
+			"current_promotion_has_reserve_stock": false,
+			"normal_stock": 9,
+			"extinfo": {
+				"tier_index": [0, 1],
+				"group_buy_info": null,
+				"is_pre_order": false,
+				"estimated_days": 2
+			},
+			"price_before_discount": 0,
+			"modelid": 155232164689,
+			"stock": 9,
+			"has_gimmick_tag": false,
+			"key_measurement": null
+		}, {
+			"itemid": 16279823402,
+			"status": 1,
+			"current_promotion_reserved_stock": 0,
+			"name": "White,8GB + 256GB",
+			"promotionid": 0,
+			"price": 86900000,
+			"price_stocks": [{
+				"allocated_stock": 0,
+				"stock_breakdown_by_location": null
+			}],
+			"current_promotion_has_reserve_stock": false,
+			"normal_stock": 10,
+			"extinfo": {
+				"tier_index": [1, 0],
+				"group_buy_info": null,
+				"is_pre_order": false,
+				"estimated_days": 2
+			},
+			"price_before_discount": 0,
+			"modelid": 155232164690,
+			"stock": 10,
+			"has_gimmick_tag": false,
+			"key_measurement": null
+		}],
+		"spl_info": {
+			"installment_info": null,
+			"user_credit_info": null,
+			"channel_id": null,
+			"show_spl": false,
+			"show_spl_lite": false
+		},
+		"preview_info": null,
+		"fe_categories": [{
+			"catid": 11013350,
+			"display_name": "数码产品",
+			"no_sub": false,
+			"is_default_subcat": false
+		}, {
+			"catid": 11013448,
+			"display_name": "手机和平板电脑",
+			"no_sub": false,
+			"is_default_subcat": false
+		}, {
+			"catid": 11013460,
+			"display_name": "其他",
+			"no_sub": true,
+			"is_default_subcat": false
+		}],
+		"presale_info": null,
+		"show_best_price_guarantee": false,
+		"item_has_video": false,
+		"is_cc_installment_payment_eligible": true,
+		"is_non_cc_installment_payment_eligible": false,
+		"flash_sale": null,
+		"upcoming_flash_sale": null,
+		"deep_discount": null,
+		"has_low_fulfillment_rate": false,
+		"is_partial_fulfilled": false,
+		"makeups": null,
+		"shop_vouchers": [],
+		"credit_insurance_data": null,
+		"global_sold": null,
+		"is_infant_milk_formula_product": false,
+		"should_show_amp_tag": true,
+		"sorted_variation_image_index_list": [0, 1],
+		"lowest_past_price": null,
+		"is_prescription_item": false
+	},
+	"is_indexable": true
+}

@@ -1,0 +1,1707 @@
+{
+	'actionModule': {
+		'addToCartUrl': '//shoppingcart.aliexpress.com/addToShopcart4Js.htm',
+		'aeOrderFrom': 'main_detail',
+		'allowVisitorAddCart': True,
+		'cartDetailUrl': '//shoppingcart.aliexpress.com/shopcart/shopcartDetail.htm',
+		'categoryId': 5090301,
+		'comingSoon': False,
+		'companyId': 243085618,
+		'confirmOrderUrl': '//shoppingcart.aliexpress.com/order/confirm_order.htm',
+		'features': {},
+		'freightExt': '[{"p1":"38.11","p2":"50.62","p3":"USD","p4":"990000","p5":"0","itemScene":"default","p6":"null"}]',
+		'i18nMap': {
+			'WISH_MAX_NOTICE': "Oops, sembra che hai già raggiunto l'elenco esaustivo.",
+			'BUYER_ABLE': 'Questa funzionalità è disponibile solo per gli acquirenti.',
+			'WISHLIST_SAVE_BUTTON': 'Salva',
+			'WISH_MOVE_TO_ANOTHER_LIST_TIPS': 'Sposta in un’altra lista',
+			'ADD_X_MORE': 'Congratulazioni! Hai guadagnato <div class="before-coin-count"></div>{coinCount} monete. Oggi hai {number} possibilità di continuare a guadagnare monete.',
+			'COMING_SOON': 'Prossimamente',
+			'SC_ADD_SUCC': 'È stato aggiunto un nuovo articolo al tuo carrello.',
+			'WISHLIST_PUBLIC_NOTICE': '(Chiunque può vedere questa lista e condividerla)',
+			'WISH_DETAULT_LIST': 'wish List',
+			'WISH_CREATE_LIST': 'Creare una lista dei desideri',
+			'WL_ERROR': 'Il sistema è occupato, riprova.',
+			'WISH_NAME_ALREADY_USE': 'Questo nome Wish List è già in uso.',
+			'WISH_REVISELIST': 'Modifica la tua lista',
+			'SC_ADD_FAILED': 'Non è stato possibile procedere all\'aggiunta, ti preghiamo di aggiornare la pagina e cliccare nuovamente "Aggiungi al carrello"',
+			'SC_HAVE': 'Ora hai {{number}} articoli nel tuo carrello.',
+			'ADD_TO_CART': 'Aggiungi al carrello',
+			'WISH_CANCEL_WISHLIST': 'Annulla',
+			'BUY_NOW': 'Acquista ora',
+			'WISH_SYSTEM_ERROR': 'Hai fatto un errore di sistema. Riprova.',
+			'SC_ADD_MAX': 'Puoi aggiungere al carrello {{number}} articoli al massimo. Rimuovi alcuni elementi prima di aggiungerne altri.',
+			'SC_VIEW': 'Vedi carrello',
+			'WISH_YOUMAYLIKE': 'Potrebbe piacerti anche',
+			'WISH_VIEW_WISH_LIST': 'Visualizza Wish List',
+			'SC_RECOMMEND': 'Gli acquirenti che hanno comprato questo articolo hanno comprato anche:',
+			'CONTINUE': 'Continua gli acquisti',
+			'ADDED_TO': 'Aggiunto a {wishlist}',
+			'ORDER_NOW': 'Ordina ora',
+			'SELECT_TIP': 'Selezionare tutte le opzioni del prodotto',
+			'NO_LONGER_AVAILABLE': 'Spiacenti, questo articolo non è più disponibile!',
+			'PREVIEW_PERIOD': '2019/3/21 00:00:00 GMT-0700,2019/3/27 23:59:59 GMT-0700',
+			'WISH_MAX_GROUP': 'Spiacenti, non puoi creare altre liste dei desideri',
+			'WISHLIST_PUBLIC_TIP': 'Pubblico'
+		},
+		'id': 0,
+		'invalidBuyNow': False,
+		'itemStatus': 0,
+		'itemWished': False,
+		'itemWishedCount': 670,
+		'localSeller': False,
+		'name': 'ActionModule',
+		'preSale': False,
+		'productId': 1005001446299802,
+		'rootCategoryId': 509,
+		'showCoinAnim': False,
+		'showShareHeader': True,
+		'storeNum': 1101295870,
+		'totalAvailQuantity': 15935
+	},
+	'aePlusModule': {
+		'features': {},
+		'i18nMap': {},
+		'id': 0,
+		'name': 'AePlusModule'
+	},
+	'buyerProtectionModule': {
+		'buyerProtection': {
+			'brief': 'Soddisfatti o rimborsati',
+			'detailDescription': ' ',
+			'id': 2,
+			'name': 'Consegna stimata entro {day}-giorni',
+			'redirectUrl': 'https://sale.aliexpress.com/v8Yr8f629D.htm',
+			'type': 1
+		},
+		'features': {},
+		'i18nMap': {
+			'PLAZA_BUYER_PROTECTION_TITLE': 'Local Return',
+			'PLAZA_BUYER_PROTECTION_TIP': 'Dispones de 15 días en los que puedes devolver el artículo por no satisfacer tus expectativas, siempre que se encuentre en perfecto estado, sin usar y conserve todas las etiquetas y el embalaje original',
+			'PLAZA_BUYER_PROTECTION_CONTENT': '15 giorni'
+		},
+		'id': 0,
+		'name': 'BuyerProtectionModule'
+	},
+	'commonModule': {
+		'activity': True,
+		'categoryId': 5090301,
+		'crawler': False,
+		'currencyCode': 'USD',
+		'features': {},
+		'gagaDataSite': 'it',
+		'i18nMap': {},
+		'id': 0,
+		'name': 'CommonModule',
+		'plaza': False,
+		'preSale': False,
+		'productId': 1005001446299802,
+		'productIdStr': '1005001446299802',
+		'productTags': {},
+		'reminds': [],
+		'sellerAdminSeq': 233782830,
+		'tradeCurrencyCode': 'USD',
+		'userCountryCode': 'CN',
+		'userCountryName': 'China (Mainland)'
+	},
+	'couponModule': {
+		'currencyCode': 'USD',
+		'features': {},
+		'i18nMap': {
+			'GET_COUPONS': 'Ottieni coupon',
+			'SCP_ERR_HAVE': 'Spiacenti, hai già ottenuto il buono da questo negozio! Usa il buono ora!',
+			'OFF_ON': '{money1} di sconto su {money2}',
+			'ORDER_OVER': 'Ordini superiori a ',
+			'code52Title': 'Siamo spiacenti, ma tutti i coupon disponibili sono già stati richiesti.',
+			'GET_IT': 'Ottieni',
+			'GET_NOW': 'Ottieni',
+			'GET_MORE': 'Ottieni di più',
+			'systemError': 'Qualcosa è andato storto. Ti preghiamo di riprovare.',
+			'OFF_PER': '{money1} di sconto per {money2}',
+			'STORE_COUPON': 'Coupon Negozio',
+			'SHOP_COUPONE_TIME_START_END': 'Da {0} a {1}',
+			'NEW_USER_COUPON_ACQUIRE_FAIL_ALREADY_HAVE': 'Siamo spiacenti, hai già ottenuto il Coupon Nuovo Cliente.',
+			'code50Title': 'Spiacenti, non abbiamo potuto emettere il coupon. Riprova.',
+			'NEW_USER_COUPON_ACQUIRE_FAIL_NOT_AVAILABLE_NOW': 'Siamo spiacenti, i Coupon Nuovo Utente non sono disponibili ora.',
+			'NEW_USER_COUPON_ACQUIRE_FAIL_GROUP_LIMIT': 'Siamo spiacenti, hai già ottenuto la quantità massima di Coupon Nuovo Utente.',
+			'code14Title': "Hai un numero sufficiente di coupon selezionati. Lasciane un po' anche agli altri :)",
+			'NEW_USER_COUPON_ACQUIRE_FAIL_NOT_NEW_USER': 'Siamo spiacenti, solo i nuovi utenti hanno diritto a ricevere questo coupon.',
+			'SHOP_PROMO_CODE_COPIED': 'Codice promozionale copiato!',
+			'ADDED': 'Aggiunto',
+			'NEW_USER_COUPON_ACQUIRE_FAIL_SECURITY': 'Per proteggere la sicurezza del tuo account, usa un altro dispositivo per accedere.',
+			'SHOP_PROMO_CODE_TITLE': 'Codice promozionale del negozio',
+			'NEW_USER_COUPON_ACQUIRE_FAIL': 'Spiacenti, si è verificato un errore! Riprova.',
+			'NEW_USER_COUPON_ACQUIRE_FAIL_LIMIT_DAY': 'Siamo spiacenti, i Coupon Nuovo Utente non sono disponibili oggi.',
+			'NEW_USER_COUPON_ACQUIRE_FAIL_REGISTER_COUNTRY_LIMIT': 'Verifica che questo coupon sia riscattabile nel tuo paese di residenza.',
+			'SCP_ERR_NONE': 'Spiacenti! Tutti questi buoni sono stati già assegnati.',
+			'NEW_USER_COUPON_ACQUIRE_FAIL_GRANT_ERROR': 'Siamo spiacenti, non sei riuscito a ottenere questo coupon.',
+			'code17Title': 'Siamo spiacenti, ma questo coupon non è più disponibile.',
+			'SHOP_COUPONE_TIME_EXPIRES': 'Scade il {0}',
+			'SHOPPONG_CREDIT': 'SHOPPONG CREDIT',
+			'EXCHANGE_MORE': 'Scambia di più',
+			'NEW_USER_COUPON_ACQUIRE_FAIL_SYSTEM_ERROR': 'Spiacenti, si è verificato un errore! Riprova.',
+			'MY_BALANCE': 'Saldo',
+			'INSTANT_DISCOUNT': 'Sconto immediato',
+			'EXCHANGE_NOW': 'Scambia ora',
+			'CROSS_STORE_VOUCHER_TIP': 'Risparmia fino a {money1} su ordini superiori a {money2}',
+			'NEW_USER_COUPON': 'Coupon nuovo cliente',
+			'GET': 'OTTIENI',
+			'SHOP_PROMO_CODE_COP_FAILED': 'Copia non riuscita. Riprova',
+			'code-30005Title': 'Uh oh, sembra che non abbiate ancora abbastanza monete...',
+			'MY_COINS': 'Le mie monete',
+			'BUY_GET_OFF': 'acquista {fullpiece} unità e ottieni uno sconto del {fulldiscount}',
+			'code51Title': 'Siamo spiacenti, ma tutti i coupon disponibili sono già stati richiesti.',
+			'PANEL_TITLE': 'Sconto Coupon',
+			'NEW_USER_COUPON_ACQUIRE_FAIL_LIMIT_HOUR': 'Siamo spiacenti, i Coupon Nuovo Utente non sono disponibili al momento.',
+			'CROSS_STORE_VOUCHER': 'Seleziona coupon'
+		},
+		'id': 0,
+		'name': 'CouponModule',
+		'webCouponInfo': {
+			'couponAttributes': {
+				'couponPackageText': 'Controlla il tuo buono sconto sul nostro <a href="https://www.aliexpress.com/p/my-coupons/index.html">centro buoni sconto</a>',
+				'hasPlatformShippingFeeCoupon': 'false'
+			},
+			'couponList': [{
+				'bgColor': '#FFF1F1',
+				'color': '#FF4747',
+				'copy': 'Sconto US $1.00',
+				'order': 5,
+				'title': 'Sconto Negozio',
+				'type': 'storeDiscount'
+			}],
+			'promotionPanelDTO': {
+				'storeDiscount': [{
+					'displayType': 'storeDiscount',
+					'promotionGroupTitle': 'Sconto del negozio',
+					'promotionPanelDetailDTOList': [{
+						'acquirable': False,
+						'actionTips': 'Acquista altro',
+						'attributes': {
+							'couponCampaignStyle': 'new'
+						},
+						'collectLink': 'https://m.aliexpress.com/search.htm?priceBreak=1&campId=5000000077942043&campBannerText=US $1.00 scontato di US $40.00&marginPrice=4000&',
+						'displayType': 'storeDiscount',
+						'endTime': 1667285999000,
+						'promotionDetailList': ['Ottieni uno sconto di US $1.00 su ordini di almeno US $40.00'],
+						'startTime': 1662015600000,
+						'teasingStartTime': -1,
+						'toolCode': 'fixedDiscount'
+					}]
+				}]
+			},
+			'usingNewCouponApi': True
+		}
+	},
+	'crossLinkModule': {
+		'breadCrumbPathList': [{
+			'cateId': 0,
+			'name': 'Home',
+			'remark': '',
+			'url': '//it.aliexpress.com/'
+		}, {
+			'cateId': 0,
+			'name': 'Tutte le categorie',
+			'remark': '',
+			'target': 'Tutte le categorie',
+			'url': '//it.aliexpress.com/all-wholesale-products.html'
+		}, {
+			'cateId': 509,
+			'name': 'Cellulari e telecomunicazioni',
+			'remark': '',
+			'target': 'Cellulari e telecomunicazioni',
+			'url': '//it.aliexpress.com/category/509/cellphones-telecommunications.html'
+		}, {
+			'cateId': 5090301,
+			'name': 'Telefoni cellulari e smartphone',
+			'remark': '',
+			'target': 'Telefoni cellulari e smartphone',
+			'url': '//it.aliexpress.com/category/5090301/cellphones.html'
+		}],
+		'crossLinkGroupList': [{
+			'channel': 'Ricerca correlata',
+			'crossLinkList': [{
+				'displayName': 'central telefono android',
+				'name': 'central telefono android',
+				'url': 'https://it.aliexpress.com/w/wholesale-central-telefono-android.html'
+			}, {
+				'displayName': 'reloh telefono android',
+				'name': 'reloh telefono android',
+				'url': 'https://it.aliexpress.com/w/wholesale-reloh-telefono-android.html'
+			}, {
+				'displayName': 'movil one plus 5 telefono',
+				'name': 'movil one plus 5 telefono',
+				'url': 'https://it.aliexpress.com/w/wholesale-movil-one-plus-5-telefono.html'
+			}, {
+				'displayName': 'lampada spycam ip',
+				'name': 'lampada spycam ip',
+				'url': 'https://it.aliexpress.com/w/wholesale-lampada-spycam-ip.html'
+			}, {
+				'displayName': 'telefono android auyantepui',
+				'name': 'telefono android auyantepui',
+				'url': 'https://it.aliexpress.com/w/wholesale-telefono-android-auyantepui.html'
+			}, {
+				'displayName': 'telefono samsung s3 mini usado',
+				'name': 'telefono samsung s3 mini usado',
+				'url': 'https://it.aliexpress.com/w/wholesale-telefono-samsung-s3-mini-usado.html'
+			}, {
+				'displayName': 'zaino inteligente',
+				'name': 'zaino inteligente',
+				'url': 'https://it.aliexpress.com/w/wholesale-zaino-inteligente.html'
+			}, {
+				'displayName': 'telefono inteligente kid',
+				'name': 'telefono inteligente kid',
+				'url': 'https://it.aliexpress.com/w/wholesale-telefono-inteligente-kid.html'
+			}, {
+				'displayName': 'ip 68 telefono',
+				'name': 'ip 68 telefono',
+				'url': 'https://it.aliexpress.com/w/wholesale-ip-68-telefono.html'
+			}, {
+				'displayName': 'ip 65 telefono',
+				'name': 'ip 65 telefono',
+				'url': 'https://it.aliexpress.com/w/wholesale-ip-65-telefono.html'
+			}, {
+				'displayName': 'custodia telefono mini cooper',
+				'name': 'custodia telefono mini cooper',
+				'url': 'https://it.aliexpress.com/w/wholesale-custodia-telefono-mini-cooper.html'
+			}, {
+				'displayName': 'telefono inteligente nu',
+				'name': 'telefono inteligente nu',
+				'url': 'https://it.aliexpress.com/w/wholesale-telefono-inteligente-nu.html'
+			}],
+			'name': 'Ricerca correlata'
+		}, {
+			'channel': 'Classificazione delle parole chiave',
+			'crossLinkList': [{
+				'displayName': 'Captain american',
+				'name': 'Captain american',
+				'url': 'https://it.aliexpress.com/blog/Captain_american_porta_il_supereroe_con_te-1049051.html'
+			}],
+			'name': 'Classificazione delle parole chiave'
+		}],
+		'features': {},
+		'i18nMap': {
+			'BREADCRUMB_PART2': 'e puoi trovare prodotti simili su',
+			'BREADCRUMB_PART1': 'Questo prodotto appartiene a',
+			'CROSSLINK_RELATED_SEARCHES': 'Collegamenti'
+		},
+		'id': 0,
+		'name': 'CrossLinkModule',
+		'productId': 1005001446299802
+	},
+	'descriptionModule': {
+		'descriptionUrl': 'https://aeproductsourcesite.alicdn.com/product/description/pc/v2/it_IT/desc.htm?productId=1005001446299802&key=S49a1612ce1fc459fa4ee9204d51930bfb.zip&token=ec6ceabef56d60a310d33012c40fc886',
+		'features': {},
+		'i18nMap': {},
+		'id': 0,
+		'name': 'DescriptionModule',
+		'productId': 1005001446299802,
+		'sellerAdminSeq': 233782830
+	},
+	'features': {},
+	'feedbackModule': {
+		'companyId': 243085618,
+		'features': {},
+		'feedbackServer': '//feedback.aliexpress.com',
+		'i18nMap': {},
+		'id': 0,
+		'name': 'FeedbackModule',
+		'productId': 1005001446299802,
+		'sellerAdminSeq': 233782830,
+		'trialReviewNum': 0
+	},
+	'groupShareModule': {
+		'features': {},
+		'i18nMap': {},
+		'id': 0,
+		'name': 'GroupShareModule'
+	},
+	'i18nMap': {
+		'VIEW_MORE': 'VEDERE PIÙ',
+		'ASK_BUYERS': "Domande & Risposte dell'acquirente",
+		'PAGE_NOT_FOUND_NOTICE': 'Spiacenti, articolo temporaneamente non disponibile',
+		'VIEW_5_MORE_ANSWERS': 'VEDERE PIÙ',
+		'openTrace': 'true',
+		'PAGE_NOT_FOUND_RCMD_TITLE': 'Spiacenti, la pagina richiesta non è stata trovata :('
+	},
+	'imageModule': {
+		'approved': True,
+		'features': {},
+		'i18nMap': {},
+		'id': 0,
+		'imagePathList': ['https://ae01.alicdn.com/kf/S54e753f74f0d4070961bd649cedfeaf5l/SOYES-XS11-3G-Mini-SmartPhone-Android-2-5-pollici-WIFI-GPS-RAM-1GB-ROM-8GB-Quad.png', 'https://ae01.alicdn.com/kf/H620911e6423d4964954efef005096190s/SOYES-XS11-3G-Mini-SmartPhone-Android-2-5-pollici-WIFI-GPS-RAM-1GB-ROM-8GB-Quad.jpg', 'https://ae01.alicdn.com/kf/H6e875c7a56ad4bab927984db682541e9M/SOYES-XS11-3G-Mini-SmartPhone-Android-2-5-pollici-WIFI-GPS-RAM-1GB-ROM-8GB-Quad.jpg', 'https://ae01.alicdn.com/kf/Hccf80f35eaa04f42b124b77ddd5252eaH/SOYES-XS11-3G-Mini-SmartPhone-Android-2-5-pollici-WIFI-GPS-RAM-1GB-ROM-8GB-Quad.jpg', 'https://ae01.alicdn.com/kf/H939bca9042ec45c09bbfba136fa2c4d5d/SOYES-XS11-3G-Mini-SmartPhone-Android-2-5-pollici-WIFI-GPS-RAM-1GB-ROM-8GB-Quad.jpg', 'https://ae01.alicdn.com/kf/H9735c55fe7144f2e955a4aae474a3b75p/SOYES-XS11-3G-Mini-SmartPhone-Android-2-5-pollici-WIFI-GPS-RAM-1GB-ROM-8GB-Quad.jpg'],
+		'name': 'ImageModule',
+		'summImagePathList': ['https://ae01.alicdn.com/kf/S54e753f74f0d4070961bd649cedfeaf5l/SOYES-XS11-3G-Mini-SmartPhone-Android-2-5-pollici-WIFI-GPS-RAM-1GB-ROM-8GB-Quad.png_50x50.png', 'https://ae01.alicdn.com/kf/H620911e6423d4964954efef005096190s/SOYES-XS11-3G-Mini-SmartPhone-Android-2-5-pollici-WIFI-GPS-RAM-1GB-ROM-8GB-Quad.jpg_50x50.jpg', 'https://ae01.alicdn.com/kf/H6e875c7a56ad4bab927984db682541e9M/SOYES-XS11-3G-Mini-SmartPhone-Android-2-5-pollici-WIFI-GPS-RAM-1GB-ROM-8GB-Quad.jpg_50x50.jpg', 'https://ae01.alicdn.com/kf/Hccf80f35eaa04f42b124b77ddd5252eaH/SOYES-XS11-3G-Mini-SmartPhone-Android-2-5-pollici-WIFI-GPS-RAM-1GB-ROM-8GB-Quad.jpg_50x50.jpg', 'https://ae01.alicdn.com/kf/H939bca9042ec45c09bbfba136fa2c4d5d/SOYES-XS11-3G-Mini-SmartPhone-Android-2-5-pollici-WIFI-GPS-RAM-1GB-ROM-8GB-Quad.jpg_50x50.jpg', 'https://ae01.alicdn.com/kf/H9735c55fe7144f2e955a4aae474a3b75p/SOYES-XS11-3G-Mini-SmartPhone-Android-2-5-pollici-WIFI-GPS-RAM-1GB-ROM-8GB-Quad.jpg_50x50.jpg'],
+		'videoId': 1100034536355,
+		'videoUid': '3956617189'
+	},
+	'installmentModule': {
+		'features': {},
+		'i18nMap': {},
+		'id': 0,
+		'name': 'InstallmentModule'
+	},
+	'middleBannerModule': {
+		'features': {},
+		'i18nMap': {
+			'END_IN': 'Termina tra',
+			'DAYS': '{number} giorni',
+			'DAY': '{number} giorno',
+			'STARTS_IN': 'Inizia fra'
+		},
+		'id': 0,
+		'name': 'MiddleBannerModule',
+		'showUniformBanner': True,
+		'uniformMiddleBanner': {
+			'bannerType': 'store_newer',
+			'discountRatio': '-39%',
+			'endTimer': {
+				'foregroundImg': 'https://ae01.alicdn.com/kf/H1ff6eea227d04130b0f74112ecc0b804t.png',
+				'text': 'Termina tra',
+				'timerBgUrl': '',
+				'topImage': ''
+			},
+			'originalPrice': 'US $62.48 - 82.99',
+			'price': 'US $38.11 - 50.62',
+			'priceContentBgUrl': 'https://ae01.alicdn.com/kf/Hcf8a5927756e4373bf1d1b928f2d856fN.png',
+			'sloganBanner': 'Enjoy special discounts!',
+			'sloganBgUrl': 'https://ae01.alicdn.com/kf/Hcae789ea016843a785b6ce13e275c8c9u.png',
+			'sloganTextColor': '#FFEAEA'
+		}
+	},
+	'name': 'ItemDetailResp',
+	'otherServiceModule': {
+		'features': {},
+		'hasWarrantyInfo': False,
+		'i18nMap': {
+			'TAB_SPECS': 'Specifiche',
+			'PLAZA_SERVICE_SUBTITLE_PC': 'Guarantee in Spain',
+			'PLAZA_SERVICE_WARRANTY_EMAIL': 'Email',
+			'PLAZA_SERVICE_WARRANTY_PHONE': 'Phone',
+			'PLAZA_SERVICE_WARRANTY_HOURS': 'Ore',
+			'TAB_CUSTOMER_REVIEWS': 'Recensioni dei clienti',
+			'PLAZA_SERVICE_WARRANTY_WEBSITE': 'Sito web',
+			'TAB_OVERVIEW': 'Panoramica',
+			'PLAZA_SERVICE_WARRANTY_BRAND': 'Marca',
+			'PLAZA_SERVICE_WARRANTY_CATEGORY': 'Categoria',
+			'PLAZA_SERVICE_TITLE_PC': 'Plaza Technology Guarantees',
+			'PLAZA_SERVICE_CONTENT3_3_PC': '- The safety seal is not damaged and all labels are retained.',
+			'PLAZA_SERVICE_WARRANTY_TITLE': 'Official technical service',
+			'TAB_REPORT_ITEM': "Segnala l'articolo",
+			'TAB_SERVICE': 'Servizio',
+			'PLAZA_SERVICE_CONTENT3_1_PC': 'You have 15 days to return your Plaza Technology order, provided that:',
+			'PLAZA_SERVICE_CONTENT3_2_PC': "E' in perfette condizioni e nel packaging originario.",
+			'PLAZA_SERVICE_CONTENT1_PC': 'All items of Plaza Technology are 100% original, are covered by the protection of the buyer of AliExpress and have an official warranty of 2 years in Spain to process in the official technical service in Spain designated by the manufacturer.',
+			'PLAZA_SERVICE_SUBTITLE2_PC': 'Spedizione e consegna',
+			'PLAZA_SERVICE_CONTENT2_PC': 'Shipments are free without minimum purchase. We make all our shipments from Spain, so there are no additional fees or customs. The delivery time in any point of the peninsula is 1 to 3 working days from the moment of purchase. At the moment we do not send to the Canary Islands, Ceuta or Melilla.',
+			'PLAZA_SERVICE_SUBTITLE3_PC': 'Resi'
+		},
+		'id': 0,
+		'name': 'OtherServiceModule'
+	},
+	'pageModule': {
+		'aeOrderFrom': 'main_detail',
+		'aerSelfOperation': False,
+		'amphtmlTag': '<meta>',
+		'boutiqueSeller': False,
+		'canonicalTag': '<link rel="canonical" href="https://it.aliexpress.com/item/1005001446299802.html">',
+		'complaintUrl': '//report.aliexpress.com/health/reportIndex.htm?product_id=1005001446299802&b_login_id=cn1523622024kaoq',
+		'description': 'SOYES XS11 3G Mini SmartPhone Android 2.5 pollici WIFI GPS RAM 1GB ROM 8GB Quad Core Google Play Facebook Whatsapp cellulare,Acquista da rivenditori in Cina e in tutto il mondo. Approfitta della spedizione gratuita, dei saldi per un periodo limitato, dei resi facili e della protezione acquirente!\nGoditi ✓ Spedizione gratuita in tutto il mondo! ✓ Vendita a tempo limitato ✓ Facile ritorno',
+		'features': {},
+		'hreflangTag': '<link rel="alternate" hreflang="en" href="https://www.aliexpress.com/item/1005001446299802.html"/>\n<link rel="alternate" hreflang="id" href="https://id.aliexpress.com/item/1005001446299802.html"/>\n<link rel="alternate" hreflang="ko" href="https://ko.aliexpress.com/item/1005001446299802.html"/>\n<link rel="alternate" hreflang="ar" href="https://ar.aliexpress.com/item/1005001446299802.html"/>\n<link rel="alternate" hreflang="de" href="https://de.aliexpress.com/item/1005001446299802.html"/>\n<link rel="alternate" hreflang="es" href="https://es.aliexpress.com/item/1005001446299802.html"/>\n<link rel="alternate" hreflang="fr" href="https://fr.aliexpress.com/item/1005001446299802.html"/>\n<link rel="alternate" hreflang="it" href="https://it.aliexpress.com/item/1005001446299802.html"/>\n<link rel="alternate" hreflang="nl" href="https://nl.aliexpress.com/item/1005001446299802.html"/>\n<link rel="alternate" hreflang="pt" href="https://pt.aliexpress.com/item/1005001446299802.html"/>\n<link rel="alternate" hreflang="th" href="https://th.aliexpress.com/item/1005001446299802.html"/>\n<link rel="alternate" hreflang="tr" href="https://tr.aliexpress.com/item/1005001446299802.html"/>\n<link rel="alternate" hreflang="vi" href="https://vi.aliexpress.com/item/1005001446299802.html"/>\n<link rel="alternate" hreflang="he" href="https://he.aliexpress.com/item/1005001446299802.html"/>\n<link rel="alternate" hreflang="ru" href="https://aliexpress.ru/item/1005001446299802.html"/>\n<link rel="alternate" hreflang="ja" href="https://ja.aliexpress.com/item/1005001446299802.html"/>\n<link rel="alternate" hreflang="pl" href="https://pl.aliexpress.com/item/1005001446299802.html"/>',
+		'i18nMap': {},
+		'id': 0,
+		'imagePath': 'https://ae01.alicdn.com/kf/S54e753f74f0d4070961bd649cedfeaf5l/SOYES-XS11-3G-Mini-SmartPhone-Android-2-5-pollici-WIFI-GPS-RAM-1GB-ROM-8GB-Quad.png',
+		'itemDetailUrl': 'https://it.aliexpress.com/item/1005001446299802.html',
+		'keywords': 'Telefoni cellulari e smartphone,Cellulari e telecomunicazioni, Cheap Telefoni cellulari e smartphone,High Quality Cellulari e telecomunicazioni',
+		'kidBaby': False,
+		'mSiteUrl': 'https://m.it.aliexpress.com/item/1005001446299802.html',
+		'mediaTag': '<link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.it.aliexpress.com/item/1005001446299802.html"/>',
+		'multiLanguageUrlList': [{
+			'language': 'msite',
+			'languageUrl': 'https://m.aliexpress.com/item/1005001446299802.html'
+		}, {
+			'language': 'en',
+			'languageUrl': 'https://www.aliexpress.com/item/1005001446299802.html'
+		}, {
+			'language': 'it',
+			'languageUrl': 'https://it.aliexpress.com/item/1005001446299802.html'
+		}, {
+			'language': 'fr',
+			'languageUrl': 'https://fr.aliexpress.com/item/1005001446299802.html'
+		}, {
+			'language': 'de',
+			'languageUrl': 'https://de.aliexpress.com/item/1005001446299802.html'
+		}, {
+			'language': 'ru',
+			'languageUrl': 'https://aliexpress.ru/item/1005001446299802.html'
+		}, {
+			'language': 'es',
+			'languageUrl': 'https://es.aliexpress.com/item/1005001446299802.html'
+		}, {
+			'language': 'pt',
+			'languageUrl': 'https://pt.aliexpress.com/item/1005001446299802.html'
+		}, {
+			'language': 'ja',
+			'languageUrl': 'https://ja.aliexpress.com/item/1005001446299802.html'
+		}, {
+			'language': 'ko',
+			'languageUrl': 'https://ko.aliexpress.com/item/1005001446299802.html'
+		}, {
+			'language': 'nl',
+			'languageUrl': 'https://nl.aliexpress.com/item/1005001446299802.html'
+		}, {
+			'language': 'ar',
+			'languageUrl': 'https://ar.aliexpress.com/item/1005001446299802.html'
+		}, {
+			'language': 'tr',
+			'languageUrl': 'https://tr.aliexpress.com/item/1005001446299802.html'
+		}, {
+			'language': 'vi',
+			'languageUrl': 'https://vi.aliexpress.com/item/1005001446299802.html'
+		}, {
+			'language': 'he',
+			'languageUrl': 'https://he.aliexpress.com/item/1005001446299802.html'
+		}, {
+			'language': 'th',
+			'languageUrl': 'https://th.aliexpress.com/item/1005001446299802.html'
+		}, {
+			'language': 'pl',
+			'languageUrl': 'https://pl.aliexpress.com/item/1005001446299802.html'
+		}],
+		'name': 'PageModule',
+		'ogDescription': 'Smarter Shopping, Better Living!  Aliexpress.com',
+		'ogTitle': '38.11US $ 39% di SCONTO|SOYES XS11 3G Mini SmartPhone Android 2.5 pollici WIFI GPS RAM 1GB ROM 8GB Quad Core Google Play Facebook Whatsapp cellulare|Telefoni cellulari e smartphone|   - AliExpress',
+		'ogurl': '//it.aliexpress.com/item/1005001446299802.html',
+		'oldItemDetailUrl': 'https://it.aliexpress.com/item/SOYES-XS11-3G-Mini-SmartPhone-Android-2-5-pollici-WIFI-GPS-RAM-1GB-ROM-8GB-Quad/1005001446299802.html',
+		'plazaElectronicSeller': False,
+		'productId': 1005001446299802,
+		'ruSelfOperation': False,
+		'showPlazaHeader': False,
+		'siteType': 'ita',
+		'spanishPlaza': False,
+		'title': 'SOYES XS11 3G Mini SmartPhone Android 2.5 pollici WIFI GPS RAM 1GB ROM 8GB Quad Core Google Play Facebook Whatsapp cellulare|Telefoni cellulari e smartphone|   - AliExpress'
+	},
+	'preSaleModule': {
+		'features': {},
+		'i18nMap': {},
+		'id': 0,
+		'name': 'PreSaleModule',
+		'preSale': False
+	},
+	'prefix': '//assets.alicdn.com/g/ae-fe/detail-ui/0.0.101',
+	'priceModule': {
+		'activity': True,
+		'discount': 39,
+		'discountPromotion': True,
+		'discountRatioTips': '-39%',
+		'discountTips': '-39%',
+		'extraTags': {},
+		'features': {},
+		'formatedActivityPrice': 'US $38.11 - 50.62',
+		'formatedPrice': 'US $62.48 - 82.99',
+		'hiddenBigSalePrice': False,
+		'i18nMap': {
+			'LOT': 'lotto',
+			'INSTALLMENT': 'Rata',
+			'DEPOSIT': 'Anticipo',
+			'PRE_ORDER_PRICE': 'Prezzo del pre-ordine'
+		},
+		'id': 0,
+		'installment': False,
+		'lot': False,
+		'maxActivityAmount': {
+			'currency': 'USD',
+			'formatedAmount': 'US $50.62',
+			'value': 50.62
+		},
+		'maxAmount': {
+			'currency': 'USD',
+			'formatedAmount': 'US $82.99',
+			'value': 82.99
+		},
+		'minActivityAmount': {
+			'currency': 'USD',
+			'formatedAmount': 'US $38.11',
+			'value': 38.11
+		},
+		'minAmount': {
+			'currency': 'USD',
+			'formatedAmount': 'US $62.48',
+			'value': 62.48
+		},
+		'multiUnitName': 'unità',
+		'name': 'PriceModule',
+		'numberPerLot': 1,
+		'oddUnitName': 'unità',
+		'preSale': False,
+		'priceRuleInfo': {},
+		'promotionSellingPointTags': [{
+			'elementList': [{
+				'elementType': 'icon',
+				'iconAddress': 'https://ae01.alicdn.com/kf/H1a74367e677a43f7b4027d6354bd4765H.png',
+				'iconHeight': 16,
+				'iconType': 'mind',
+				'iconWidth': 16
+			}, {
+				'elementType': 'text',
+				'iconHeight': 0,
+				'iconWidth': 0,
+				'textColor': '#FF5353',
+				'textContent': 'Sconto extra del 2%'
+			}]
+		}],
+		'regularPriceActivity': False,
+		'showActivityMessage': False,
+		'vatDesc': ''
+	},
+	'quantityModule': {
+		'activity': True,
+		'displayBulkInfo': True,
+		'features': {},
+		'i18nMap': {
+			'LOT': 'lotto',
+			'LOTS': 'lotti',
+			'BUY_LIMIT': '{limit} {unit} al massimo per cliente',
+			'QUANTITY': 'Quantità',
+			'OFF_OR_MORE': '{discount}% di sconto su ({number} {unit} o superiore)',
+			'ONLY_QUANTITY_LEFT': 'Solo {availQuantity} rimasti',
+			'ADDTIONAL': 'Ulteriore',
+			'QUANTITY_AVAILABLE': '{availQuantity} {unit} disponibili'
+		},
+		'id': 0,
+		'lot': False,
+		'multiUnitName': 'unità',
+		'name': 'QuantityModule',
+		'oddUnitName': 'unità',
+		'purchaseLimitNumMax': 0,
+		'skuBulkDiscount': 3,
+		'skuBulkOrder': 2,
+		'totalAvailQuantity': 15935
+	},
+	'recommendModule': {
+		'categoryId': 5090301,
+		'companyId': 243085618,
+		'features': {
+			'recommendGpsScenarioOtherSellerProducts': 'pcDetailBottomMoreOtherSeller',
+			'showSubTitle': 'true',
+			'recommendGpsScenarioTopSelling': 'pcDetailLeftTopSell',
+			'recommendGpsScenarioSellerOtherProducts': 'pcDetailBottomMoreThisSeller'
+		},
+		'i18nMap': {
+			'MORE_FROM_THIS_SELLER': 'I consigli del venditore',
+			'YOU_MAY_LIKE': 'Consigliato per te',
+			'TOP_SELLING': 'I più venduti',
+			'FROM_OTHER_SELLER': 'Potrebbero piacerti anche',
+			'VIEW_MORE_LINK': 'Visualizza altro',
+			'PRODUCT_SOLD': 'venduto'
+		},
+		'id': 0,
+		'name': 'RecommendModule',
+		'platformCount': 20,
+		'productId': 1005001446299802,
+		'storeNum': 1101295870
+	},
+	'redirectModule': {
+		'bigBossBan': False,
+		'code': 'OK',
+		'features': {},
+		'i18nMap': {},
+		'id': 0,
+		'name': 'RedirectModule',
+		'redirectUrl': ''
+	},
+	'shippingModule': {
+		'currencyCode': 'USD',
+		'features': {},
+		'freightCalculateInfo': {
+			'displayMultipleFreight': False,
+			'hideFreight': True
+		},
+		'generalFreightInfo': {
+			'freightExt': '[{"p1":"38.11","p2":"50.62","p3":"USD","p4":"990000","p5":"0","itemScene":"default","p6":"null"}]',
+			'hideShipFrom': True,
+			'originalLayoutResultList': [{
+				'additionLayout': [{
+					'blockGroup': 'others-1',
+					'blockType': 'others',
+					'componentId': '490',
+					'content': 'Tracking disponibile',
+					'displayCondition': 'tracking=visible',
+					'distance': 1,
+					'medusaKey': 'tracking_available@others',
+					'order': 1,
+					'type': 'textWithMark',
+					'useInDeliveryOptionPanel': True
+				}],
+				'bizData': {
+					'deliveryOptionCode': 'CAINIAO_STANDARD',
+					'deliveryProviderName': 'AliExpress Standard Shipping',
+					'leadTimeSort': [9999],
+					'patternId': 202002,
+					'discount': 100.0,
+					'utParams': '{"cmd":false,"currency":"USD","deliveryDate":"2022-11-09","fAmount":0.0,"fCurrency":"USD","itemId":1005001446299802,"preOrder":false,"productId":1005001446299802,"serviceName":"CAINIAO_STANDARD","shipFrom":"CN","shipToCountry":"US","shippingFee":"0","traceId":"2132a25716651489330522911e21ad","trackingAvailable":true}',
+					'tracking': 'visible',
+					'provider': 'cainiao',
+					'itemShipFromType': 'same',
+					'itemScene': 'default',
+					'shipToCode': 'US',
+					'company': 'AliExpress Standard Shipping',
+					'currency': 'USD',
+					'deliveryDate': '09 nov',
+					'shipFrom': 'China',
+					'deliveryDayMax': 33,
+					'guaranteedDeliveryTime': 60,
+					'freightCommitDay': '75',
+					'etaTraceId': 'ORDER-f-1-228-2851200000-2851200000-1668000133470-1668000133470-CAINIAO_STANDARD-DOOR_DELIVERY-ALGORITHM_API-DEF|SELLER_STOCK_UP-CALENDAR_DAY---1036800000-1036800000---OPERATING-@DELIVERY_FULFIL-CALENDAR_DAY---1814400000-1814400000---ALGORITHM_API-|1665148933470',
+					'itemId': 1005001446299802,
+					'solutionBusinessType': 'Default',
+					'shippingFee': 'free',
+					'deliveryDayMin': 33,
+					'guaranteedDeliveryTimeProviderName': 'cainiao_committed_time',
+					'solutionId': 268001,
+					'shipFromCode': 'CN',
+					'deliveryProviderCode': 'CAINIAO_STANDARD',
+					'shipTo': 'United States'
+				},
+				'contentLayout': [
+					[{
+						'blockGroup': 'deliveryTime-0',
+						'blockType': 'deliveryTime',
+						'componentId': '1640',
+						'content': '<span style="color: #666666;">Da </span><span style="color: #222222;">China</span><span style="color: #666666;"> a </span><span style="color: #222222;">United States</span><span style="color: #666666;"> tramite AliExpress Standard Shipping</span>',
+						'displayCondition': 'default=visible',
+						'distance': 1,
+						'medusaKey': 'ship_from_to_config_detail@freight',
+						'order': 2,
+						'type': 'htmlText',
+						'useInDeliveryOptionPanel': True,
+						'useInDetailFirstScreen': True,
+						'useInSkuSwitch': True
+					}],
+					[{
+						'blockGroup': 'deliveryTime-1',
+						'blockType': 'deliveryTime',
+						'componentId': '646',
+						'content': '<span style="color: #666666;">Consegna stimata il </span><span style="color: #222222;">09 nov</span>',
+						'displayCondition': 'default=visible',
+						'distance': 1,
+						'medusaKey': 'estimated_delivery_on@deliveryTime',
+						'order': 1,
+						'type': 'htmlText',
+						'useInDeliveryOptionPanel': True,
+						'useInDetailFirstScreen': True,
+						'useInSkuSwitch': True
+					}]
+				],
+				'deliveryOptionPanelDisplayList': ['490', '646', '1394', '1640'],
+				'detailFirstScreenDisplayList': ['646', '1394', '1640'],
+				'dxTemplateInfo': {},
+				'finalPatternId': 202002,
+				'skuSwitchDisplayList': ['646', '1394', '1640'],
+				'titleLayout': [
+					[{
+						'blockGroup': 'title-1',
+						'blockType': 'title',
+						'componentId': '1394',
+						'content': '<span style="font-size: 15px; color: #222222;"><strong>Spedizione gratuita</strong></span>',
+						'displayCondition': 'shippingFee=free',
+						'distance': 1,
+						'medusaKey': 'free_shipping@freightCost',
+						'order': 1,
+						'type': 'htmlText',
+						'useInDeliveryOptionPanel': True,
+						'useInDetailFirstScreen': True,
+						'useInSkuSwitch': True
+					}]
+				]
+			}],
+			'usingNewFreight': True
+		},
+		'hbaFreeShipping': False,
+		'hbaFreight': False,
+		'i18nMap': {
+			'HAB_BALLOON_TRAKING_AVAILABLE': "Traccia lo stato dell'ordine dall'inizio alla fine.",
+			'GENERAL_SHIPPING_TO': 'to {0}',
+			'SELECT_SHIP_FROM_TIP': 'Si prega di selezionare il Paese da dove si intende effettuare la consegna',
+			'SHIPPING_TO': 'Spedizione:',
+			'HAB_SHIPPING_TO': 'a',
+			'CARRIER': 'Vettore',
+			'TO_PROVINCE': 'In {provinceName}',
+			'TO_COUNTRY': 'In {countryName}',
+			'TO_CITY': 'A {cityName}',
+			'CAN_NOE_DELIVER_NOTE': 'Questo Fornitore/Spedizioniere non effettua la consegna nel paese/regione selezionato.',
+			'ESTIMATED_DELIVERT_ON_DAYS': 'Consegna stimata: {0}giorni',
+			'CHOOSE_DELIVERT_METHOD': 'Metodo di spedizione',
+			'HAB_BALLOON_DOOR_DELIVERY': 'Prodotti consegnati direttamente a casa tua',
+			'DELIVERED_BY': 'Consegnato entro {date} o rimborso totale',
+			'HBA_SHIPPING_INFO': 'In {countryName} in  {time} giorni tramite  {companyName}',
+			'IN': 'in',
+			'SEARCH': 'Stato/Provincia/Regione',
+			'SELECT_SHIP_FROM': 'Si prega di selezionare il Paese da dove si intende effettuare la spedizione.',
+			'LOGISTIC_COMPOSE_AE': 'Gestito e garantito da AliExpress',
+			'HBA_BALLOON_TIPS': 'hba balloon tips',
+			'GENERAL_SHIPPING_DELIVERY': 'Spedisce a',
+			'VAT_DE_DETAIL': "L'acquirente è un dichiarante di importazione tedesco",
+			'SELECTED': 'Selezionato',
+			'HBA_DOR_DELIVERY': 'COD Available on APP',
+			'ESTIMATED_DELIVERT_ON_DATE': 'Consegna stimata il {date}',
+			'OR_FULL_REFOUND': 'Rimborso completo',
+			'LOGISTIC_COMPOSE_BRAND_MIND': 'Consegna combinata',
+			'PLAZA_SHOP_NOW_RECEIVE_ON': 'Buy it now and receive it on {date} (est.)',
+			'LOGISTIC_COMPOSE_ORDERS_OVER': 'Per ordini superiori a {0}',
+			'FAST_SHIPPING': 'Spedizione Veloce',
+			'CAN_NOT_DELIVER': 'Non è possibile consegnare',
+			'HBA_TRAKING_AVAILABLE': 'Tracking disponibile',
+			'DAYS': 'giorni',
+			'GENERAL_SHIPPIING_FROM': 'From {0}',
+			'GENERAL_SHPPING_MORE': 'Altre opzioni',
+			'FREE_SHIPPING': 'Spedizione gratuita',
+			'COST': 'Costo',
+			'BALLOON_TIP': "Se completi il pagamento oggi, l'ordine arriverà entro il tempo stimato di consegna.",
+			'SHIP_MY_ITEM_TO': 'Spedire in',
+			'HAB_BALLOON_VAT_INCLUDED': 'Articolo prezzo indicato comprende IVA.',
+			'TRACKING': 'Tracciabilità',
+			'LOGISTIC_COMPOSE_SPEED_UP': 'Vai direttamente al ',
+			'PLAZA_BALLOON_TIP': 'This delivery date is estimated. The calculation is based on several factors, including the address, shipping option selected and the availability shown on the product detail page.',
+			'HBA_TVAT_INCLUDED': 'IVA inclusa',
+			'ESTIMATED_DELIVERY': 'Consegna stimata',
+			'TO_WHERE': 'To where',
+			'VAT_NUMBER': 'VAT number:',
+			'TO_VIA': 'in {countryName} tramite {companyName}',
+			'APPLY': 'Applica'
+		},
+		'id': 0,
+		'name': 'ShippingModule',
+		'productId': 1005001446299802,
+		'regionCountryName': 'United States',
+		'suppressFreightInvoke': True,
+		'userCountryCode': 'CN',
+		'userCountryName': 'China (Mainland)'
+	},
+	'skuModule': {
+		'categoryId': 5090301,
+		'features': {},
+		'forcePromiseWarrantyJson': '{}',
+		'hasSizeInfo': False,
+		'hasSkuProperty': True,
+		'i18nMap': {
+			'SIZING_INFO': 'Guida alle taglie',
+			'BUST_PROMPT': 'SI prega di selezionare la taglia del seno.',
+			'GLASSES_DIALOG_TITLE': 'Dettaglio della prescrizione',
+			'NV_ADD': 'Sometimes seen on your prescription as "NV, ADD, Near, Reading, or Reading Addition."  "NV" stands for "Near-Vision."  This number indicates the additional magnification that is added to the distance prescription to get the reading portion of the lens in a multi-focal prescription.  We display a single NV-ADD field since it is almost always the same value for both eyes.',
+			'SPH': 'SPHERE (SPH), or Spherical, refers to the refractive correction in the prescription. Minus (-) stands for near sightedness, and Plus (+) stands for far sightedness. If "PL" or "Plano" is written for the either SPH value on your prescription, you should select a value of 0.00.\r\r\nOD-SPH is spherical correction for your right eye.\r\r\nOS-SPH is spherical correction for your left eye.\r\r\nOD-SPH is spherical correction for your RIGHT eye.\r\r\nOS-SPH is spherical correction for your LEFT eye.',
+			'PUPILLARY_PROMPT': 'Please select PD (Pupillary Distance).',
+			'SIZE_HOVER_TITLE': 'Potrebbero esserci differenze con la taglia locale, si prega di consultare la guida alle taglie per maggiori informazioni.',
+			'FLOOR_CONTENT': 'Begin at the hollow space between the collarbones and pull tape straight down to the floor.',
+			'CUSTOM_SIZE_CONTENT': 'Misure del tuo corpo',
+			'NV_ADD_PROMPT': 'Si prega di selezionare NV-ADD.',
+			'PLEASE_ENTER': 'Si prega di inserire',
+			'WAIST_TITLE': 'Girovita',
+			'WAIST_CONTENT': 'Measure the smallest part of the waist.\r\r\nKeep tape slightly loose to allow for breathing room.',
+			'CYL': 'CYLINDER (CYL), or Cylinder, refers to the strength of the correction for the astigmatism in the eye. It can be either positive or negative. If there is a CYL value for an eye, there must be an Axis value for that eye.\r\r\nIf "DS" or "SPH" or "spherical" is noted in the CYL space on your prescription, you have no astigmatism in that eye.  In that case, enter 0.00 in both the CYL and Axis.\r\r\nOD-CYL is cylinder correction for your right eye.\r\r\nOS-CYL is cylinder correction for your left eye.',
+			'SERVICE': 'Servizio',
+			'BUST_CONTENT': 'Wear an unpadded bra (your dress will have a built-in bra).\r\r\nPull tape across the fullest part of the bust (at nipple level).',
+			'SIZE_INFO': 'Informazioni sulle taglie',
+			'SIZE_INFO_DESC': '*These charts are for reference only. Fit may vary depending on the construction, materials and manufacturer.',
+			'ITEM_CONDITION_TIP': 'Condizioni',
+			'BTN_CANCEL': 'Annulla',
+			'HOW_TO_MEASURE': 'Come misurare',
+			'SIZE_INFO_TIP': 'once you know your body measurements,consult the Size Chart on the product pages for actual item measurements to determine which size you should purchase.',
+			'FLOOR_PROMPT': 'Please select the hollow to floor measurement.',
+			'FLOOR_TITLE': 'FLoor',
+			'SIZE_INFO_COMPARE_TIP': 'Per scegliere la taglia più adatta, misura il tuo corpo come indicato di seguito',
+			'UNIT_PROMPT': "Si prega di selezionare l'unità.",
+			'SELECT': 'Seleziona',
+			'HIPS_TITLE': 'Fianchi',
+			'HEIGHT_PROMPT': "Si prega di selezionare l'altezza del tacco.",
+			'WAIST_PROMPT': 'Si prega di selezionare la taglia del girovita.',
+			'BTN_SAVE': 'Salva',
+			'TITLE_OPTIONAL': 'Garanzia di riparazione locale in {country} <span>(opzionale)</span>',
+			'SIZE_DIALOG_TITLE': 'Taglia personalizzata',
+			'GLASSES_TIP': 'Please provide the information from your medical prescription. If you have any special needs or have any questions, please contact the seller.',
+			'SIZE_CHART': 'Guida alle taglie',
+			'HIPS_PROMPT': 'Si prega di selezionare la taglia dei fianchi.',
+			'SPH_PROMPT': 'It looks like you forgot to enter your prescription. Please fill in the sphere, cylinder and axis.',
+			'HIPS_CONTENT': 'Find the widest part of the hips or run the measurement tape around your hipbone.',
+			'BUST_TITLE': 'Bust',
+			'AXIS': 'AXS, or Axis, refers to the angle of the correction for the astigmatism in the eye (if one exists) from 1 to 180.  If there is an Axis value on an eye, there must be a CYL (Cylinder) value on that eye.  If there is no Cylinder value or if the value is zero, the OD Axis value is entered as 0.00.\r\r\nThe Axis value is usually written as 3 digits, which means if your Axis value is 5, it is often written as 005. This Axis value is still 5, regardless of how it is displayed.\r\r\nOD Axis is Axis correction for your right eye.\r\r\nOS Axis is Axis correction for your left eye.'
+		},
+		'id': 0,
+		'name': 'SKUModule',
+		'productSKUPropertyList': [{
+			'isShowTypeColor': False,
+			'order': 1,
+			'showType': 'none',
+			'showTypeColor': False,
+			'skuPropertyId': 200000828,
+			'skuPropertyName': 'Pacco',
+			'skuPropertyValues': [{
+				'propertyValueDefinitionName': 'Standard',
+				'propertyValueDisplayName': 'Standard',
+				'propertyValueId': 200003982,
+				'propertyValueIdLong': 200003982,
+				'propertyValueName': 'Fascio 1',
+				'skuPropertyTips': 'Standard',
+				'skuPropertyValueShowOrder': 2,
+				'skuPropertyValueTips': 'Standard'
+			}, {
+				'propertyValueDefinitionName': 'add 4G TF card',
+				'propertyValueDisplayName': 'add 4G TF card',
+				'propertyValueId': 200003983,
+				'propertyValueIdLong': 200003983,
+				'propertyValueName': 'Fascio 2',
+				'skuPropertyTips': 'add 4G TF card',
+				'skuPropertyValueShowOrder': 2,
+				'skuPropertyValueTips': 'add 4G TF card'
+			}, {
+				'propertyValueDefinitionName': 'add 8G TF card',
+				'propertyValueDisplayName': 'add 8G TF card',
+				'propertyValueId': 200003984,
+				'propertyValueIdLong': 200003984,
+				'propertyValueName': 'Fascio 3',
+				'skuPropertyTips': 'add 8G TF card',
+				'skuPropertyValueShowOrder': 2,
+				'skuPropertyValueTips': 'add 8G TF card'
+			}, {
+				'propertyValueDefinitionName': 'add 16G TF card',
+				'propertyValueDisplayName': 'add 16G TF card',
+				'propertyValueId': 200003985,
+				'propertyValueIdLong': 200003985,
+				'propertyValueName': 'Fascio 4',
+				'skuPropertyTips': 'add 16G TF card',
+				'skuPropertyValueShowOrder': 2,
+				'skuPropertyValueTips': 'add 16G TF card'
+			}, {
+				'propertyValueDefinitionName': 'add 32G TF card',
+				'propertyValueDisplayName': 'add 32G TF card',
+				'propertyValueId': 200003986,
+				'propertyValueIdLong': 200003986,
+				'propertyValueName': 'Fascio 5',
+				'skuPropertyTips': 'add 32G TF card',
+				'skuPropertyValueShowOrder': 2,
+				'skuPropertyValueTips': 'add 32G TF card'
+			}]
+		}, {
+			'isShowTypeColor': False,
+			'order': 2,
+			'showType': 'none',
+			'showTypeColor': False,
+			'skuPropertyId': 14,
+			'skuPropertyName': 'Colore',
+			'skuPropertyValues': [{
+				'propertyValueDefinitionName': 'White',
+				'propertyValueDisplayName': 'White',
+				'propertyValueId': 29,
+				'propertyValueIdLong': 29,
+				'propertyValueName': 'WHITE',
+				'skuColorValue': '#FFFFFF',
+				'skuPropertyImagePath': 'https://ae01.alicdn.com/kf/H17277a9c121141a2a289fe9f42ac03a2l/SOYES-XS11-3G-Mini-SmartPhone-Android-2-5-pollici-WIFI-GPS-RAM-1GB-ROM-8GB-Quad.jpg_640x640.jpg',
+				'skuPropertyImageSummPath': 'https://ae01.alicdn.com/kf/H17277a9c121141a2a289fe9f42ac03a2l/SOYES-XS11-3G-Mini-SmartPhone-Android-2-5-pollici-WIFI-GPS-RAM-1GB-ROM-8GB-Quad.jpg_50x50.jpg',
+				'skuPropertyTips': 'White',
+				'skuPropertyValueShowOrder': 1,
+				'skuPropertyValueTips': 'White'
+			}, {
+				'propertyValueDefinitionName': 'Black',
+				'propertyValueDisplayName': 'Black',
+				'propertyValueId': 193,
+				'propertyValueIdLong': 193,
+				'propertyValueName': 'Black',
+				'skuColorValue': '#000000',
+				'skuPropertyImagePath': 'https://ae01.alicdn.com/kf/H44ee12a6a11f42c38f459b502d71eca7T/SOYES-XS11-3G-Mini-SmartPhone-Android-2-5-pollici-WIFI-GPS-RAM-1GB-ROM-8GB-Quad.jpg_640x640.jpg',
+				'skuPropertyImageSummPath': 'https://ae01.alicdn.com/kf/H44ee12a6a11f42c38f459b502d71eca7T/SOYES-XS11-3G-Mini-SmartPhone-Android-2-5-pollici-WIFI-GPS-RAM-1GB-ROM-8GB-Quad.jpg_50x50.jpg',
+				'skuPropertyTips': 'Black',
+				'skuPropertyValueShowOrder': 1,
+				'skuPropertyValueTips': 'Black'
+			}, {
+				'propertyValueDefinitionName': 'Green',
+				'propertyValueDisplayName': 'Green',
+				'propertyValueId': 175,
+				'propertyValueIdLong': 175,
+				'propertyValueName': 'green',
+				'skuColorValue': '#007000',
+				'skuPropertyImagePath': 'https://ae01.alicdn.com/kf/He44968eb7314453d9a675a4ba647a331Q/SOYES-XS11-3G-Mini-SmartPhone-Android-2-5-pollici-WIFI-GPS-RAM-1GB-ROM-8GB-Quad.jpg_640x640.jpg',
+				'skuPropertyImageSummPath': 'https://ae01.alicdn.com/kf/He44968eb7314453d9a675a4ba647a331Q/SOYES-XS11-3G-Mini-SmartPhone-Android-2-5-pollici-WIFI-GPS-RAM-1GB-ROM-8GB-Quad.jpg_50x50.jpg',
+				'skuPropertyTips': 'Green',
+				'skuPropertyValueShowOrder': 1,
+				'skuPropertyValueTips': 'Green'
+			}, {
+				'propertyValueDefinitionName': 'Pink',
+				'propertyValueDisplayName': 'Pink',
+				'propertyValueId': 1052,
+				'propertyValueIdLong': 1052,
+				'propertyValueName': 'Colore rosa',
+				'skuColorValue': '#FFC0CB',
+				'skuPropertyImagePath': 'https://ae01.alicdn.com/kf/H818534d16d2747ed9da6edf3d70fbd1c0/SOYES-XS11-3G-Mini-SmartPhone-Android-2-5-pollici-WIFI-GPS-RAM-1GB-ROM-8GB-Quad.jpg_640x640.jpg',
+				'skuPropertyImageSummPath': 'https://ae01.alicdn.com/kf/H818534d16d2747ed9da6edf3d70fbd1c0/SOYES-XS11-3G-Mini-SmartPhone-Android-2-5-pollici-WIFI-GPS-RAM-1GB-ROM-8GB-Quad.jpg_50x50.jpg',
+				'skuPropertyTips': 'Pink',
+				'skuPropertyValueShowOrder': 1,
+				'skuPropertyValueTips': 'Pink'
+			}]
+		}, {
+			'isShowTypeColor': False,
+			'order': 4,
+			'showType': 'none',
+			'showTypeColor': False,
+			'skuPropertyId': 200001047,
+			'skuPropertyName': 'ROM',
+			'skuPropertyValues': [{
+				'propertyValueDefinitionName': '8GB',
+				'propertyValueDisplayName': '8GB',
+				'propertyValueId': 9136,
+				'propertyValueIdLong': 9136,
+				'propertyValueName': '8G',
+				'skuPropertyTips': '8GB',
+				'skuPropertyValueShowOrder': 2,
+				'skuPropertyValueTips': '8GB'
+			}]
+		}, {
+			'isShowTypeColor': False,
+			'order': 5,
+			'showType': 'none',
+			'showTypeColor': False,
+			'skuPropertyId': 200001046,
+			'skuPropertyName': 'RAM',
+			'skuPropertyValues': [{
+				'propertyValueDisplayName': '1G',
+				'propertyValueId': 8174,
+				'propertyValueIdLong': 8174,
+				'propertyValueName': '1G',
+				'skuPropertyTips': '1G',
+				'skuPropertyValueShowOrder': 2,
+				'skuPropertyValueTips': '1G'
+			}]
+		}],
+		'skuPriceList': [{
+			'freightExt': '{"itemScene":"default","p0":"12000030298785244","p1":"46.04","p10":[110273,120818,218119,111478,231764,131531,73387,73386,120650,227869],"p3":"USD","p4":"990000","p5":"0","p6":"null","p7":"{}","p9":"US $46.04"}',
+			'skuAttr': '200000828:200003984#add 8G TF card;14:1052#Pink;200001047:9136#8GB;200001046:8174',
+			'skuId': 12000030298785244,
+			'skuIdStr': '12000030298785244',
+			'skuPropIds': '200003984,1052,9136,8174',
+			'skuVal': {
+				'availQuantity': 800,
+				'bulkOrder': 2,
+				'discount': '39',
+				'inventory': 800,
+				'isActivity': True,
+				'optionalWarrantyPrice': [],
+				'skuActivityAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $46.04',
+					'value': 46.04
+				},
+				'skuAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $75.48',
+					'value': 75.48
+				},
+				'skuCalPrice': '75.48'
+			}
+		}, {
+			'freightExt': '{"itemScene":"default","p0":"12000030298785245","p1":"47.87","p10":[110273,120818,218119,111478,231764,131531,73387,73386,120650,227869],"p3":"USD","p4":"990000","p5":"0","p6":"null","p7":"{}","p9":"US $47.87"}',
+			'skuAttr': '200000828:200003985#add 16G TF card;14:1052#Pink;200001047:9136#8GB;200001046:8174',
+			'skuId': 12000030298785245,
+			'skuIdStr': '12000030298785245',
+			'skuPropIds': '200003985,1052,9136,8174',
+			'skuVal': {
+				'availQuantity': 800,
+				'bulkOrder': 2,
+				'discount': '39',
+				'inventory': 800,
+				'isActivity': True,
+				'optionalWarrantyPrice': [],
+				'skuActivityAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $47.87',
+					'value': 47.87
+				},
+				'skuAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $78.48',
+					'value': 78.48
+				},
+				'skuCalPrice': '78.48'
+			}
+		}, {
+			'freightExt': '{"itemScene":"default","p0":"12000030298785246","p1":"50.62","p10":[110273,120818,218119,111478,231764,131531,73387,73386,120650,227869],"p3":"USD","p4":"990000","p5":"0","p6":"null","p7":"{}","p9":"US $50.62"}',
+			'skuAttr': '200000828:200003986#add 32G TF card;14:1052#Pink;200001047:9136#8GB;200001046:8174',
+			'skuId': 12000030298785246,
+			'skuIdStr': '12000030298785246',
+			'skuPropIds': '200003986,1052,9136,8174',
+			'skuVal': {
+				'availQuantity': 800,
+				'bulkOrder': 2,
+				'discount': '39',
+				'inventory': 800,
+				'isActivity': True,
+				'optionalWarrantyPrice': [],
+				'skuActivityAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $50.62',
+					'value': 50.62
+				},
+				'skuAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $82.99',
+					'value': 82.99
+				},
+				'skuCalPrice': '82.99'
+			}
+		}, {
+			'freightExt': '{"itemScene":"default","p0":"12000030298785240","p1":"47.87","p10":[110273,120818,218119,111478,231764,131531,73387,73386,120650,227869],"p3":"USD","p4":"990000","p5":"0","p6":"null","p7":"{}","p9":"US $47.87"}',
+			'skuAttr': '200000828:200003985#add 16G TF card;14:175#Green;200001047:9136#8GB;200001046:8174',
+			'skuId': 12000030298785240,
+			'skuIdStr': '12000030298785240',
+			'skuPropIds': '200003985,175,9136,8174',
+			'skuVal': {
+				'availQuantity': 800,
+				'bulkOrder': 2,
+				'discount': '39',
+				'inventory': 800,
+				'isActivity': True,
+				'optionalWarrantyPrice': [],
+				'skuActivityAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $47.87',
+					'value': 47.87
+				},
+				'skuAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $78.48',
+					'value': 78.48
+				},
+				'skuCalPrice': '78.48'
+			}
+		}, {
+			'freightExt': '{"itemScene":"default","p0":"12000030298785241","p1":"50.62","p10":[110273,120818,218119,111478,231764,131531,73387,73386,120650,227869],"p3":"USD","p4":"990000","p5":"0","p6":"null","p7":"{}","p9":"US $50.62"}',
+			'skuAttr': '200000828:200003986#add 32G TF card;14:175#Green;200001047:9136#8GB;200001046:8174',
+			'skuId': 12000030298785241,
+			'skuIdStr': '12000030298785241',
+			'skuPropIds': '200003986,175,9136,8174',
+			'skuVal': {
+				'availQuantity': 798,
+				'bulkOrder': 2,
+				'discount': '39',
+				'inventory': 798,
+				'isActivity': True,
+				'optionalWarrantyPrice': [],
+				'skuActivityAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $50.62',
+					'value': 50.62
+				},
+				'skuAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $82.99',
+					'value': 82.99
+				},
+				'skuCalPrice': '82.99'
+			}
+		}, {
+			'freightExt': '{"itemScene":"default","p0":"12000030298785242","p1":"38.11","p10":[110273,120818,218119,111478,231764,131531,73387,73386,120650,227869],"p3":"USD","p4":"990000","p5":"0","p6":"null","p7":"{}","p9":"US $38.11"}',
+			'skuAttr': '200000828:200003982#Standard;14:1052#Pink;200001047:9136#8GB;200001046:8174',
+			'skuId': 12000030298785242,
+			'skuIdStr': '12000030298785242',
+			'skuPropIds': '200003982,1052,9136,8174',
+			'skuVal': {
+				'availQuantity': 794,
+				'bulkOrder': 2,
+				'discount': '39',
+				'inventory': 794,
+				'isActivity': True,
+				'optionalWarrantyPrice': [],
+				'skuActivityAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $38.11',
+					'value': 38.11
+				},
+				'skuAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $62.48',
+					'value': 62.48
+				},
+				'skuCalPrice': '62.48'
+			}
+		}, {
+			'freightExt': '{"itemScene":"default","p0":"12000030298785243","p1":"42.99","p10":[110273,120818,218119,111478,231764,131531,73387,73386,120650,227869],"p3":"USD","p4":"990000","p5":"0","p6":"null","p7":"{}","p9":"US $42.99"}',
+			'skuAttr': '200000828:200003983#add 4G TF card;14:1052#Pink;200001047:9136#8GB;200001046:8174',
+			'skuId': 12000030298785243,
+			'skuIdStr': '12000030298785243',
+			'skuPropIds': '200003983,1052,9136,8174',
+			'skuVal': {
+				'availQuantity': 800,
+				'bulkOrder': 2,
+				'discount': '39',
+				'inventory': 800,
+				'isActivity': True,
+				'optionalWarrantyPrice': [],
+				'skuActivityAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $42.99',
+					'value': 42.99
+				},
+				'skuAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $70.48',
+					'value': 70.48
+				},
+				'skuCalPrice': '70.48'
+			}
+		}, {
+			'freightExt': '{"itemScene":"default","p0":"12000030298785236","p1":"50.62","p10":[110273,120818,218119,111478,231764,131531,73387,73386,120650,227869],"p3":"USD","p4":"990000","p5":"0","p6":"null","p7":"{}","p9":"US $50.62"}',
+			'skuAttr': '200000828:200003986#add 32G TF card;14:193#Black;200001047:9136#8GB;200001046:8174',
+			'skuId': 12000030298785236,
+			'skuIdStr': '12000030298785236',
+			'skuPropIds': '200003986,193,9136,8174',
+			'skuVal': {
+				'availQuantity': 797,
+				'bulkOrder': 2,
+				'discount': '39',
+				'inventory': 797,
+				'isActivity': True,
+				'optionalWarrantyPrice': [],
+				'skuActivityAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $50.62',
+					'value': 50.62
+				},
+				'skuAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $82.99',
+					'value': 82.99
+				},
+				'skuCalPrice': '82.99'
+			}
+		}, {
+			'freightExt': '{"itemScene":"default","p0":"12000030298785237","p1":"38.11","p10":[110273,120818,218119,111478,231764,131531,73387,73386,120650,227869],"p3":"USD","p4":"990000","p5":"0","p6":"null","p7":"{}","p9":"US $38.11"}',
+			'skuAttr': '200000828:200003982#Standard;14:175#Green;200001047:9136#8GB;200001046:8174',
+			'skuId': 12000030298785237,
+			'skuIdStr': '12000030298785237',
+			'skuPropIds': '200003982,175,9136,8174',
+			'skuVal': {
+				'availQuantity': 785,
+				'bulkOrder': 2,
+				'discount': '39',
+				'inventory': 785,
+				'isActivity': True,
+				'optionalWarrantyPrice': [],
+				'skuActivityAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $38.11',
+					'value': 38.11
+				},
+				'skuAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $62.48',
+					'value': 62.48
+				},
+				'skuCalPrice': '62.48'
+			}
+		}, {
+			'freightExt': '{"itemScene":"default","p0":"12000030298785238","p1":"42.99","p10":[110273,120818,218119,111478,231764,131531,73387,73386,120650,227869],"p3":"USD","p4":"990000","p5":"0","p6":"null","p7":"{}","p9":"US $42.99"}',
+			'skuAttr': '200000828:200003983#add 4G TF card;14:175#Green;200001047:9136#8GB;200001046:8174',
+			'skuId': 12000030298785238,
+			'skuIdStr': '12000030298785238',
+			'skuPropIds': '200003983,175,9136,8174',
+			'skuVal': {
+				'availQuantity': 800,
+				'bulkOrder': 2,
+				'discount': '39',
+				'inventory': 800,
+				'isActivity': True,
+				'optionalWarrantyPrice': [],
+				'skuActivityAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $42.99',
+					'value': 42.99
+				},
+				'skuAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $70.48',
+					'value': 70.48
+				},
+				'skuCalPrice': '70.48'
+			}
+		}, {
+			'freightExt': '{"itemScene":"default","p0":"12000030298785239","p1":"46.04","p10":[110273,120818,218119,111478,231764,131531,73387,73386,120650,227869],"p3":"USD","p4":"990000","p5":"0","p6":"null","p7":"{}","p9":"US $46.04"}',
+			'skuAttr': '200000828:200003984#add 8G TF card;14:175#Green;200001047:9136#8GB;200001046:8174',
+			'skuId': 12000030298785239,
+			'skuIdStr': '12000030298785239',
+			'skuPropIds': '200003984,175,9136,8174',
+			'skuVal': {
+				'availQuantity': 799,
+				'bulkOrder': 2,
+				'discount': '39',
+				'inventory': 799,
+				'isActivity': True,
+				'optionalWarrantyPrice': [],
+				'skuActivityAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $46.04',
+					'value': 46.04
+				},
+				'skuAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $75.48',
+					'value': 75.48
+				},
+				'skuCalPrice': '75.48'
+			}
+		}, {
+			'freightExt': '{"itemScene":"default","p0":"12000030298785232","p1":"38.11","p10":[110273,120818,218119,111478,231764,131531,73387,73386,120650,227869],"p3":"USD","p4":"990000","p5":"0","p6":"null","p7":"{}","p9":"US $38.11"}',
+			'skuAttr': '200000828:200003982#Standard;14:193#Black;200001047:9136#8GB;200001046:8174',
+			'skuId': 12000030298785232,
+			'skuIdStr': '12000030298785232',
+			'skuPropIds': '200003982,193,9136,8174',
+			'skuVal': {
+				'availQuantity': 774,
+				'bulkOrder': 2,
+				'discount': '39',
+				'inventory': 774,
+				'isActivity': True,
+				'optionalWarrantyPrice': [],
+				'skuActivityAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $38.11',
+					'value': 38.11
+				},
+				'skuAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $62.48',
+					'value': 62.48
+				},
+				'skuCalPrice': '62.48'
+			}
+		}, {
+			'freightExt': '{"itemScene":"default","p0":"12000030298785233","p1":"42.99","p10":[110273,120818,218119,111478,231764,131531,73387,73386,120650,227869],"p3":"USD","p4":"990000","p5":"0","p6":"null","p7":"{}","p9":"US $42.99"}',
+			'skuAttr': '200000828:200003983#add 4G TF card;14:193#Black;200001047:9136#8GB;200001046:8174',
+			'skuId': 12000030298785233,
+			'skuIdStr': '12000030298785233',
+			'skuPropIds': '200003983,193,9136,8174',
+			'skuVal': {
+				'availQuantity': 800,
+				'bulkOrder': 2,
+				'discount': '39',
+				'inventory': 800,
+				'isActivity': True,
+				'optionalWarrantyPrice': [],
+				'skuActivityAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $42.99',
+					'value': 42.99
+				},
+				'skuAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $70.48',
+					'value': 70.48
+				},
+				'skuCalPrice': '70.48'
+			}
+		}, {
+			'freightExt': '{"itemScene":"default","p0":"12000030298785234","p1":"46.04","p10":[110273,120818,218119,111478,231764,131531,73387,73386,120650,227869],"p3":"USD","p4":"990000","p5":"0","p6":"null","p7":"{}","p9":"US $46.04"}',
+			'skuAttr': '200000828:200003984#add 8G TF card;14:193#Black;200001047:9136#8GB;200001046:8174',
+			'skuId': 12000030298785234,
+			'skuIdStr': '12000030298785234',
+			'skuPropIds': '200003984,193,9136,8174',
+			'skuVal': {
+				'availQuantity': 800,
+				'bulkOrder': 2,
+				'discount': '39',
+				'inventory': 800,
+				'isActivity': True,
+				'optionalWarrantyPrice': [],
+				'skuActivityAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $46.04',
+					'value': 46.04
+				},
+				'skuAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $75.48',
+					'value': 75.48
+				},
+				'skuCalPrice': '75.48'
+			}
+		}, {
+			'freightExt': '{"itemScene":"default","p0":"12000030298785235","p1":"47.87","p10":[110273,120818,218119,111478,231764,131531,73387,73386,120650,227869],"p3":"USD","p4":"990000","p5":"0","p6":"null","p7":"{}","p9":"US $47.87"}',
+			'skuAttr': '200000828:200003985#add 16G TF card;14:193#Black;200001047:9136#8GB;200001046:8174',
+			'skuId': 12000030298785235,
+			'skuIdStr': '12000030298785235',
+			'skuPropIds': '200003985,193,9136,8174',
+			'skuVal': {
+				'availQuantity': 800,
+				'bulkOrder': 2,
+				'discount': '39',
+				'inventory': 800,
+				'isActivity': True,
+				'optionalWarrantyPrice': [],
+				'skuActivityAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $47.87',
+					'value': 47.87
+				},
+				'skuAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $78.48',
+					'value': 78.48
+				},
+				'skuCalPrice': '78.48'
+			}
+		}, {
+			'freightExt': '{"itemScene":"default","p0":"12000030298785228","p1":"42.99","p10":[110273,120818,218119,111478,231764,131531,73387,73386,120650,227869],"p3":"USD","p4":"990000","p5":"0","p6":"null","p7":"{}","p9":"US $42.99"}',
+			'skuAttr': '200000828:200003983#add 4G TF card;14:29#White;200001047:9136#8GB;200001046:8174',
+			'skuId': 12000030298785228,
+			'skuIdStr': '12000030298785228',
+			'skuPropIds': '200003983,29,9136,8174',
+			'skuVal': {
+				'availQuantity': 800,
+				'bulkOrder': 2,
+				'discount': '39',
+				'inventory': 800,
+				'isActivity': True,
+				'optionalWarrantyPrice': [],
+				'skuActivityAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $42.99',
+					'value': 42.99
+				},
+				'skuAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $70.48',
+					'value': 70.48
+				},
+				'skuCalPrice': '70.48'
+			}
+		}, {
+			'freightExt': '{"itemScene":"default","p0":"12000030298785229","p1":"46.04","p10":[110273,120818,218119,111478,231764,131531,73387,73386,120650,227869],"p3":"USD","p4":"990000","p5":"0","p6":"null","p7":"{}","p9":"US $46.04"}',
+			'skuAttr': '200000828:200003984#add 8G TF card;14:29#White;200001047:9136#8GB;200001046:8174',
+			'skuId': 12000030298785229,
+			'skuIdStr': '12000030298785229',
+			'skuPropIds': '200003984,29,9136,8174',
+			'skuVal': {
+				'availQuantity': 800,
+				'bulkOrder': 2,
+				'discount': '39',
+				'inventory': 800,
+				'isActivity': True,
+				'optionalWarrantyPrice': [],
+				'skuActivityAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $46.04',
+					'value': 46.04
+				},
+				'skuAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $75.48',
+					'value': 75.48
+				},
+				'skuCalPrice': '75.48'
+			}
+		}, {
+			'freightExt': '{"itemScene":"default","p0":"12000030298785230","p1":"47.87","p10":[110273,120818,218119,111478,231764,131531,73387,73386,120650,227869],"p3":"USD","p4":"990000","p5":"0","p6":"null","p7":"{}","p9":"US $47.87"}',
+			'skuAttr': '200000828:200003985#add 16G TF card;14:29#White;200001047:9136#8GB;200001046:8174',
+			'skuId': 12000030298785230,
+			'skuIdStr': '12000030298785230',
+			'skuPropIds': '200003985,29,9136,8174',
+			'skuVal': {
+				'availQuantity': 800,
+				'bulkOrder': 2,
+				'discount': '39',
+				'inventory': 800,
+				'isActivity': True,
+				'optionalWarrantyPrice': [],
+				'skuActivityAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $47.87',
+					'value': 47.87
+				},
+				'skuAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $78.48',
+					'value': 78.48
+				},
+				'skuCalPrice': '78.48'
+			}
+		}, {
+			'freightExt': '{"itemScene":"default","p0":"12000030298785231","p1":"50.62","p10":[110273,120818,218119,111478,231764,131531,73387,73386,120650,227869],"p3":"USD","p4":"990000","p5":"0","p6":"null","p7":"{}","p9":"US $50.62"}',
+			'skuAttr': '200000828:200003986#add 32G TF card;14:29#White;200001047:9136#8GB;200001046:8174',
+			'skuId': 12000030298785231,
+			'skuIdStr': '12000030298785231',
+			'skuPropIds': '200003986,29,9136,8174',
+			'skuVal': {
+				'availQuantity': 800,
+				'bulkOrder': 2,
+				'discount': '39',
+				'inventory': 800,
+				'isActivity': True,
+				'optionalWarrantyPrice': [],
+				'skuActivityAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $50.62',
+					'value': 50.62
+				},
+				'skuAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $82.99',
+					'value': 82.99
+				},
+				'skuCalPrice': '82.99'
+			}
+		}, {
+			'freightExt': '{"itemScene":"default","p0":"12000030298785227","p1":"38.11","p10":[110273,120818,218119,111478,231764,131531,73387,73386,120650,227869],"p3":"USD","p4":"990000","p5":"0","p6":"null","p7":"{}","p9":"US $38.11"}',
+			'skuAttr': '200000828:200003982#Standard;14:29#White;200001047:9136#8GB;200001046:8174',
+			'skuId': 12000030298785227,
+			'skuIdStr': '12000030298785227',
+			'skuPropIds': '200003982,29,9136,8174',
+			'skuVal': {
+				'availQuantity': 788,
+				'bulkOrder': 2,
+				'discount': '39',
+				'inventory': 788,
+				'isActivity': True,
+				'optionalWarrantyPrice': [],
+				'skuActivityAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $38.11',
+					'value': 38.11
+				},
+				'skuAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $62.48',
+					'value': 62.48
+				},
+				'skuCalPrice': '62.48'
+			}
+		}],
+		'warrantyDetailJson': '[]'
+	},
+	'specsModule': {
+		'features': {},
+		'i18nMap': {},
+		'id': 0,
+		'name': 'SpecsModule',
+		'props': [{
+			'attrName': 'Marca',
+			'attrValue': 'SOYES'
+		}, {
+			'attrName': "Stato dell'articolo",
+			'attrValue': 'New'
+		}, {
+			'attrName': 'Touch Screen',
+			'attrValue': 'Sì'
+		}, {
+			'attrName': 'Ricarica veloce',
+			'attrValue': 'Mancanza di supporto'
+		}, {
+			'attrName': 'Porta da 3,5 millimetri per le cuffie',
+			'attrValue': 'no'
+		}, {
+			'attrName': 'Sistema operativo',
+			'attrValue': 'Android'
+		}, {
+			'attrName': 'Pixel macchina fotografica posteriore',
+			'attrValue': '2MP'
+		}, {
+			'attrName': 'Risoluzione display',
+			'attrValue': '480x320'
+		}, {
+			'attrName': 'Pixel macchina fotografica anteriore',
+			'attrValue': '≤1MP'
+		}, {
+			'attrName': 'Design',
+			'attrValue': 'BAR'
+		}, {
+			'attrName': 'Tipo di batteria',
+			'attrValue': 'Non staccabile'
+		}, {
+			'attrName': 'Potere di carico',
+			'attrValue': '18W'
+		}, {
+			'attrName': 'Grandezza macchina fotografica frontale',
+			'attrValue': '1'
+		}, {
+			'attrName': 'Lingua',
+			'attrValue': 'english,Russo,Tedesco,French,Spanish,POLISH,Portoghese,Italiano,Turkish,Norvegese,Coreano,Japanese,Arabo'
+		}, {
+			'attrName': 'Grandezza macchina fotografica posteriore',
+			'attrValue': '1'
+		}, {
+			'attrName': 'Dimensioni display',
+			'attrValue': '2.5Inch'
+		}, {
+			'attrName': 'Tipo di schermo',
+			'attrValue': 'Altri'
+		}, {
+			'attrName': 'Origine',
+			'attrValue': 'CN (Origine)'
+		}, {
+			'attrName': 'Tecnologia biometrica',
+			'attrValue': 'no'
+		}, {
+			'attrName': 'Capacità della batteria (mAh)',
+			'attrValue': '1000'
+		}, {
+			'attrName': 'Tipo di interfaccia caricatore',
+			'attrValue': 'Micro USB'
+		}, {
+			'attrName': 'Caricatore wireless',
+			'attrValue': 'no'
+		}, {
+			'attrName': 'Grandezza carte SIM',
+			'attrValue': '2 SIM Card'
+		}, {
+			'attrName': 'Bluetooth Versione',
+			'attrValue': '5.0'
+		}, {
+			'attrName': 'NFC',
+			'attrValue': 'no'
+		}, {
+			'attrName': 'MIL-STD-810G',
+			'attrValue': 'no'
+		}, {
+			'attrName': 'Gamma di Capacità della batteria',
+			'attrValue': '<3000 mAh'
+		}, {
+			'attrName': 'Modello di CPU',
+			'attrValue': 'MTK'
+		}, {
+			'attrName': 'MTK Modello',
+			'attrValue': 'MT6580'
+		}, {
+			'attrName': 'IP68/IP69K',
+			'attrValue': 'no'
+		}, {
+			'attrName': 'Tipo della scheda di memoria',
+			'attrValue': 'In comune con slot per SIM'
+		}, {
+			'attrName': 'Rapporto di zoom ottico',
+			'attrValue': 'no'
+		}, {
+			'attrName': 'Cellulare',
+			'attrValue': 'GSM,WCDMA'
+		}, {
+			'attrName': 'Tempo di stand-by',
+			'attrValue': 'Fino A 48 Ore'
+		}, {
+			'attrName': 'Materiale dello schermo',
+			'attrValue': 'IPS'
+		}]
+	},
+	'storeModule': {
+		'companyId': 243085618,
+		'countryCompleteName': 'China',
+		'detailPageUrl': '//it.aliexpress.com/item/1005001446299802.html',
+		'esRetailOrConsignment': False,
+		'features': {},
+		'feedbackMessageServer': '//message.aliexpress.com',
+		'feedbackServer': '//feedback.aliexpress.com',
+		'followed': False,
+		'followingNumber': 780,
+		'hasStore': True,
+		'hasStoreHeader': True,
+		'hideCustomerService': False,
+		'i18nMap': {
+			'COUSTOMER_SERVICE': 'Assistenza clienti',
+			'VISIT_STORE': 'Vedi il mio negozio',
+			'CONTACT_SELLER': 'Contatti',
+			'FOLLOWING_STATE': 'Elementi seguiti',
+			'UNFOLLOWING_STATE': 'Segui',
+			'POSITIVE_FEEDBACK': 'Riscontri positivi',
+			'FOLLOWERS': 'Follower',
+			'FOLLOWER': 'Follower',
+			'TOP_SELLER': 'Migliori marche',
+			'STORE_CATEGORIES': 'Categorie del Negozio'
+		},
+		'id': 0,
+		'name': 'StoreModule',
+		'openTime': 'Jun 14, 2018',
+		'openedYear': 4,
+		'positiveNum': 91,
+		'positiveRate': '94.3%',
+		'productId': 1005001446299802,
+		'province': 'Jiangxi',
+		'sellerAdminSeq': 233782830,
+		'sessionId': '73fa1e180ebe4e8e87e4b3dfcbc382df',
+		'siteType': 'ita',
+		'storeName': 'SOYES Global Flagship Store',
+		'storeNum': 1101295870,
+		'storeURL': '//it.aliexpress.com/store/1101295870',
+		'topBrandDescURL': 'https://sale.aliexpress.com/topbrand.htm',
+		'topRatedSeller': False
+	},
+	'titleModule': {
+		'features': {},
+		'feedbackRating': {
+			'averageStar': '4.8',
+			'averageStarRage': '96.7',
+			'display': True,
+			'evarageStar': '4.8',
+			'evarageStarRage': '96.7',
+			'fiveStarNum': 11,
+			'fiveStarRate': '92',
+			'fourStarNum': 0,
+			'fourStarRate': '0',
+			'oneStarNum': 0,
+			'oneStarRate': '0',
+			'positiveRate': '91.7',
+			'threeStarNum': 1,
+			'threeStarRate': '8',
+			'totalValidNum': 12,
+			'trialReviewNum': 0,
+			'twoStarNum': 0,
+			'twoStarRate': '0'
+		},
+		'formatTradeCount': '83',
+		'i18nMap': {
+			'REVIEWS': 'Recensioni',
+			'VIEW_ALL_REVIEWS': 'Tutte le Recensioni',
+			'REVIEW': 'Recensione',
+			'VIEW_OTHER_TITLE': 'Visualizza titolo in più lingue (traduzione automatica)',
+			'VIEW_EN_TITLE': 'Guarda titolo originale in inglese',
+			'FREEBIE_REVIEW': 'Review Of Freebies ',
+			'FREEBIE_REVIEWS': 'Recensioni degli omaggi'
+		},
+		'id': 0,
+		'name': 'TitleModule',
+		'orig': False,
+		'origTitle': False,
+		'subject': 'SOYES XS11 3G Mini SmartPhone Android 2.5 pollici WIFI GPS RAM 1GB ROM 8GB Quad Core Google Play Facebook Whatsapp cellulare',
+		'titleTags': [],
+		'tradeCount': 83,
+		'tradeCountUnit': 'ordini',
+		'trans': False,
+		'transTitle': False
+	},
+	'webEnv': {
+		'country': 'US',
+		'currency': 'USD',
+		'env': {
+			'valMap': {
+				'g11n:locale': 'it_IT',
+				'g11n:timezone': '',
+				'ua:device': 'pc',
+				'user:id': '',
+				'g11n:country': 'CN',
+				'page:name': '',
+				'g11n:site': 'ita',
+				'page:app': '',
+				'ua:browser': 'chrome',
+				'ua:platform': 'other',
+				'user:type': '',
+				'page:id': 'item_html',
+				'user:member': '',
+				'g11n:currency': 'USD'
+			},
+			'zone': 'global_env'
+		},
+		'host': 'it.aliexpress.com',
+		'hostname': 'ae-glodetail-6222cc651e117233b8e986a3fe5ee568-bmc44',
+		'ip': '116.23.8.206',
+		'lang': 'it_IT',
+		'language': 'it',
+		'locale': 'it_IT',
+		'reqHost': 'https://it.aliexpress.com',
+		'site': 'ita',
+		'traceId': '2132a25716651489330522911e21ad'
+	}
+}

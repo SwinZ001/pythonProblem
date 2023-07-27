@@ -1,0 +1,104 @@
+# scrapy-redis原码路径在项目路径下/External Libraries/Python 3.9(pythonProject)/site-packages/scrapy-redis
+
+速卖通防爬：爬到一定程度会出现滑动验证，评论也会有滑动验证，返回的html是别的编码，会编码报错
+                    滑动验证和新布局字节编码是一样的，scrapy 没影响，普通的get,post请求会有影响新布局会有编码报错
+                    新旧布局虽然界面不一样，但评论数据获取方式一样
+
+
+（转义字符可能是转义翻译，网页要提前设置英文，不然数据清洗后是别的语言很难看）
+首页全部分类页面（All Categories）：https://www.aliexpress.com/all-wholesale-products.html?spm=a2g0o.productlist.0.0.456b3afbURcglh
+获取方法：静态页面直接请求，用xpath获取每一个分类类目
+
+分类总商品数据：（All Categories）跳转的页面
+获取方法：静态页面直接请求，数据封装在静态页面，用正则获取（有各个子目录数据和商品数据）
+数据在window.runParams
+1.子目录链接在childCategories节点
+2.商品数据
+提取x_object_id，构建商品详情页链接https://www.aliexpress.com/item/+x_object_id.html
+
+
+商品详情数据：（转义字符可能是转义翻译，网页要提前设置英文，不然数据清洗后是别的语言很难看）
+获取方法：静态页面直接请求，数据封装在静态页面，用正则获取（有很多转义字符，但是html转为json后转义字符会消失）
+数据在window.runParams，但是有转行字符原因会匹配不到数据（两种代码，详情看代码注释）
+
+产品名在['titleModule']['subject']
+另一种界面产品名在['data']['titleBanner_2440']['fields']['subject']
+
+产品销量['titleModule']['tradeCount']
+另一种界面产品销量在['data']['shareHeader_2242']['fields']['formatTradeCount']
+
+产品折扣['priceModule']['discountRatioTips']
+另一种界面折扣在['data']['price_2256']['fields']['discountRatioTips']
+
+（正常界面星级是评论和界面都有显示，另一种界面产品星级只有在评论界面才显示，所以要获取评论才能获取星级，没评论星级为0）
+产品星级['titleModule']['feedbackRating']['evarageStar']
+另一种界面产品星级在‘暂时没有’
+
+sku属性搭配和价格在['skuModule']['skuPriceList']
+另一种界面另一种界面sku属性搭配和价格在['data']['sku_2257']['fields']['skuList']
+
+sku属性和属性值在['skuModule']['productSKUPropertyList']
+另一种界面sku属性和属性值在['data']['sku_2257']['fields']['propertyList']
+
+sku'属性'代数获取：skuPropertyId，sku'属性值'代数获取：propertyValueId
+
+sku获取方法：从sku属性和属性值中提取属性名和属性值id,遍历拼接形成sku属性搭配，再从sku属性搭配中取出价格和库存等信息
+
+对不上sku有些只有一个属性解决方法：
+# sku结合码字符串14:13978534（像这样只有一个属性选择的，没有；分割也不会出错，原因未知，但不出错无影响）
+
+# sku结合码字符串14:13978534;5:4645
+#     # 给每个结合码最后都加上#，用于匹配准确
+#     skuAttr = skuPrice['skuAttr']
+#     # 以;进行分割形成数组
+#     skuAttr_dict = skuAttr.split(';')
+#     # 将数据循环重组+‘#’
+#     for i,k in enumerate(skuAttr_dict):
+#         skuAttr_dict[i] = k+'#'
+#     #最后将重组数据后的数组以','进行合并，形成新的字符串14:13978534#,5:4645#(z注意;变成了,不过没影响)
+#     new_skuAttr = ','.join(skuAttr_dict)
+
+availQuantity代表每个sku的库存，0则是这个sku参数不可选，断货
+'skuActivityAmount'打折后价格
+'skuAmount'原价
+
+总库存totalAvailQuantity
+每个sku库存availQuantity
+每个sku库存加起来就是总库存
+
+产品图片在'imageModule'节点
+另一种界面折扣在['data']['price_2256']['fields']['discountRatioTips']
+
+产品规格在specsModule
+另一种界面折扣在['data']['specsInfo_2263']['fields']['specs']
+
+产品描述在'descriptionModule'节点，获取链接即可没有规律
+另一种界面折扣在['data']['description_2253']['fields']['detailDesc']
+
+不用构建店铺链接，shopee则需要
+店铺数据在storeModule
+另一种界面店铺数据在['data']['headerInfo_2442']['fields']['_for_header_info']['storeModule']
+店铺全部商品（不爬取需要再爬）：通过店铺数据获取店铺详情链接，在菜单栏点击对应的菜单请求，是静态网页，用xpath获取
+
+配送快递邮费在'shippingModule'节点（不爬取）
+
+另一种界面评论数据获取方法与旧的一样
+评论数据是静态网页，直接永xpath获取
+（用productId，sellerAdminSeq（ownerMemberId），companyId构建链接，根据All Stars构建页数：All Stars（全部评论数）数/第一页评论数=page数）：
+https://feedback.aliexpress.com/display/productEvaluation.htm?v=2&productId=3256804418671302&ownerMemberId=230902890&companyId=240263051&memberType=seller&startValidDate=&i18n=true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

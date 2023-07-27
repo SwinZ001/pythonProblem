@@ -1,0 +1,108 @@
+setting里的变量都要大写才能访问到
+
+amazon（美国站）反爬虫：分类列表不同的站点要加不同的请求头（根据需要修改对应的请求信息，如cookies，没有的话会返回空，也会会频繁503错误），其他界面暂时不需要
+
+显示中文需要cookies        
+https://www.amazon.com/s?rh=n%3A16225007011&fs=true&language=zh&ref=lp_16225007011_sar
+https://www.amazon.com/-/zh/dp/B08V4Z4VRY?th=1&psc=1    
+https://www.amazon.com/-/zh/dp/B09GJYM3R8?th=1&psc=1
+?th=1&psc=1          
+
+获取分类列表1：         
+也可通过搜索框的下拉列表，每选一个分类就回车，观察网址规律
+
+获取分类列表2：
+方法一（缺点：二级目录没规律，要一个类目一个类目爬）：
+全部列表：https://www.amazon.com/s?i=specialty-aps
+
+
+方法二：
+
+ 一级列表获取：
+           一、
+             （失败方法，其他国家站点不清楚）一级列表获取：
+                （1）通过返回文件获取，但是返回的数据是空白（所以获取不了）
+                （2）通过搜索框的下拉列表，每选一个分类就回车，观察网址规律，构建一级列表链接
+                         （这种有些用一级链接获取二级链接会直接跳回全部分类（美国站会，中国站不会），索性还是直接用二级链接，以后需要再用）
+                         （ search-alias=apparel是通过获取静态html的所在分类节点的value值 <option value="search-alias=pets-intl-ship">宠物用品</option>）
+                           网址：https://www.amazon.cn/s/ref=nb_sb_noss?__mk_zh_CN=亚马逊网站&url=    +     所在分类节点的value值 
+          二、
+            （成功方法）
+             先获取二级链接，再构建一级链接
+             获取每一个二级链接，用正则匹配链接中的bbn=16225005011或者node=16225005011值，取出bbn或node值进行去重
+             再构建一级目录链接：
+
+                 链接有bbn（一页24）和node（一页60）的都可用（node的商品会掺杂推广广告商品，用xpath筛选去除）：
+                 网址：https://www.amazon.com/s?rh=n%3A + 16225018011 + &fs=true&language=zh&ref=lp_ + 16225018011 + _sar
+                   rh=n%3A + 16225018011 + %2C是确定第几级列表，有多少个n%就是深入第几级列表
+                 
+                 另外node也可以用（没有推广广告，不过取就要用两种方式，所以还是用第一种）：
+                              网址：https://www.amazon.com/s?i=specialty-aps&srs=+ 16225018011 +&rh=n%3A+ 16225018011 +&fs=true&language=zh&ref=lp_+ 16225018011 +_sar
+                （如果不知道原网址，就在当前分类点击第二页即可，通过删除链接字段来判断哪些是构造网址需要的参数）
+                 
+       
+二级列表获取（左侧全部按钮）：
+       通过点击左侧全部按钮返回的generic.html文件获取分类列表
+       网址（不同国家链接参数不同）：美国：https://www.amazon.com/gp/navigation/ajax/generic.html?ajaxTemplate=hamburgerMainContent&pageType=Gateway&hmDataAjaxHint=1&navDeviceType=desktop&isSmile=0&isPrime=0&isBackup=false&hashCustomerAndSessionId=cf190cce118be2748f8522170cc58da174144cad&isExportMode=true&languageCode=zh_CN&environmentVFI=AmazonNavigationCards%2Fdevelopment%40B6099827072-AL2_x86_64&secondLayerTreeName=prm_digital_music_hawkfire%2Bkindle%2Bandroid_appstore%2Belectronics_exports%2Bcomputers_exports%2Bsbd_alexa_smart_home%2Barts_and_crafts_exports%2Bautomotive_exports%2Bbaby_exports%2Bbeauty_and_personal_care_exports%2Bwomens_fashion_exports%2Bmens_fashion_exports%2Bgirls_fashion_exports%2Bboys_fashion_exports%2Bhealth_and_household_exports%2Bhome_and_kitchen_exports%2Bindustrial_and_scientific_exports%2Bluggage_exports%2Bmovies_and_television_exports%2Bpet_supplies_exports%2Bsoftware_exports%2Bsports_and_outdoors_exports%2Btools_home_improvement_exports%2Btoys_games_exports%2Bvideo_games_exports%2Bgiftcards%2Bamazon_live%2BAmazon_Global
+
+构建好一级列表后的其他子标签都可用ul['//*[@aria-labelledby="n-title"]/li']获取
+
+
+价格获取
+（分为：打折两种类型（有秒杀价，有市场价）
+，没有打折也分两种情况（组件显示不同）
+，还有就是没有库存不显示价格
+，没有库存不显示价格，但有显示‘’查看所有的购物选择‘’表示有多个卖家，需要点击查看所有的购物选择，里面会显示当前类别的卖家价格（需从返回的数据获取），可以选择去别的卖家价格（目前选第一个测试））：
+方法：判断组件元素是否存在来确定不同的爬取方式
+          查看所有的购物选择数据获取：
+          原网址:https://www.amazon.com/gp/product/ajax/ref=dp_aod_unknown_mbc?                                                                       asin=B08GLX7TNT&m=&qid=1668020036&smid=&sourcecustomerorglistid=&sourcecustomerorglistitemid=&sr=1-6&pc=dp&experienceId=aodAjaxMain
+          新网址（删除不要的参数，需要构建参数asin=B08GLX7TNT）：https://www.amazon.com/gp/product/ajax/ref=dp_aod_unknown_mbc?asin=B08GLX7TNT&experienceId=aodAjaxMain
+ 
+打折价格通过获取原价和折后价自己算(四舍五入)
+公式：1-（折后价/原价）*100%
+
+
+获取库存：总体就是将商品添加购物车，输入最大数量。获取真实库存，然后再删除商品（需要用session记录cookies传递）
+1.在商品详情页面发起添加购物车请求（点击详情页面添加购物车，跳转到，添加购物车成功界面）：
+（1）通过商品详情页面xpath获取购物车组件from表单数据，构建post请求（请求参数都在from表单中，通过xpath获取input的name属性和value属性形成两个数组，for循环再构造成一个字典，直接post请求）
+         网址：https://www.amazon.com/cart/add-to-cart/ref=dp_start-bbf_1_glance
+
+2.调整商品数量，获取最大库存
+   一.在购物车页面，输入最大数量999点击更新，在XHR返回的数据中获取调整数量的post请求，网址https://www.amazon.com/cart
+      获取post 请求需要参数（在添加商品跳转购物车静态页面可获取到）：
+      （1）actionItemID，quantity_actionItemID(键) (由quantity.+actionItemID构成）：
+          购物车每个有多少个商品就有多少个actionItemID
+          方法一（麻烦，因为有多个，要一个一个匹配）可由获取xpath元素或者正则匹配（'name="quantity\.(.*)" class'）获取，购物车有多少个物品就会相对应的有多少个actionItemID
+          方法二 （简单，data-itemid的值就是actionItemID）从当前html获取xpath'//*[@class="a-section a-spacing-mini sc-list-body sc-java-remote-feature"]//div/@data-itemid',返回列表再取出对应值
+       （2）timeStamp，requestID，token：
+         由正则表达式获取('"csrf":(.*),"isInternal"')字典转json
+  二. 构建调整数量post 请求（网址https://www.amazon.com/cart）：
+         主要参数（还有别的参数，只不过这几个是非要不可）
+          'actionType': 'update-quantity',
+          # 页面刷新会变
+          'actionItemID': actionItemID,
+          # 数量(键是由quantity. + actionItemID构成)
+          quantity_actionItemID: '999',          ##输入最大数量999点击更新后会显示当前最大库存是多少，结果是999说明库存1000以上，其他小于999的都是当前库存
+          'asin': 'B09GJX69ZS',
+          'timeStamp': timeStamp,
+          'requestID': requestID,
+          'token': token,
+   三.从返回的json数据中获取['features']['active-cart']['manipulations'][0]['content']是购物车商品的html，用正则匹配'data-quantity="(\d+)'获取库存，就是商品的库存（cartQty是所以购物车商品的总库存，要的是单品库存），结果是999说明库存1000以上，其他小于999的都是当前库存
+
+3.从购物车删除商品（与调整数量的post请求类似）
+一.在购物车页面，点击删除，返回删除商品的post请求
+    构建删除商品post 请求（网址https://www.amazon.com/cart）：
+    主要参数（需要参数与调整数量的请求参数一致，最主要的是 'actionPayload'键，值是一个列表，里面要拼接一个actionItemID ）
+         'submit.cart-actions': '1',，
+          'pageAction': 'cart-actions',
+          'actionPayload': '[{"type":"DELETE_START","payload":{"itemId":"' + actionItemID + '","list":"activeItems","relatedItemIds":[],"isPrimeAsin":false}}]',
+          'timeStamp': timeStamp,
+          'requestID': requestID,
+          'token': token,
+    发送post请求后，商品就会被删除
+
+构建 查看所有的购物选择
+https://www.amazon.com/gp/product/ajax/ref=dp_aod_unknown_mbc?asin= + 商品id +&&experienceId=aodAjaxMain
+
+
+

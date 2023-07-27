@@ -1,0 +1,151 @@
+# scrapy-redis原码路径在项目路径下/External Libraries/Python 3.9(pythonProject)/site-packages/scrapy-redis
+
+虾皮可通过XHR返回的json数据获取
+
+一级目录：
+     （访问虾皮首页获取，两个可以获取：主多次少）：
+       主（最底下分类）：
+            文件：get_category_tree
+            网址：https://shopee.sg/api/v4/pages/get_category_tree
+
+        次（中间滚动条分类）：
+             文件：get_homepage_category_list
+              网址：https://shopee.sg/api/v4/pages/get_homepage_category_list
+
+
+总商品数据
+（1）
+html获取：
+从html里获取:正则匹配
+               <script type="text/mfe-initial-data" data-module="cGMtY2F0ZWdvcnlwYWdl">{数据}</script>
+
+[sharedSearch][searchResult][items][数组底标][itemid]
+[sharedSearch][searchResult][items][数组底标][shopid]
+[sharedSearch][searchResult][items][数组底标][bundle_deal_id]
+根据以上是三个构成商品详情数据（bundle_deal_id=0直接从商品json爬取）
+
+（2）
+json获取：
+（两种获取方式都一样）：
+    总商品列表1（分类二级目录）（默认或者只筛选分类在recommend/recommend?bundle=category_landing_page&cat_level=1&catid=11027710&limit=60&offset=0）
+   通过catid=，进行二级目录筛选（女装下面的其他目录）
+
+   总商品列表1：获取：从一级目录数据提取catid构建网址链接
+         文件：recommend/recommend?bundle=category_landing_page&cat_level=1&catid=11013247&limit=60&offset=0
+         网址：https://shopee.sg/api/v4/recommend/recommend?bundle=category_landing_page&cat_level=1&catid=11013247&limit=60&offset=0
+
+
+    总商品列表2（选择了按最新最热销价格或者条件菜单筛选的分类在search_items?by=relevancy&limit=60&match_id=11012819&newest=0&order=desc&page_type=search&scenario=PAGE_CATEGORY&version=2）
+    （通过by=，进行数据筛选，最新，销量等）
+
+    总商品列表2获取：从一级目录数据提取catid构建网址链接
+         文件：search_items?by=relevancy&limit=60&match_id=11012819&newest=0&order=desc&page_type=search&scenario=PAGE_CATEGORY&version=2
+         网址：https://shopee.sg/api/v4/search/search_items?by=relevancy&limit=60&match_id=+  'catid'  + &newest=0&order=desc&page_type=search&scenario=PAGE_CATEGORY&version=2
+
+        第一种方法：
+
+        文件请求链接：（从一级目录数据提取构建链接）
+        https://shopee.sg/api/v4/search/search_items?by=relevancy&limit=60&match_id=+catid+&newest=0&order=desc&page_type=search&scenario=PAGE_CATEGORY&version=2
+
+
+      （ 通过newest翻页，筛选条件也是通过链接添加参数）
+         total_count是商品总数量       len（"item_basic）：第一页的商品数（通常60）
+         页面总页数=total_count（商品总数量）/（60）第一页的商品数
+（页数是看心情显示）
+        第一页newest=页数0*第一页的商品数
+        https://shopee.sg/api/v4/search/search_items?by=relevancy&keyword=%E5%8C%96%E5%A6%86&limit=60&match_id=11012301&newest=0&order=desc&page_type=search&scenario=PAGE_CATEGORY_SEARCH&skip_autocorrect=1&version=2
+        第二页newest=页数1*第一页的商品数
+        https://shopee.sg/api/v4/search/search_items?by=relevancy&keyword=%E5%8C%96%E5%A6%86&limit=60&match_id=11012301&newest=60&order=desc&page_type=search&scenario=PAGE_CATEGORY_SEARCH&skip_autocorrect=1&version=2
+         
+       第二种方法：
+           
+        从一级目录数据提取：类目名和catid，构建总商品链接https://shopee.sg/+“类目名”-cat.+“catid”
+        然后从html界面获取 ‘页数’ 和 ‘商品数据’
+        
+
+返回json数据找：
+      其他分支数据列表（NEW ARRIVALS，TOP PICKS，TRENDING STYLES）：
+      文件（https://shopee.sg/api/v4/pages/get_popular_collection?catid=11012819）
+
+
+
+商品详情数据（2种）：
+一种：（403错误）
+       商品详情数据：从总商品列表数据获取itemid和shopid构建网址链接
+       文件：shopee.sg/api/v4/item/get?itemid=8415848982&shopid=174359654
+       网址：https://shopee.sg/api/v4/item/get?itemid=  + 'itemid' +&shopid= + 'shopid'
+       获取详情图片：
+                   图片名节点：['data']['images']
+                   https://cf.shopee.sg/file/ + 图片名
+
+数据sku搭配在['data']['models']
+sku属性名和属性值在['data']['tier_variations']
+方法：用单个属性值去匹配搭配的sku，如果搭配的sku有这个属性，就提取出来
+
+（没有sku时，sku数据会显示‘ ’：‘ ’，会正常显示只有一个sku的数据，不会报错）
+
+# 给搭配sku分割加'#'，给后面sku值也加'#'，增加匹配准确度
+            # 速卖通以';'虾皮是以','进行分割形成数组
+            sku_collocation_dict = sku_collocation.split(',')
+            # 将数据循环重组+‘#’
+            for i, k in enumerate(sku_collocation_dict):
+                sku_collocation_dict[i] = k + '#'
+            # 最后将重组数据后的数组以','进行合并，形成新的字符串14:13978534#,5:4645#(z注意;变成了,不过没影响)
+            new_sku_collocation = ','.join(sku_collocation_dict)
+            print(str(new_sku_collocation))
+
+二种：
+       商品详情数据：从总商品列表数据获取itemid和shopid构建网址链接
+       文件：shopee.sg/api/v2/bundle_deal/items/?anchor_item=13367477874&bundle_deal_id=25028550&from_item=13367477874&limit=7&need_recommended_items=true&offset=0&page_source=1
+       网址：https://shopee.sg/api/v2/bundle_deal/items/?anchor_item=13367477874&bundle_deal_id=25028550&from_item=13367477874&limit=7&need_recommended_items=true&offset=0&page_source=1
+
+（商品详情页）
+商店的热门精选：
+                文件：get_hot_sales?item_id=8415848982&limit=8&offset=0&shop_id=174359654
+                网址：https://shopee.sg/api/v4/pdp/get_hot_sales?item_id=8415848982&limit=8&offset=0&shop_id=174359654
+
+
+商品出货地数据：从商品店铺数据获取
+
+商品店铺数据：
+      文件：get_shop_info?shopid=174359654
+      网址：https://shopee.sg/api/v4/product/get_shop_info?shopid=174359654
+
+
+
+商品店铺全部商品数据（不爬取需要再爬）：（从商品详情列表数据获取shopid构建网址链接）
+       文件：recommend/recommend?bundle=shop_page_category_tab_main&item_card=2&limit=30&offset=0&section=shop_page_category_tab_main_sec&shopid=174359654&sort_type=1&tab_name=popular&upstream=pdp
+       网址：https://shopee.sg/api/v4/recommend/recommend?bundle=shop_page_category_tab_main&item_card=2&limit=30&offset=0&section=shop_page_category_tab_main_sec&shopid=174359654&sort_type=1&tab_name=popular&upstream=pdp
+        翻页：
+            总商品数：total，通过len()获取第一页商品数.
+            总页数=tota /第一页评论数.
+            通过offset翻页，筛选条件也是通过链接添加参数）
+            第一页offset=页数0*第一页的商品数.
+            https://shopee.sg/api/v4/recommend/recommend?bundle=shop_page_category_tab_main&item_card=2&limit=30&offset=&section=shop_page_category_tab_main_sec&shopid=174359654&sort_type=1&tab_name=popular&upstream=pdp
+      
+      
+ （评论时间在ctime，是时间戳）
+商品评论数据：（一页显示6条评论，超过6多的其实是商家回复）
+l、（将这个函数作为一个循环体，一页一页的爬取评论，不要像商品翻页那样构建好全部页面后再统一发送链接，数据会错乱）
+
+旧（舍弃，会重复）：一页6条数据（构建总评论数量/一页评论数据（6条）的链接）
+       文件：get_ratings?filter=0&flag=1&itemid=8415848982&limit=6&offset=0&shopid=174359654&type=0
+       网址：https://shopee.sg/api/v2/item/get_ratings?filter=0&flag=1&itemid=8415848982&limit=6&offset=0&shopid=174359654&type=0
+        翻页：
+            总评论数：rating_total，通过len()获取第一页评论数.
+            总页数=rating_tota /第一页评论数.
+
+        通过offset翻页，筛选条件也是通过链接添加参数）
+        第一页offset=页数0*第一页的评论数.
+        https://shopee.sg/api/v2/item/get_ratings?filter=0&flag=1&itemid=8415848982&limit=6&offset=0&shopid=174359654&type=0
+        第二页offset=页数1*第一页的评论数.
+        https://shopee.sg/api/v2/item/get_ratings?filter=0&flag=1&itemid=8415848982&limit=6&offset=6&shopid=174359654&type=0
+
+
+新：一页1条数据（构建总评论数量的链接）
+      获取方式和旧一样，但是limit=6改成limit=1，然后offset=0根据总评论数据累计加一，一条一条获取
+      也就是&limit=1&offset=0
+
+
+
+

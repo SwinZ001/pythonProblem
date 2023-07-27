@@ -1,0 +1,1336 @@
+{
+	'actionModule': {
+		'addToCartUrl': '//shoppingcart.aliexpress.com/addToShopcart4Js.htm',
+		'aeOrderFrom': 'main_detail',
+		'allowVisitorAddCart': True,
+		'cartDetailUrl': '//shoppingcart.aliexpress.com/shopcart/shopcartDetail.htm',
+		'categoryId': 349,
+		'comingSoon': False,
+		'companyId': 259654155,
+		'confirmOrderUrl': '//shoppingcart.aliexpress.com/order/confirm_order.htm',
+		'features': {},
+		'freightExt': '[{"p1":"120.00","p3":"CNY","p5":"0","itemScene":"default","p6":"null"}]',
+		'i18nMap': {
+			'WISH_MAX_NOTICE': 'Oops, it seemed you already reached the list¡¯s maximum.',
+			'BUYER_ABLE': 'This feature is only available to buyers.',
+			'WISHLIST_SAVE_BUTTON': 'Save',
+			'WISH_MOVE_TO_ANOTHER_LIST_TIPS': 'Move to another list',
+			'ADD_X_MORE': 'Congratulations! You\'ve earned <div class="before-coin-count"></div>{coinCount} coins. You have {number} chances today to continue to earn coins.',
+			'COMING_SOON': 'Coming Soon',
+			'SC_ADD_SUCC': 'A new item has been added to your Shopping Cart.',
+			'WISHLIST_PUBLIC_NOTICE': '(Anyone can see this list and share it)',
+			'WISH_DETAULT_LIST': 'Wish List',
+			'WISH_CREATE_LIST': 'Create a Wish List',
+			'WL_ERROR': 'Network is busy, please try again',
+			'WISH_NAME_ALREADY_USE': 'This Wish List name is already in use.',
+			'WISH_REVISELIST': 'Edit Your List',
+			'SC_ADD_FAILED': 'Failed to add, please refresh the page and re-click the "Add to Cart"',
+			'SC_HAVE': 'You now have {{number}} items in your Shopping Cart.',
+			'ADD_TO_CART': 'Add to Cart',
+			'WISH_CANCEL_WISHLIST': 'Cancel',
+			'BUY_NOW': 'Buy Now',
+			'WISH_SYSTEM_ERROR': 'Oops, system error. Please try again.',
+			'SC_ADD_MAX': 'You can add {{number}} items to cart at the most. Please remove some items before adding more.',
+			'SC_VIEW': 'View Shopping Cart',
+			'WISH_YOUMAYLIKE': 'You may also like',
+			'WISH_VIEW_WISH_LIST': 'View Wish List',
+			'SC_RECOMMEND': 'Buyers Who Bought This Item Also Bought:',
+			'CONTINUE': 'Continue Shopping',
+			'ADDED_TO': 'Added to {wishlist} ',
+			'ORDER_NOW': 'Order now',
+			'SELECT_TIP': 'Please select all product options',
+			'NO_LONGER_AVAILABLE': 'Sorry, this item is no longer available!',
+			'PREVIEW_PERIOD': '2019/3/21 00:00:00 GMT-0700,2019/3/27 23:59:59 GMT-0700',
+			'WISH_MAX_GROUP': "Sorry, you can't create more wish lists",
+			'WISHLIST_PUBLIC_TIP': 'Public'
+		},
+		'id': 0,
+		'invalidBuyNow': False,
+		'itemStatus': 0,
+		'itemWished': False,
+		'itemWishedCount': 274,
+		'localSeller': False,
+		'name': 'ActionModule',
+		'preSale': False,
+		'productId': 1005004537294210,
+		'rootCategoryId': 200000345,
+		'showCoinAnim': False,
+		'showShareHeader': True,
+		'storeNum': 1101776824,
+		'switchInfo': {
+			'skuUnavailableRevision': True
+		},
+		'totalAvailQuantity': 532
+	},
+	'aePlusModule': {
+		'features': {},
+		'i18nMap': {},
+		'id': 0,
+		'name': 'AePlusModule'
+	},
+	'buyerProtectionModule': {
+		'buyerProtection': {
+			'brief': 'Money back guarantee',
+			'detailDescription': ' ',
+			'id': 2,
+			'name': '{day}-Day Buyer Protection',
+			'redirectUrl': 'https://sale.aliexpress.com/v8Yr8f629D.htm',
+			'type': 1
+		},
+		'features': {},
+		'i18nMap': {
+			'PLAZA_BUYER_PROTECTION_TITLE': 'Local Return',
+			'PLAZA_BUYER_PROTECTION_TIP': 'Dispones de 15 d¨ªas en los que puedes devolver el art¨ªculo por no satisfacer tus expectativas, siempre que se encuentre en perfecto estado, sin usar y conserve todas las etiquetas y el embalaje original',
+			'PLAZA_BUYER_PROTECTION_CONTENT': '15 days'
+		},
+		'id': 0,
+		'name': 'BuyerProtectionModule',
+		'returnPolicyGuarantees': {
+			'brief': 'Return without any reason for free within 15 days',
+			'detailDescription': 'Maximum 3 orders per month for each buyer',
+			'id': 17,
+			'name': 'Free Return',
+			'redirectUrl': 'https://sale.aliexpress.com/seller_guarantees.htm#2'
+		}
+	},
+	'commonModule': {
+		'activity': False,
+		'categoryId': 349,
+		'crawler': False,
+		'currencyCode': 'USD',
+		'features': {},
+		'gagaDataSite': 'en',
+		'i18nMap': {},
+		'id': 0,
+		'name': 'CommonModule',
+		'plaza': False,
+		'preSale': False,
+		'productId': 1005004537294210,
+		'productIdStr': '1005004537294210',
+		'productTags': {},
+		'reminds': [],
+		'sellerAdminSeq': 252290422,
+		'tradeCurrencyCode': 'USD',
+		'userCountryCode': 'CN',
+		'userCountryName': 'China (Mainland)'
+	},
+	'couponModule': {
+		'currencyCode': 'USD',
+		'features': {},
+		'i18nMap': {
+			'GET_COUPONS': 'Get coupons',
+			'SCP_ERR_HAVE': 'Sorry, you have already got the coupon from this store! Use coupon now!',
+			'OFF_ON': '{money1} off on {money2}',
+			'ORDER_OVER': 'Orders over ',
+			'code52Title': 'Sorry, there are no more coupons available.',
+			'GET_IT': 'Get Now',
+			'GET_NOW': 'Get Now',
+			'GET_MORE': 'Get more',
+			'systemError': 'Oops, something went wrong. Please try again.',
+			'OFF_PER': '{money1} off per {money2}',
+			'STORE_COUPON': 'Store Coupon',
+			'SHOP_COUPONE_TIME_START_END': 'From {0} to {1}',
+			'NEW_USER_COUPON_ACQUIRE_FAIL_ALREADY_HAVE': 'Sorry, you already have a New User Coupon.',
+			'code50Title': 'Sorry, the coupon could not be issued. Please try again.',
+			'NEW_USER_COUPON_ACQUIRE_FAIL_NOT_AVAILABLE_NOW': 'Sorry, New User Coupons are not available now.',
+			'NEW_USER_COUPON_ACQUIRE_FAIL_GROUP_LIMIT': 'Sorry, you have the maximum amount of New User Coupons.',
+			'code14Title': "You've already collected these Select Coupons.",
+			'NEW_USER_COUPON_ACQUIRE_FAIL_NOT_NEW_USER': 'Sorry, only new users are eligible to get this coupon.',
+			'SHOP_PROMO_CODE_COPIED': 'Promo code copied!',
+			'ADDED': 'Added',
+			'NEW_USER_COUPON_ACQUIRE_FAIL_SECURITY': 'To protect the security of your account, please use another device to sign in.',
+			'SHOP_PROMO_CODE_TITLE': 'Store promo code',
+			'NEW_USER_COUPON_ACQUIRE_FAIL': 'Oops, something went wrong! Please try again.',
+			'NEW_USER_COUPON_ACQUIRE_FAIL_LIMIT_DAY': 'Sorry, New User Coupons are not available today.',
+			'NEW_USER_COUPON_ACQUIRE_FAIL_REGISTER_COUNTRY_LIMIT': 'Please check that this coupon is redeemable in your registered country.',
+			'SCP_ERR_NONE': 'Sorry! All of these coupons have been allocated.',
+			'NEW_USER_COUPON_ACQUIRE_FAIL_GRANT_ERROR': 'Sorry, you failed to get this coupon.',
+			'code17Title': 'Sorry, this coupon is no longer available.',
+			'SHOP_COUPONE_TIME_EXPIRES': 'Expires {0}',
+			'SHOPPONG_CREDIT': 'SHOPPONG CREDIT',
+			'EXCHANGE_MORE': 'Exchange more',
+			'NEW_USER_COUPON_ACQUIRE_FAIL_SYSTEM_ERROR': 'Oops, something went wrong! Please try again.',
+			'MY_BALANCE': 'Balance',
+			'INSTANT_DISCOUNT': 'Instant discount',
+			'EXCHANGE_NOW': 'Exchange now',
+			'CROSS_STORE_VOUCHER_TIP': 'Save up to {money1} on orders over {money2}',
+			'NEW_USER_COUPON': 'New User Coupon',
+			'GET': 'GET',
+			'SHOP_PROMO_CODE_COP_FAILED': 'Failed to copy. Please try again',
+			'code-30005Title': "Uh, oh¡­ It looks like you don't have enough coins yet.",
+			'MY_COINS': 'My Coins ',
+			'BUY_GET_OFF': 'Buy {fullpiece} get {fulldiscount} off',
+			'code51Title': 'Sorry, there are no more coupons available.',
+			'PANEL_TITLE': 'Coupon & Discount',
+			'NEW_USER_COUPON_ACQUIRE_FAIL_LIMIT_HOUR': 'Sorry, New User Coupons are not available at this hour.',
+			'CROSS_STORE_VOUCHER': 'Select coupon '
+		},
+		'id': 0,
+		'name': 'CouponModule',
+		'webCouponInfo': {
+			'couponAttributes': {
+				'couponPackageText': 'Check your coupon in our <a href="https://www.aliexpress.com/p/my-coupons/index.html">Coupon Center</a>',
+				'hasPlatformShippingFeeCoupon': 'false'
+			},
+			'couponList': [{
+				'bgColor': '#FFF1F1',
+				'color': '#FF4747',
+				'copy': 'US $3.00 off',
+				'order': 1,
+				'title': 'Orders over US $4.00',
+				'type': 'platformCoupon'
+			}],
+			'promotionPanelDTO': {
+				'platformCoupon': [{
+					'displayType': 'platformCoupon',
+					'promotionGroupTitle': 'AliExpress Coupon/Code',
+					'promotionPanelDetailDTOList': [{
+						'acquirable': True,
+						'actionTips': 'Collect',
+						'attributes': {
+							'houyiTrack': '{"accountId":0,"activityId":56218,"benefitChannel":"piggybank_houyi","benefitCode":"0d32740019d64d28bd1176a3cdaa05f7","benefitSubChannel":"1670_56218","itemId":83364,"materialId":293744,"positionId":"1670","source":"houyi","sourceType":"embeddedCell","strategyCode":"5089ac854d72481785f220158f22989a","templateId":1055,"traceId":"21362f1a16666447193921702e5c23"}',
+							'collectedTips': 'Collected',
+							'privateText': 'Single-use only',
+							'codeScope': 'private',
+							'couponCampaignStyle': 'new',
+							'promotionId': '8'
+						},
+						'couponAssignParam': {
+							'buffettParam': '{"asac":"2E20C25QPPASDAFFPO7TFU","benefitType":"globalCoupon","channel":"piggybank_houyi","extraData":{"bizCustomState":"1670_56218","encryptedDynamicInfo":"3rWsHgiBNac9E69kOgJIReLMEuEOJYN8kOpw4mxnz8uBqKKtNqj5Tcv0vERPO0NUHbHYC/vezNpZvBdfqrlGug==","benefitSolution":"1"},"selectedBenefitCode":"0d32740019d64d28bd1176a3cdaa05f7","shipTo":"US","strategyCode":"5089ac854d72481785f220158f22989a"}',
+							'couponMeta': '{"activityId":"0d32740019d64d28bd1176a3cdaa05f7","assignCode":"0d32740019d64d28bd1176a3cdaa05f7","count":1,"currency":"USD","ext":{"buffettParam":"{\\"asac\\":\\"2E20C25QPPASDAFFPO7TFU\\",\\"benefitType\\":\\"globalCoupon\\",\\"channel\\":\\"piggybank_houyi\\",\\"extraData\\":{\\"bizCustomState\\":\\"1670_56218\\",\\"encryptedDynamicInfo\\":\\"3rWsHgiBNac9E69kOgJIReLMEuEOJYN8kOpw4mxnz8uBqKKtNqj5Tcv0vERPO0NUHbHYC/vezNpZvBdfqrlGug==\\",\\"benefitSolution\\":\\"1\\"},\\"selectedBenefitCode\\":\\"0d32740019d64d28bd1176a3cdaa05f7\\",\\"shipTo\\":\\"US\\",\\"strategyCode\\":\\"5089ac854d72481785f220158f22989a\\"}","fromBuffett":true},"price":300,"sellerId":"1","type":"platformCoupon"}',
+							'couponSource': 'buffett',
+							'couponType': 'platformCoupon'
+						},
+						'displayType': 'platformCoupon',
+						'endTime': 1669881599000,
+						'promotionDesc': 'US $3.00',
+						'promotionDetail': 'Orders over US $4.00',
+						'startTime': 1665212400000,
+						'teasingStartTime': -1,
+						'toolCode': 'platformCoupon'
+					}]
+				}]
+			},
+			'usingNewCouponApi': True
+		}
+	},
+	'crossLinkModule': {
+		'breadCrumbPathList': [{
+			'cateId': 0,
+			'name': 'Home',
+			'remark': '',
+			'url': '//www.aliexpress.com/'
+		}],
+		'crossLinkGroupList': [{
+			'channel': 'Related Search',
+			'crossLinkList': [],
+			'name': 'Related Search'
+		}, {
+			'channel': 'Ranking Keywords',
+			'crossLinkList': [{
+				'displayName': 'black turtleneck',
+				'name': 'black turtleneck',
+				'remark': 'CONFIG',
+				'url': 'https://www.aliexpress.com/w/wholesale-black-turtleneck.html'
+			}],
+			'name': 'Ranking Keywords'
+		}, {
+			'channel': 'Hot Search',
+			'crossLinkList': [],
+			'name': 'Hot Search'
+		}],
+		'features': {},
+		'i18nMap': {
+			'BREADCRUMB_PART2': 'and you can find similar products at',
+			'BREADCRUMB_PART1': 'This product belongs to',
+			'CROSSLINK_RELATED_SEARCHES': 'Links'
+		},
+		'id': 0,
+		'name': 'CrossLinkModule',
+		'productId': 1005004537294210
+	},
+	'descriptionModule': {
+		'descriptionUrl': 'https://aeproductsourcesite.alicdn.com/product/description/pc/v2/en_US/desc.htm?productId=1005004537294210&key=Se22fec75c9524f7eb67498b45f078f8aY.zip&token=17c16a0618abafc053941d693cfaf4d3',
+		'features': {},
+		'i18nMap': {},
+		'id': 0,
+		'name': 'DescriptionModule',
+		'productId': 1005004537294210,
+		'sellerAdminSeq': 252290422
+	},
+	'features': {},
+	'feedbackModule': {
+		'companyId': 259654155,
+		'features': {},
+		'feedbackServer': '//feedback.aliexpress.com',
+		'i18nMap': {},
+		'id': 0,
+		'name': 'FeedbackModule',
+		'productId': 1005004537294210,
+		'sellerAdminSeq': 252290422,
+		'trialReviewNum': 0
+	},
+	'groupShareModule': {
+		'features': {},
+		'i18nMap': {},
+		'id': 0,
+		'name': 'GroupShareModule'
+	},
+	'i18nMap': {
+		'VIEW_MORE': 'View More',
+		'ASK_BUYERS': 'Buyer Questions & Answers',
+		'PAGE_NOT_FOUND_NOTICE': 'Sorry, item temporarily unavailable',
+		'VIEW_5_MORE_ANSWERS': 'View More',
+		'openTrace': 'true',
+		'PAGE_NOT_FOUND_RCMD_TITLE': 'Sorry, the page you requested can not be found:('
+	},
+	'imageModule': {
+		'features': {},
+		'i18nMap': {},
+		'id': 0,
+		'imagePathList': ['https://ae01.alicdn.com/kf/S1796a2756d7b45b0b32611303ad1fce4m/Pink-Y2k-Skirts-Womens-2022-Jean-Skirt-Tutu-Women-s-Skort-E-Girl-Kawaii-Punk-Summer.jpg', 'https://ae01.alicdn.com/kf/S6434b21f03bf4e2db2da47a78eb54843j/Pink-Y2k-Skirts-Womens-2022-Jean-Skirt-Tutu-Women-s-Skort-E-Girl-Kawaii-Punk-Summer.jpg', 'https://ae01.alicdn.com/kf/S139e5f342420410b9bf5ca99466d3562J/Pink-Y2k-Skirts-Womens-2022-Jean-Skirt-Tutu-Women-s-Skort-E-Girl-Kawaii-Punk-Summer.jpg', 'https://ae01.alicdn.com/kf/S1ae43a7acc474fafaa0de565ff787bc7k/Pink-Y2k-Skirts-Womens-2022-Jean-Skirt-Tutu-Women-s-Skort-E-Girl-Kawaii-Punk-Summer.jpg', 'https://ae01.alicdn.com/kf/S086aab5562a94f84bd4ec5be3edc357cW/Pink-Y2k-Skirts-Womens-2022-Jean-Skirt-Tutu-Women-s-Skort-E-Girl-Kawaii-Punk-Summer.jpg'],
+		'name': 'ImageModule',
+		'summImagePathList': ['https://ae01.alicdn.com/kf/S1796a2756d7b45b0b32611303ad1fce4m/Pink-Y2k-Skirts-Womens-2022-Jean-Skirt-Tutu-Women-s-Skort-E-Girl-Kawaii-Punk-Summer.jpg_50x50.jpg', 'https://ae01.alicdn.com/kf/S6434b21f03bf4e2db2da47a78eb54843j/Pink-Y2k-Skirts-Womens-2022-Jean-Skirt-Tutu-Women-s-Skort-E-Girl-Kawaii-Punk-Summer.jpg_50x50.jpg', 'https://ae01.alicdn.com/kf/S139e5f342420410b9bf5ca99466d3562J/Pink-Y2k-Skirts-Womens-2022-Jean-Skirt-Tutu-Women-s-Skort-E-Girl-Kawaii-Punk-Summer.jpg_50x50.jpg', 'https://ae01.alicdn.com/kf/S1ae43a7acc474fafaa0de565ff787bc7k/Pink-Y2k-Skirts-Womens-2022-Jean-Skirt-Tutu-Women-s-Skort-E-Girl-Kawaii-Punk-Summer.jpg_50x50.jpg', 'https://ae01.alicdn.com/kf/S086aab5562a94f84bd4ec5be3edc357cW/Pink-Y2k-Skirts-Womens-2022-Jean-Skirt-Tutu-Women-s-Skort-E-Girl-Kawaii-Punk-Summer.jpg_50x50.jpg']
+	},
+	'installmentModule': {
+		'features': {},
+		'i18nMap': {},
+		'id': 0,
+		'name': 'InstallmentModule'
+	},
+	'middleBannerModule': {
+		'features': {},
+		'i18nMap': {
+			'END_IN': 'Ends in',
+			'DAYS': '{number} days',
+			'DAY': '{number} day',
+			'STARTS_IN': 'Starts in'
+		},
+		'id': 0,
+		'name': 'MiddleBannerModule',
+		'showUniformBanner': False
+	},
+	'name': 'ItemDetailResp',
+	'otherServiceModule': {
+		'features': {},
+		'hasWarrantyInfo': False,
+		'i18nMap': {
+			'TAB_SPECS': 'Specifications',
+			'PLAZA_SERVICE_SUBTITLE_PC': 'Guarantee in Spain',
+			'PLAZA_SERVICE_WARRANTY_EMAIL': 'Email',
+			'PLAZA_SERVICE_WARRANTY_PHONE': 'Phone',
+			'PLAZA_SERVICE_WARRANTY_HOURS': 'Hours',
+			'TAB_CUSTOMER_REVIEWS': 'Customer Reviews',
+			'PLAZA_SERVICE_WARRANTY_WEBSITE': 'Website',
+			'TAB_OVERVIEW': 'Description',
+			'PLAZA_SERVICE_WARRANTY_BRAND': 'Brand',
+			'PLAZA_SERVICE_WARRANTY_CATEGORY': 'Category',
+			'PLAZA_SERVICE_TITLE_PC': 'Plaza Technology Guarantees',
+			'PLAZA_SERVICE_CONTENT3_3_PC': '- The safety seal is not damaged and all labels are retained.',
+			'PLAZA_SERVICE_WARRANTY_TITLE': 'Official technical service',
+			'TAB_REPORT_ITEM': 'Report Item',
+			'TAB_SERVICE': 'Service',
+			'PLAZA_SERVICE_CONTENT3_1_PC': 'You have 15 days to return your Plaza Technology order, provided that:',
+			'PLAZA_SERVICE_CONTENT3_2_PC': '- It is in perfect condition and in the original packaging. ',
+			'PLAZA_SERVICE_CONTENT1_PC': 'All items of Plaza Technology are 100% original, are covered by the protection of the buyer of AliExpress and have an official warranty of 2 years in Spain to process in the official technical service in Spain designated by the manufacturer.',
+			'PLAZA_SERVICE_SUBTITLE2_PC': 'Shipping and delivery',
+			'PLAZA_SERVICE_CONTENT2_PC': 'Shipments are free without minimum purchase. We make all our shipments from Spain, so there are no additional fees or customs. The delivery time in any point of the peninsula is 1 to 3 working days from the moment of purchase. At the moment we do not send to the Canary Islands, Ceuta or Melilla.',
+			'PLAZA_SERVICE_SUBTITLE3_PC': 'Returns'
+		},
+		'id': 0,
+		'name': 'OtherServiceModule'
+	},
+	'pageModule': {
+		'aeOrderFrom': 'main_detail',
+		'aerSelfOperation': False,
+		'amphtmlTag': '<meta>',
+		'boutiqueSeller': False,
+		'canonicalTag': '<link rel="canonical" href="https://www.aliexpress.com/item/1005004537294210.html">',
+		'complaintUrl': '//report.aliexpress.com/health/reportIndex.htm?product_id=1005004537294210&b_login_id=cn1542038332ashx',
+		'description': 'Online Shopping at a cheapest price for Automotive, Phones &amp; Accessories, Computers &amp; Electronics, Fashion, Beauty &amp; Health, Home &amp; Garden, Toys &amp; Sports, Weddings &amp; Events and more; just about anything else\nEnjoy Free Shipping Worldwide! Limited Time Sale\xa0Easy Return.',
+		'features': {},
+		'hreflangTag': '<link rel="alternate" hreflang="en" href="https://www.aliexpress.com/item/1005004537294210.html"/>\n<link rel="alternate" hreflang="id" href="https://id.aliexpress.com/item/1005004537294210.html"/>\n<link rel="alternate" hreflang="ko" href="https://ko.aliexpress.com/item/1005004537294210.html"/>\n<link rel="alternate" hreflang="ar" href="https://ar.aliexpress.com/item/1005004537294210.html"/>\n<link rel="alternate" hreflang="de" href="https://de.aliexpress.com/item/1005004537294210.html"/>\n<link rel="alternate" hreflang="es" href="https://es.aliexpress.com/item/1005004537294210.html"/>\n<link rel="alternate" hreflang="fr" href="https://fr.aliexpress.com/item/1005004537294210.html"/>\n<link rel="alternate" hreflang="it" href="https://it.aliexpress.com/item/1005004537294210.html"/>\n<link rel="alternate" hreflang="nl" href="https://nl.aliexpress.com/item/1005004537294210.html"/>\n<link rel="alternate" hreflang="pt" href="https://pt.aliexpress.com/item/1005004537294210.html"/>\n<link rel="alternate" hreflang="th" href="https://th.aliexpress.com/item/1005004537294210.html"/>\n<link rel="alternate" hreflang="tr" href="https://tr.aliexpress.com/item/1005004537294210.html"/>\n<link rel="alternate" hreflang="vi" href="https://vi.aliexpress.com/item/1005004537294210.html"/>\n<link rel="alternate" hreflang="he" href="https://he.aliexpress.com/item/1005004537294210.html"/>\n<link rel="alternate" hreflang="ru" href="https://aliexpress.ru/item/1005004537294210.html"/>\n<link rel="alternate" hreflang="ja" href="https://ja.aliexpress.com/item/1005004537294210.html"/>\n<link rel="alternate" hreflang="pl" href="https://pl.aliexpress.com/item/1005004537294210.html"/>',
+		'i18nMap': {},
+		'id': 0,
+		'imagePath': 'https://ae01.alicdn.com/kf/S1796a2756d7b45b0b32611303ad1fce4m/Pink-Y2k-Skirts-Womens-2022-Jean-Skirt-Tutu-Women-s-Skort-E-Girl-Kawaii-Punk-Summer.jpg',
+		'itemDetailUrl': 'https://www.aliexpress.com/item/1005004537294210.html',
+		'keywords': 'Aliexpress, Aliexpress.com, Online shopping, Automotive, Phones & Accessories, Computers & Electronics, Fashion, Beauty & Health, Home & Garden, Toys & Sports, Weddings & Events',
+		'kidBaby': False,
+		'mSiteUrl': 'https://m.aliexpress.com/item/1005004537294210.html',
+		'mediaTag': '<link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.aliexpress.com/item/1005004537294210.html"/>',
+		'multiLanguageUrlList': [{
+			'language': 'msite',
+			'languageUrl': 'https://m.aliexpress.com/item/1005004537294210.html'
+		}, {
+			'language': 'en',
+			'languageUrl': 'https://www.aliexpress.com/item/1005004537294210.html'
+		}, {
+			'language': 'it',
+			'languageUrl': 'https://it.aliexpress.com/item/1005004537294210.html'
+		}, {
+			'language': 'fr',
+			'languageUrl': 'https://fr.aliexpress.com/item/1005004537294210.html'
+		}, {
+			'language': 'de',
+			'languageUrl': 'https://de.aliexpress.com/item/1005004537294210.html'
+		}, {
+			'language': 'ru',
+			'languageUrl': 'https://aliexpress.ru/item/1005004537294210.html'
+		}, {
+			'language': 'es',
+			'languageUrl': 'https://es.aliexpress.com/item/1005004537294210.html'
+		}, {
+			'language': 'pt',
+			'languageUrl': 'https://pt.aliexpress.com/item/1005004537294210.html'
+		}, {
+			'language': 'ja',
+			'languageUrl': 'https://ja.aliexpress.com/item/1005004537294210.html'
+		}, {
+			'language': 'ko',
+			'languageUrl': 'https://ko.aliexpress.com/item/1005004537294210.html'
+		}, {
+			'language': 'nl',
+			'languageUrl': 'https://nl.aliexpress.com/item/1005004537294210.html'
+		}, {
+			'language': 'ar',
+			'languageUrl': 'https://ar.aliexpress.com/item/1005004537294210.html'
+		}, {
+			'language': 'tr',
+			'languageUrl': 'https://tr.aliexpress.com/item/1005004537294210.html'
+		}, {
+			'language': 'vi',
+			'languageUrl': 'https://vi.aliexpress.com/item/1005004537294210.html'
+		}, {
+			'language': 'he',
+			'languageUrl': 'https://he.aliexpress.com/item/1005004537294210.html'
+		}, {
+			'language': 'th',
+			'languageUrl': 'https://th.aliexpress.com/item/1005004537294210.html'
+		}, {
+			'language': 'pl',
+			'languageUrl': 'https://pl.aliexpress.com/item/1005004537294210.html'
+		}],
+		'name': 'PageModule',
+		'ogDescription': 'Smarter Shopping, Better Living!  Aliexpress.com',
+		'ogTitle': '16.61US $ |Pink Y2k Skirts Womens 2022 Jean Skirt Tutu Women&#39;s Skort E Girl Kawaii Punk Summer Clothing| |   - AliExpress',
+		'ogurl': '//www.aliexpress.com/item/1005004537294210.html',
+		'oldItemDetailUrl': 'https://www.aliexpress.com/item/Pink-Y2k-Skirts-Womens-2022-Jean-Skirt-Tutu-Women-s-Skort-E-Girl-Kawaii-Punk-Summer/1005004537294210.html',
+		'plazaElectronicSeller': False,
+		'productId': 1005004537294210,
+		'ruSelfOperation': False,
+		'showPlazaHeader': False,
+		'siteType': 'glo',
+		'spanishPlaza': False,
+		'title': 'Pink Y2k Skirts Womens 2022 Jean Skirt Tutu Women&#39;s Skort E Girl Kawaii Punk Summer Clothing| |   - AliExpress'
+	},
+	'preSaleModule': {
+		'features': {},
+		'i18nMap': {},
+		'id': 0,
+		'name': 'PreSaleModule',
+		'preSale': False
+	},
+	'prefix': '//assets.alicdn.com/g/ae-fe/detail-ui/0.0.102',
+	'priceModule': {
+		'activity': False,
+		'discountPromotion': False,
+		'extraTags': {},
+		'features': {},
+		'formatedPrice': 'US $16.61',
+		'hiddenBigSalePrice': False,
+		'i18nMap': {
+			'LOT': 'lot',
+			'INSTALLMENT': 'Installment',
+			'DEPOSIT': 'Deposit',
+			'PRE_ORDER_PRICE': 'Pre-order price'
+		},
+		'id': 0,
+		'installment': False,
+		'lot': False,
+		'maxAmount': {
+			'currency': 'USD',
+			'formatedAmount': 'US $16.61',
+			'value': 16.61
+		},
+		'minAmount': {
+			'currency': 'USD',
+			'formatedAmount': 'US $16.61',
+			'value': 16.61
+		},
+		'multiUnitName': 'Pieces',
+		'name': 'PriceModule',
+		'numberPerLot': 1,
+		'oddUnitName': 'piece',
+		'preSale': False,
+		'priceRuleInfo': {},
+		'promotionSellingPointTags': [{
+			'elementList': [{
+				'elementType': 'icon',
+				'iconAddress': 'https://ae01.alicdn.com/kf/H1a74367e677a43f7b4027d6354bd4765H.png',
+				'iconHeight': 16,
+				'iconType': 'mind',
+				'iconWidth': 16
+			}, {
+				'elementType': 'text',
+				'iconHeight': 0,
+				'iconWidth': 0,
+				'textColor': '#FF5353',
+				'textContent': 'Extra 5% Off'
+			}]
+		}],
+		'regularPriceActivity': False,
+		'showActivityMessage': False,
+		'vatDesc': ''
+	},
+	'quantityModule': {
+		'activity': False,
+		'displayBulkInfo': False,
+		'features': {},
+		'i18nMap': {
+			'LOT': 'lot',
+			'LOTS': 'lots',
+			'BUY_LIMIT': '{limit} {unit} at most per customer',
+			'QUANTITY': 'Quantity',
+			'OFF_OR_MORE': '{discount}% off ({number} {unit} or more)',
+			'ONLY_QUANTITY_LEFT': 'Only {availQuantity} left',
+			'ADDTIONAL': 'Additional',
+			'QUANTITY_AVAILABLE': '{availQuantity} {unit} available'
+		},
+		'id': 0,
+		'lot': False,
+		'multiUnitName': 'Pieces',
+		'name': 'QuantityModule',
+		'oddUnitName': 'piece',
+		'purchaseLimitNumMax': 0,
+		'totalAvailQuantity': 532
+	},
+	'recommendModule': {
+		'categoryId': 349,
+		'companyId': 259654155,
+		'features': {
+			'recommendGpsScenarioOtherSellerProducts': 'pcDetailBottomMoreOtherSeller',
+			'showSubTitle': 'true',
+			'recommendGpsScenarioTopSelling': 'pcDetailLeftTopSell',
+			'recommendGpsScenarioSellerOtherProducts': 'pcDetailBottomMoreThisSeller'
+		},
+		'i18nMap': {
+			'MORE_FROM_THIS_SELLER': 'Seller Recommendations',
+			'YOU_MAY_LIKE': 'Recommended For You',
+			'TOP_SELLING': 'Top Selling',
+			'FROM_OTHER_SELLER': 'You may also like',
+			'VIEW_MORE_LINK': 'View More',
+			'PRODUCT_SOLD': 'Sold'
+		},
+		'id': 0,
+		'name': 'RecommendModule',
+		'platformCount': 20,
+		'productId': 1005004537294210,
+		'storeNum': 1101776824
+	},
+	'redirectModule': {
+		'bigBossBan': False,
+		'code': 'OK',
+		'features': {},
+		'i18nMap': {},
+		'id': 0,
+		'name': 'RedirectModule',
+		'redirectUrl': ''
+	},
+	'shippingModule': {
+		'currencyCode': 'USD',
+		'features': {},
+		'freightCalculateInfo': {
+			'displayMultipleFreight': False,
+			'hideFreight': True
+		},
+		'generalFreightInfo': {
+			'freightExt': '[{"p1":"120.00","p3":"CNY","p5":"0","itemScene":"default","p6":"null"}]',
+			'hideShipFrom': True,
+			'originalLayoutResultList': [{
+				'additionLayout': [{
+					'blockGroup': 'others-1',
+					'blockType': 'others',
+					'componentId': '3463',
+					'content': 'Tracking Available',
+					'displayCondition': 'tracking=visible',
+					'distance': 1,
+					'medusaKey': 'tracking_available@others',
+					'order': 1,
+					'type': 'textWithMark',
+					'useInDeliveryOptionPanel': True
+				}],
+				'bizData': {
+					'deliveryOptionCode': 'CAINIAO_STANDARD',
+					'deliveryProviderName': 'AliExpress Standard Shipping',
+					'leadTimeSort': [3800],
+					'patternId': 46001,
+					'logisticsComposeThreshold': '$5.00',
+					'discount': 100.0,
+					'utParams': '{"cmd":false,"currency":"CNY","deliveryDate":"2022-11-22","fAmount":0.0,"fCurrency":"CNY","itemId":1005004537294210,"preOrder":false,"productId":1005004537294210,"sellingPoint":"cmb_sale","serviceName":"CAINIAO_STANDARD","shipFrom":"CN","shipToCountry":"US","shippingFee":"0","traceId":"21362f1a16666447193921702e5c23","trackingAvailable":true}',
+					'tracking': 'visible',
+					'provider': 'cainiao',
+					'itemShipFromType': 'same',
+					'itemScene': 'default',
+					'shipToCode': 'US',
+					'company': 'AliExpress Standard Shipping',
+					'currency': 'CNY',
+					'deliveryDate': 'Nov 22',
+					'shipFrom': 'China',
+					'deliveryDayMax': 29,
+					'guaranteedDeliveryTime': 60,
+					'freightCommitDay': '75',
+					'etaTraceId': 'ORDER-f-1-228-2505600000-2505600000-1669150319822-1669150319822-CAINIAO_STANDARD-DOOR_DELIVERY-OPERATING-DEF|SELLER_STOCK_UP-CALENDAR_DAY---432000000-432000000---OPERATING-@DELIVERY_FULFIL-CALENDAR_DAY---2073600000-2073600000---OPERATING-|1666644719822',
+					'meetLogisticsComposeThreshold': 'yes',
+					'itemId': 1005004537294210,
+					'solutionBusinessType': 'LogisticsComposeDiscount',
+					'logisticsComposeDeliveryDate': 'Nov 23',
+					'shippingFee': 'free',
+					'deliveryDayMin': 29,
+					'guaranteedDeliveryTimeProviderName': 'cainiao_committed_time',
+					'solutionId': 158001,
+					'shipFromCode': 'CN',
+					'deliveryProviderCode': 'CAINIAO_STANDARD',
+					'shipTo': 'United States'
+				},
+				'contentLayout': [
+					[{
+						'blockGroup': 'deliveryTime-2',
+						'blockType': 'deliveryTime',
+						'componentId': '3473',
+						'content': '<span style="color: #666666;">Estimated delivery on </span><span style="color: #222222;">Nov 23</span>',
+						'displayCondition': 'meetLogisticsComposeThreshold=yes',
+						'distance': 1,
+						'medusaKey': 'estimated_delivery_on_ComposeDeliveryDate@deliveryTime',
+						'order': 1,
+						'type': 'htmlText',
+						'useInDeliveryOptionPanel': True,
+						'useInDetailFirstScreen': True,
+						'useInSkuSwitch': True
+					}],
+					[{
+						'blockGroup': 'freight-1',
+						'blockType': 'freight',
+						'componentId': '3462',
+						'content': '<span style="color: #666666;">From </span><span style="color: #222222;">China</span><span style="color: #666666;"> to </span><span style="color: #222222;">United States</span><span style="color: #666666;"> via AliExpress Standard Shipping</span>',
+						'displayCondition': 'default=visible',
+						'distance': 1,
+						'medusaKey': 'ship_from_to_config_detail@freight',
+						'order': 1,
+						'type': 'htmlText',
+						'useInDeliveryOptionPanel': True,
+						'useInDetailFirstScreen': True,
+						'useInSkuSwitch': True
+					}]
+				],
+				'deliveryOptionPanelDisplayList': ['3461', '3462', '3463', '3473'],
+				'detailFirstScreenDisplayList': ['3461', '3462', '3473'],
+				'dxTemplateInfo': {},
+				'finalPatternId': 46001,
+				'skuSwitchDisplayList': ['3461', '3462', '3473'],
+				'titleLayout': [
+					[{
+						'blockGroup': 'title-1',
+						'blockType': 'title',
+						'componentId': '3461',
+						'content': '<span style="font-size: 15px; color: #222222;"><strong>Free Shipping</strong></span>',
+						'displayCondition': 'shippingFee=free',
+						'distance': 1,
+						'medusaKey': 'free_shipping@freightCost',
+						'order': 1,
+						'type': 'htmlText',
+						'useInDeliveryOptionPanel': True,
+						'useInDetailFirstScreen': True,
+						'useInSkuSwitch': True
+					}]
+				]
+			}, {
+				'additionLayout': [{
+					'blockGroup': 'others-1',
+					'blockType': 'others',
+					'componentId': '490',
+					'content': 'Tracking Available',
+					'displayCondition': 'tracking=visible',
+					'distance': 1,
+					'medusaKey': 'tracking_available@others',
+					'order': 1,
+					'type': 'textWithMark',
+					'useInDeliveryOptionPanel': True
+				}],
+				'bizData': {
+					'deliveryOptionCode': 'CAINIAO_PREMIUM',
+					'deliveryProviderName': 'AliExpress Premium Shipping',
+					'leadTimeSort': [9999],
+					'patternId': 202002,
+					'discount': 0,
+					'utParams': '{"cmd":false,"currency":"USD","deliveryDate":"2022-11-07","fAmount":10.61,"fCurrency":"USD","itemId":1005004537294210,"preOrder":false,"productId":1005004537294210,"serviceName":"CAINIAO_PREMIUM","shipFrom":"CN","shipToCountry":"US","shippingFee":"10.61","traceId":"21362f1a16666447193921702e5c23","trackingAvailable":true}',
+					'tracking': 'visible',
+					'provider': 'cainiao',
+					'itemShipFromType': 'same',
+					'itemScene': 'default',
+					'shipToCode': 'US',
+					'company': 'AliExpress Premium Shipping',
+					'currency': 'CNY',
+					'deliveryDate': 'Nov 07',
+					'formattedAmount': '$10.61',
+					'shipFrom': 'China',
+					'deliveryDayMax': 14,
+					'guaranteedDeliveryTime': 35,
+					'freightCommitDay': '75',
+					'etaTraceId': 'ORDER-f-1-228-1209600000-1209600000-1667854319822-1667854319822-CAINIAO_PREMIUM-DOOR_DELIVERY-OPERATING-DEF|SELLER_STOCK_UP-CALENDAR_DAY---259200000-259200000---OPERATING-@DELIVERY_FULFIL-CALENDAR_DAY---950400000-950400000---OPERATING-|1666644719822',
+					'itemId': 1005004537294210,
+					'displayAmount': 10.61,
+					'solutionBusinessType': 'Default',
+					'shippingFee': 'charge',
+					'deliveryDayMin': 14,
+					'guaranteedDeliveryTimeProviderName': 'cainiao_committed_time',
+					'solutionId': 268001,
+					'shipFromCode': 'CN',
+					'displayCurrency': 'USD',
+					'deliveryProviderCode': 'CAINIAO_PREMIUM',
+					'shipTo': 'United States'
+				},
+				'contentLayout': [
+					[{
+						'blockGroup': 'deliveryTime-0',
+						'blockType': 'deliveryTime',
+						'componentId': '1640',
+						'content': '<span style="color: #666666;">From </span><span style="color: #222222;">China</span><span style="color: #666666;"> to </span><span style="color: #222222;">United States</span><span style="color: #666666;"> via AliExpress Premium Shipping</span>',
+						'displayCondition': 'default=visible',
+						'distance': 1,
+						'medusaKey': 'ship_from_to_config_detail@freight',
+						'order': 2,
+						'type': 'htmlText',
+						'useInDeliveryOptionPanel': True,
+						'useInDetailFirstScreen': True,
+						'useInSkuSwitch': True
+					}],
+					[{
+						'blockGroup': 'deliveryTime-1',
+						'blockType': 'deliveryTime',
+						'componentId': '646',
+						'content': '<span style="color: #666666;">Estimated delivery on </span><span style="color: #222222;">Nov 07</span>',
+						'displayCondition': 'default=visible',
+						'distance': 1,
+						'medusaKey': 'estimated_delivery_on@deliveryTime',
+						'order': 1,
+						'type': 'htmlText',
+						'useInDeliveryOptionPanel': True,
+						'useInDetailFirstScreen': True,
+						'useInSkuSwitch': True
+					}]
+				],
+				'deliveryOptionPanelDisplayList': ['490', '646', '1395', '1640'],
+				'detailFirstScreenDisplayList': ['646', '1395', '1640'],
+				'dxTemplateInfo': {},
+				'finalPatternId': 202002,
+				'skuSwitchDisplayList': ['646', '1395', '1640'],
+				'titleLayout': [
+					[{
+						'blockGroup': 'title-1',
+						'blockType': 'title',
+						'componentId': '1395',
+						'content': '<span style="font-size: 15px; color: #222222;"><strong>Shipping: $10.61</strong></span>',
+						'displayCondition': 'previewAmount=invisible',
+						'distance': 1,
+						'medusaKey': 'shippingfee@freightCost',
+						'order': 2,
+						'type': 'htmlText',
+						'useInDeliveryOptionPanel': True,
+						'useInDetailFirstScreen': True,
+						'useInSkuSwitch': True
+					}]
+				]
+			}],
+			'usingNewFreight': True
+		},
+		'hbaFreeShipping': False,
+		'hbaFreight': False,
+		'i18nMap': {
+			'HAB_BALLOON_TRAKING_AVAILABLE': 'Track your order status from start to finish.',
+			'GENERAL_SHIPPING_TO': 'to {0}',
+			'SELECT_SHIP_FROM_TIP': 'Please select the country you want to ship from',
+			'SHIPPING_TO': 'Shipping:',
+			'HAB_SHIPPING_TO': 'to',
+			'CARRIER': 'Carrier',
+			'TO_PROVINCE': 'To {provinceName}',
+			'TO_COUNTRY': 'to {countryName}',
+			'TO_CITY': 'To {cityName}',
+			'CAN_NOE_DELIVER_NOTE': 'This Supplier/Shipping Company does not deliver to your selected Country/Region.',
+			'ESTIMATED_DELIVERT_ON_DAYS': 'Estimated Delivery: {0} days',
+			'CHOOSE_DELIVERT_METHOD': 'Shipping Method',
+			'HAB_BALLOON_DOOR_DELIVERY': 'Products delivered directly to your door.',
+			'DELIVERED_BY': 'Delivered before {date} or full refund',
+			'HBA_SHIPPING_INFO': 'To {countryName} in {time} days via {companyName}',
+			'IN': 'in',
+			'SEARCH': 'State/Province/Region',
+			'SELECT_SHIP_FROM': 'Please select the country you want to ship from',
+			'LOGISTIC_COMPOSE_AE': 'Powered by AliExpress',
+			'HBA_BALLOON_TIPS': 'hba balloon tips',
+			'GENERAL_SHIPPING_DELIVERY': 'Ships to',
+			'VAT_DE_DETAIL': 'Buyer is German import declarant',
+			'SELECTED': 'Selected',
+			'HBA_DOR_DELIVERY': 'COD Available on APP',
+			'ESTIMATED_DELIVERT_ON_DATE': 'Estimated Delivery on {date}',
+			'OR_FULL_REFOUND': 'Full refund',
+			'LOGISTIC_COMPOSE_BRAND_MIND': 'Combined Delivery',
+			'PLAZA_SHOP_NOW_RECEIVE_ON': 'Buy it now and receive it on {date} (est.)',
+			'LOGISTIC_COMPOSE_ORDERS_OVER': 'On orders over {0}',
+			'FAST_SHIPPING': 'Fast Shipping',
+			'CAN_NOT_DELIVER': 'Can not deliver',
+			'HBA_TRAKING_AVAILABLE': 'Tracking Available',
+			'DAYS': 'days',
+			'GENERAL_SHIPPIING_FROM': 'From {0}',
+			'GENERAL_SHPPING_MORE': 'More options',
+			'FREE_SHIPPING': 'Free Shipping',
+			'COST': 'Cost',
+			'BALLOON_TIP': 'If you finish the payment today, your order will arrive within the estimated delivery time.',
+			'SHIP_MY_ITEM_TO': 'Ship to',
+			'HAB_BALLOON_VAT_INCLUDED': 'Item price listed includes VAT.',
+			'TRACKING': 'Tracking',
+			'LOGISTIC_COMPOSE_SPEED_UP': 'Speed up to ',
+			'PLAZA_BALLOON_TIP': 'This delivery date is estimated. The calculation is based on several factors, including the address, shipping option selected and the availability shown on the product detail page.',
+			'HBA_TVAT_INCLUDED': 'With sterile service',
+			'ESTIMATED_DELIVERY': 'Estimated Delivery',
+			'TO_WHERE': 'To where',
+			'VAT_NUMBER': 'VAT number:',
+			'TO_VIA': 'to {countryName} via {companyName}',
+			'APPLY': 'Apply'
+		},
+		'id': 0,
+		'name': 'ShippingModule',
+		'productId': 1005004537294210,
+		'regionCountryName': 'United States',
+		'suppressFreightInvoke': True,
+		'userCountryCode': 'CN',
+		'userCountryName': 'China (Mainland)'
+	},
+	'skuModule': {
+		'categoryId': 349,
+		'chartSizeData': {
+			'defaults': {
+				'unit': 'IN',
+				'skuSize': 'Manufacturer-size3',
+				'countrySize': 'Manufacturer-size3'
+			},
+			'sizes': [{
+				'name': 'Manufacturer-size3',
+				'value': 'Manufacturer Size'
+			}],
+			'pageTitle': 'Size Chart',
+			'extra': [{
+				'data': 'https://ae01.alicdn.com/kf/S96a801be944044ada22ea105182d3720B.jpg',
+				'type': 'image'
+			}],
+			'sizeChartText': 'Size Chart',
+			'sizeChartScroll': 'Slide the table to scroll',
+			'sizeChartMeasure': 'Measurement',
+			'titles': ['Size', 'Skirt length ', 'Waist', 'Hip'],
+			'units': [{
+				'name': 'cm',
+				'value': 'CM'
+			}, {
+				'name': 'inch',
+				'value': 'IN'
+			}],
+			'rows': [{
+				'vid': '-1',
+				'data': [{
+					'IN': '15.35',
+					'CM': '39'
+				}, {
+					'IN': '25.20',
+					'CM': '64'
+				}, {
+					'IN': '33.86',
+					'CM': '86'
+				}],
+				'size': {
+					'Manufacturer-size3': 'S'
+				}
+			}, {
+				'vid': '-2',
+				'data': [{
+					'IN': '15.75',
+					'CM': '40'
+				}, {
+					'IN': '26.77',
+					'CM': '68'
+				}, {
+					'IN': '35.43',
+					'CM': '90'
+				}],
+				'size': {
+					'Manufacturer-size3': 'M'
+				}
+			}, {
+				'vid': '-3',
+				'data': [{
+					'IN': '16.14',
+					'CM': '41'
+				}, {
+					'IN': '28.35',
+					'CM': '72'
+				}, {
+					'IN': '37.01',
+					'CM': '94'
+				}],
+				'size': {
+					'Manufacturer-size3': 'L'
+				}
+			}, {
+				'vid': '-4',
+				'data': [{
+					'IN': '16.54',
+					'CM': '42'
+				}, {
+					'IN': '29.92',
+					'CM': '76'
+				}, {
+					'IN': '38.58',
+					'CM': '98'
+				}],
+				'size': {
+					'Manufacturer-size3': 'XL'
+				}
+			}, {
+				'vid': '-5',
+				'data': [{
+					'IN': '16.93',
+					'CM': '43'
+				}, {
+					'IN': '31.50',
+					'CM': '80'
+				}, {
+					'IN': '40.16',
+					'CM': '102'
+				}],
+				'size': {
+					'Manufacturer-size3': 'XXL'
+				}
+			}]
+		},
+		'features': {},
+		'forcePromiseWarrantyJson': '{}',
+		'hasSizeInfo': True,
+		'hasSkuProperty': True,
+		'i18nMap': {
+			'SIZING_INFO': 'Size Info',
+			'BUST_PROMPT': 'Please select your bust size.',
+			'GLASSES_DIALOG_TITLE': 'Prescription Detail',
+			'NV_ADD': 'Sometimes seen on your prescription as "NV, ADD, Near, Reading, or Reading Addition."  "NV" stands for "Near-Vision."  This number indicates the additional magnification that is added to the distance prescription to get the reading portion of the lens in a multi-focal prescription.  We display a single NV-ADD field since it is almost always the same value for both eyes.',
+			'SPH': 'SPHERE (SPH), or Spherical, refers to the refractive correction in the prescription. Minus (-) stands for near sightedness, and Plus (+) stands for far sightedness. If "PL" or "Plano" is written for the either SPH value on your prescription, you should select a value of 0.00.\r\r\nOD-SPH is spherical correction for your right eye.\r\r\nOS-SPH is spherical correction for your left eye.\r\r\nOD-SPH is spherical correction for your RIGHT eye.\r\r\nOS-SPH is spherical correction for your LEFT eye.',
+			'PUPILLARY_PROMPT': 'Please select PD (Pupillary Distance).',
+			'SIZE_HOVER_TITLE': 'Might be different from your local size,please see the sizing info for more information.',
+			'FLOOR_CONTENT': 'Begin at the hollow space between the collarbones and pull tape straight down to the floor.',
+			'CUSTOM_SIZE_CONTENT': 'Your body measurements',
+			'NV_ADD_PROMPT': 'Please select NV-ADD.',
+			'PLEASE_ENTER': 'please enter',
+			'WAIST_TITLE': 'Waist',
+			'WAIST_CONTENT': 'Measure the smallest part of the waist.\r\r\nKeep tape slightly loose to allow for breathing room.',
+			'CYL': 'CYLINDER (CYL), or Cylinder, refers to the strength of the correction for the astigmatism in the eye. It can be either positive or negative. If there is a CYL value for an eye, there must be an Axis value for that eye.\r\r\nIf "DS" or "SPH" or "spherical" is noted in the CYL space on your prescription, you have no astigmatism in that eye.  In that case, enter 0.00 in both the CYL and Axis.\r\r\nOD-CYL is cylinder correction for your right eye.\r\r\nOS-CYL is cylinder correction for your left eye.',
+			'SERVICE': 'Service',
+			'BUST_CONTENT': 'Wear an unpadded bra (your dress will have a built-in bra).\r\r\nPull tape across the fullest part of the bust (at nipple level).',
+			'SIZE_INFO': 'Size Info',
+			'SIZE_INFO_DESC': '*These charts are for reference only. Fit may vary depending on the construction, materials and manufacturer.',
+			'ITEM_CONDITION_TIP': 'Condition',
+			'BTN_CANCEL': 'Cancel',
+			'HOW_TO_MEASURE': 'How to Measure',
+			'SIZE_INFO_TIP': 'once you know your body measurements,consult the Size Chart on the product pages for actual item measurements to determine which size you should purchase.',
+			'FLOOR_PROMPT': 'Please select the hollow to floor measurement.',
+			'FLOOR_TITLE': 'Hollow to Floor (Bare Foot)',
+			'SIZE_INFO_COMPARE_TIP': 'To choose the correct size for you measure your body as follows',
+			'UNIT_PROMPT': 'Please select unit.',
+			'SELECT': 'Select',
+			'HIPS_TITLE': 'Hips',
+			'HEIGHT_PROMPT': "Please select the your shoes' heel height.",
+			'WAIST_PROMPT': 'Please select your waist size.',
+			'BTN_SAVE': 'Save',
+			'TITLE_OPTIONAL': 'Local repair warranty in {country} <span>(optional)</span>',
+			'SIZE_DIALOG_TITLE': 'Custom Size',
+			'GLASSES_TIP': 'Please provide the information from your medical prescription. If you have any special needs or have any questions, please contact the seller.',
+			'SIZE_CHART': 'Size Chart',
+			'HIPS_PROMPT': 'Please select your hips size.',
+			'SPH_PROMPT': 'It looks like you forgot to enter your prescription. Please fill in the sphere, cylinder and axis.',
+			'HIPS_CONTENT': 'Find the widest part of the hips or run the measurement tape around your hipbone.',
+			'BUST_TITLE': 'Bust',
+			'AXIS': 'AXS, or Axis, refers to the angle of the correction for the astigmatism in the eye (if one exists) from 1 to 180.  If there is an Axis value on an eye, there must be a CYL (Cylinder) value on that eye.  If there is no Cylinder value or if the value is zero, the OD Axis value is entered as 0.00.\r\r\nThe Axis value is usually written as 3 digits, which means if your Axis value is 5, it is often written as 005. This Axis value is still 5, regardless of how it is displayed.\r\r\nOD Axis is Axis correction for your right eye.\r\r\nOS Axis is Axis correction for your left eye.'
+		},
+		'id': 0,
+		'name': 'SKUModule',
+		'productSKUPropertyList': [{
+			'isShowTypeColor': True,
+			'order': 1,
+			'showType': 'colour_atla',
+			'showTypeColor': True,
+			'skuPropertyId': 14,
+			'skuPropertyName': 'Color',
+			'skuPropertyValues': [{
+				'propertyValueDisplayName': 'Pink',
+				'propertyValueId': 1052,
+				'propertyValueIdLong': 1052,
+				'propertyValueName': 'Pink',
+				'skuColorValue': '#FFC0CB',
+				'skuPropertyImagePath': 'https://ae01.alicdn.com/kf/S7aa518f08fbb4aa397c124f073b9adf5Y/Pink-Y2k-Skirts-Womens-2022-Jean-Skirt-Tutu-Women-s-Skort-E-Girl-Kawaii-Punk-Summer.jpg_640x640.jpg',
+				'skuPropertyImageSummPath': 'https://ae01.alicdn.com/kf/S7aa518f08fbb4aa397c124f073b9adf5Y/Pink-Y2k-Skirts-Womens-2022-Jean-Skirt-Tutu-Women-s-Skort-E-Girl-Kawaii-Punk-Summer.jpg_50x50.jpg',
+				'skuPropertyTips': 'Pink',
+				'skuPropertyValueShowOrder': 1,
+				'skuPropertyValueTips': 'Pink'
+			}]
+		}, {
+			'isShowTypeColor': False,
+			'order': 2,
+			'showType': 'none',
+			'showTypeColor': False,
+			'skuPropertyId': 5,
+			'skuPropertyName': 'Size',
+			'skuPropertyValues': [{
+				'propertySizeChartInfo': [{
+					'name': 'Skirt length ',
+					'value': '15.35"'
+				}, {
+					'name': 'Waist',
+					'value': '25.20"'
+				}, {
+					'name': 'Hip',
+					'value': '33.86"'
+				}],
+				'propertyValueDisplayName': 'S',
+				'propertyValueId': 100014064,
+				'propertyValueIdLong': 100014064,
+				'propertyValueName': 'S',
+				'skuPropertyTips': 'S',
+				'skuPropertyValueShowOrder': 2,
+				'skuPropertyValueTips': 'S'
+			}, {
+				'propertySizeChartInfo': [{
+					'name': 'Skirt length ',
+					'value': '15.75"'
+				}, {
+					'name': 'Waist',
+					'value': '26.77"'
+				}, {
+					'name': 'Hip',
+					'value': '35.43"'
+				}],
+				'propertyValueDisplayName': 'M',
+				'propertyValueId': 361386,
+				'propertyValueIdLong': 361386,
+				'propertyValueName': 'M',
+				'skuPropertyTips': 'M',
+				'skuPropertyValueShowOrder': 2,
+				'skuPropertyValueTips': 'M'
+			}, {
+				'propertySizeChartInfo': [{
+					'name': 'Skirt length ',
+					'value': '16.14"'
+				}, {
+					'name': 'Waist',
+					'value': '28.35"'
+				}, {
+					'name': 'Hip',
+					'value': '37.01"'
+				}],
+				'propertyValueDisplayName': 'L',
+				'propertyValueId': 361385,
+				'propertyValueIdLong': 361385,
+				'propertyValueName': 'L',
+				'skuPropertyTips': 'L',
+				'skuPropertyValueShowOrder': 2,
+				'skuPropertyValueTips': 'L'
+			}, {
+				'propertySizeChartInfo': [{
+					'name': 'Skirt length ',
+					'value': '16.54"'
+				}, {
+					'name': 'Waist',
+					'value': '29.92"'
+				}, {
+					'name': 'Hip',
+					'value': '38.58"'
+				}],
+				'propertyValueDisplayName': 'XL',
+				'propertyValueId': 100014065,
+				'propertyValueIdLong': 100014065,
+				'propertyValueName': 'XL',
+				'skuPropertyTips': 'XL',
+				'skuPropertyValueShowOrder': 2,
+				'skuPropertyValueTips': 'XL'
+			}, {
+				'propertySizeChartInfo': [{
+					'name': 'Skirt length ',
+					'value': '16.93"'
+				}, {
+					'name': 'Waist',
+					'value': '31.50"'
+				}, {
+					'name': 'Hip',
+					'value': '40.16"'
+				}],
+				'propertyValueDisplayName': 'XXL',
+				'propertyValueId': 4182,
+				'propertyValueIdLong': 4182,
+				'propertyValueName': 'XXL',
+				'skuPropertyTips': 'XXL',
+				'skuPropertyValueShowOrder': 2,
+				'skuPropertyValueTips': 'XXL'
+			}]
+		}],
+		'skuPriceList': [{
+			'freightExt': '{"itemScene":"default","p0":"12000029517839904","p1":"120.00","p10":[110273,182210,182209,218119,82052,84809,181770,120651,120715,120650,120716,124181,124180,182107,106459,181657,182110,182108,110174,182109,201379,124259,124258,120551,201380,183525,73387,124267,73386,124268,120817,120819,120818,120820,111478,182207,124350],"p3":"CNY","p5":"0","p6":"null","p7":"{}","p9":"CN£¤ 120.00"}',
+			'skuAttr': '14:1052;5:100014064',
+			'skuId': 12000029517839904,
+			'skuIdStr': '12000029517839904',
+			'skuPropIds': '1052,100014064',
+			'skuVal': {
+				'availQuantity': 102,
+				'inventory': 102,
+				'isActivity': False,
+				'optionalWarrantyPrice': [],
+				'skuAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $16.61',
+					'value': 16.61
+				},
+				'skuCalPrice': '120.00'
+			}
+		}, {
+			'freightExt': '{"itemScene":"default","p0":"12000029517839905","p1":"120.00","p10":[110273,182210,182209,218119,82052,84809,181770,120651,120715,120650,120716,124181,124180,182107,106459,181657,182110,182108,110174,182109,201379,124259,124258,120551,201380,183525,73387,124267,73386,124268,120817,120819,120818,120820,111478,182207,124350],"p3":"CNY","p5":"0","p6":"null","p7":"{}","p9":"CN£¤ 120.00"}',
+			'skuAttr': '14:1052;5:361386',
+			'skuId': 12000029517839905,
+			'skuIdStr': '12000029517839905',
+			'skuPropIds': '1052,361386',
+			'skuVal': {
+				'availQuantity': 105,
+				'inventory': 105,
+				'isActivity': False,
+				'optionalWarrantyPrice': [],
+				'skuAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $16.61',
+					'value': 16.61
+				},
+				'skuCalPrice': '120.00'
+			}
+		}, {
+			'freightExt': '{"itemScene":"default","p0":"12000029517839906","p1":"120.00","p10":[110273,182210,182209,218119,82052,84809,181770,120651,120715,120650,120716,124181,124180,182107,106459,181657,182110,182108,110174,182109,201379,124259,124258,120551,201380,183525,73387,124267,73386,124268,120817,120819,120818,120820,111478,182207,124350],"p3":"CNY","p5":"0","p6":"null","p7":"{}","p9":"CN£¤ 120.00"}',
+			'skuAttr': '14:1052;5:361385',
+			'skuId': 12000029517839906,
+			'skuIdStr': '12000029517839906',
+			'skuPropIds': '1052,361385',
+			'skuVal': {
+				'availQuantity': 108,
+				'inventory': 108,
+				'isActivity': False,
+				'optionalWarrantyPrice': [],
+				'skuAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $16.61',
+					'value': 16.61
+				},
+				'skuCalPrice': '120.00'
+			}
+		}, {
+			'freightExt': '{"itemScene":"default","p0":"12000029517839907","p1":"120.00","p10":[110273,182210,182209,218119,82052,84809,181770,120651,120715,120650,120716,124181,124180,182107,106459,181657,182110,182108,110174,182109,201379,124259,124258,120551,201380,183525,73387,124267,73386,124268,120817,120819,120818,120820,111478,182207,124350],"p3":"CNY","p5":"0","p6":"null","p7":"{}","p9":"CN£¤ 120.00"}',
+			'skuAttr': '14:1052;5:100014065',
+			'skuId': 12000029517839907,
+			'skuIdStr': '12000029517839907',
+			'skuPropIds': '1052,100014065',
+			'skuVal': {
+				'availQuantity': 110,
+				'inventory': 110,
+				'isActivity': False,
+				'optionalWarrantyPrice': [],
+				'skuAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $16.61',
+					'value': 16.61
+				},
+				'skuCalPrice': '120.00'
+			}
+		}, {
+			'freightExt': '{"itemScene":"default","p0":"12000029517839908","p1":"120.00","p10":[110273,182210,182209,218119,82052,84809,181770,120651,120715,120650,120716,124181,124180,182107,106459,181657,182110,182108,110174,182109,201379,124259,124258,120551,201380,183525,73387,124267,73386,124268,120817,120819,120818,120820,111478,182207,124350],"p3":"CNY","p5":"0","p6":"null","p7":"{}","p9":"CN£¤ 120.00"}',
+			'skuAttr': '14:1052;5:4182',
+			'skuId': 12000029517839908,
+			'skuIdStr': '12000029517839908',
+			'skuPropIds': '1052,4182',
+			'skuVal': {
+				'availQuantity': 107,
+				'inventory': 107,
+				'isActivity': False,
+				'optionalWarrantyPrice': [],
+				'skuAmount': {
+					'currency': 'USD',
+					'formatedAmount': 'US $16.61',
+					'value': 16.61
+				},
+				'skuCalPrice': '120.00'
+			}
+		}],
+		'warrantyDetailJson': '[]'
+	},
+	'specsModule': {
+		'features': {},
+		'i18nMap': {},
+		'id': 0,
+		'name': 'SpecsModule',
+		'props': [{
+			'attrName': 'Brand Name',
+			'attrValue': 'STSVZORR'
+		}, {
+			'attrName': 'Material',
+			'attrValue': 'Cotton,Polyester'
+		}, {
+			'attrName': 'Style',
+			'attrValue': 'Y2K'
+		}, {
+			'attrName': 'Origin',
+			'attrValue': 'Mainland China'
+		}, {
+			'attrName': 'CN',
+			'attrValue': 'Fujian'
+		}, {
+			'attrName': 'Fabric Type',
+			'attrValue': 'Denim'
+		}, {
+			'attrName': 'Waistline',
+			'attrValue': 'empire'
+		}, {
+			'attrName': 'Pattern Type',
+			'attrValue': 'Tie Dye'
+		}, {
+			'attrName': 'Silhouette',
+			'attrValue': 'A-LINE'
+		}, {
+			'attrName': 'Dresses Length',
+			'attrValue': 'Above Knee, Mini'
+		}, {
+			'attrName': 'Decoration',
+			'attrValue': 'Bright Line Decoration'
+		}, {
+			'attrName': 'Place Of Origin',
+			'attrValue': 'China (Mainland)'
+		}, {
+			'attrName': 'Gender',
+			'attrValue': 'WOMEN'
+		}, {
+			'attrName': 'Age',
+			'attrValue': 'Ages 18-35 Years Old'
+		}]
+	},
+	'storeModule': {
+		'companyId': 259654155,
+		'countryCompleteName': 'China',
+		'detailPageUrl': '//www.aliexpress.com/item/1005004537294210.html',
+		'esRetailOrConsignment': False,
+		'features': {},
+		'feedbackMessageServer': '//message.aliexpress.com',
+		'feedbackServer': '//feedback.aliexpress.com',
+		'followed': False,
+		'followingNumber': 1163,
+		'hasStore': True,
+		'hasStoreHeader': True,
+		'hideCustomerService': False,
+		'i18nMap': {
+			'COUSTOMER_SERVICE': 'Customer Service',
+			'VISIT_STORE': 'Visit Store',
+			'CONTACT_SELLER': 'Contact',
+			'FOLLOWING_STATE': 'Following',
+			'UNFOLLOWING_STATE': 'Follow',
+			'POSITIVE_FEEDBACK': 'Positive Feedback',
+			'FOLLOWERS': 'Followers',
+			'FOLLOWER': 'Follower',
+			'TOP_SELLER': 'Top Brands',
+			'STORE_CATEGORIES': 'Store Categories'
+		},
+		'id': 0,
+		'name': 'StoreModule',
+		'openTime': 'May 29, 2021',
+		'openedYear': 1,
+		'positiveNum': 403,
+		'positiveRate': '95.0%',
+		'productId': 1005004537294210,
+		'sellerAdminSeq': 252290422,
+		'sessionId': '1b0c23b2a5d14782b06216f4f22432a8',
+		'siteType': 'glo',
+		'storeName': 'STSVZORR Store',
+		'storeNum': 1101776824,
+		'storeURL': '//www.aliexpress.com/store/1101776824',
+		'topBrandDescURL': 'https://sale.aliexpress.com/topbrand.htm',
+		'topRatedSeller': False
+	},
+	'titleModule': {
+		'features': {},
+		'feedbackRating': {
+			'averageStar': '4.0',
+			'averageStarRage': '80.0',
+			'display': True,
+			'evarageStar': '4.0',
+			'evarageStarRage': '80.0',
+			'fiveStarNum': 0,
+			'fiveStarRate': '0',
+			'fourStarNum': 1,
+			'fourStarRate': '100',
+			'oneStarNum': 0,
+			'oneStarRate': '0',
+			'positiveRate': '0.0',
+			'threeStarNum': 0,
+			'threeStarRate': '0',
+			'totalValidNum': 1,
+			'trialReviewNum': 0,
+			'twoStarNum': 0,
+			'twoStarRate': '0'
+		},
+		'formatTradeCount': '17',
+		'i18nMap': {
+			'REVIEWS': 'Reviews',
+			'VIEW_ALL_REVIEWS': 'View All Reviews',
+			'REVIEW': 'Review',
+			'VIEW_OTHER_TITLE': 'View title in multi-language (machine translated)',
+			'VIEW_EN_TITLE': 'View original title in English',
+			'FREEBIE_REVIEW': 'Review Of Freebies ',
+			'FREEBIE_REVIEWS': 'Reviews Of Freebies '
+		},
+		'id': 0,
+		'name': 'TitleModule',
+		'orig': False,
+		'origTitle': False,
+		'subject': 'Pink Y2k Skirts Womens 2022 Jean Skirt Tutu Women&#39;s Skort E Girl Kawaii Punk Summer Clothing',
+		'titleTags': [],
+		'tradeCount': 17,
+		'tradeCountUnit': 'orders',
+		'trans': False,
+		'transTitle': False
+	},
+	'webEnv': {
+		'country': 'US',
+		'currency': 'USD',
+		'env': {
+			'valMap': {
+				'g11n:locale': 'en_US',
+				'g11n:timezone': '',
+				'ua:device': 'pc',
+				'user:id': '',
+				'g11n:country': 'CN',
+				'page:name': '',
+				'g11n:site': 'glo',
+				'page:app': '',
+				'ua:browser': 'chrome',
+				'ua:platform': 'other',
+				'user:type': '',
+				'page:id': 'item_html',
+				'user:member': '',
+				'g11n:currency': 'USD'
+			},
+			'zone': 'global_env'
+		},
+		'host': 'www.aliexpress.com',
+		'hostname': 'ae-glodetail-6222cc651e117233b8e986a3fe5ee568-r9x84',
+		'ip': '113.111.203.139',
+		'lang': 'en_US',
+		'language': 'en',
+		'locale': 'en_US',
+		'reqHost': 'https://www.aliexpress.com',
+		'site': 'glo',
+		'traceId': '21362f1a16666447193921702e5c23'
+	}
+}

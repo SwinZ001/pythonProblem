@@ -1,0 +1,13 @@
+#查看adb链接状态，
+
+adb devices
+
+#进入adb编辑命令行
+
+adb shell
+
+#查看当前手机模拟器打开的应用信息,配置appuim需要这些信息
+
+dumpsys activity | grep mFocusedActivity
+#返回应用信息
+mFocusedActivity: ActivityRecord{fa053c0 u0 com.android.browser/.BrowserActivity t4}

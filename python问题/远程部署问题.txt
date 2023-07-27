@@ -1,0 +1,22 @@
+服务端安装scrapyd，客户端安装scrapyd-clies用来部署项目到服务器，不过一般用gerapy界面工具更方便
+
+ubuntu服务器端新建一个文件夹来部署scrapyd项目，文件夹要新建一个dbs空白文件夹，还要新建一个scrapyd.conf配置服务器远程访问
+
+用scrapyd-clies部署项目，客户端会生成build，project.egg-info文件夹和setup文件
+
+scrapyd用gerapy界面工具，服务器端不需要打开scrapyd，其他界面工具都要
+
+用gerapy界面工具，打包部署文件是要打包pythonProject/yamaxun/下的yamaxun项目+scrapy.cfg配置文件，两者（新建文件夹放在一起）一同打包成zip后缀压缩包
+
+
+用gerapy界面工具:
+
+1.gerapy init:初始化，会生成gerapy文件夹，里面还有logs和projects两个文件夹
+
+2.cd到gerapy文件夹，在文件夹节点执行gerapy migrate,会在文件夹里生成一个dbs数据库文件夹，用来管理部署的版本
+
+3.重置或者初始化都要 gerapy createsuperuser创建超级用户，用于设置登陆账户密码，按照指示输入账号密码注册（邮箱可以不用写）
+
+4.gerapy runserver:开启gerapy服务，浏览器输入网址，显示界面
+
+5部署成功会在egg文件夹中创建一个文件夹，文件夹名为打包时候的名字，里面就是项目代码压缩包

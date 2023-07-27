@@ -1,0 +1,16 @@
+新版appuim点击放大镜不会跳出界面，而是跳转到Appium Inspector.exe下载网页，界面需要另外下载Appium Inspector.exe
+
+打开Appium Inspector.exe配置链接appuim时提示错误，
+是因为默认的Remote Path是：/
+Remote Path 需要改成： /wd/hub
+
+
+Appium Inspector.exe连接appuim服务器配置信息json
+
+{
+  "platformName": "Android",
+  "appium:platformVersion": "7.1.2",
+  "appium:deviceName": "SM-G955N",
+  "appium:appPackage": "com.taobao.taobao",
+  "appium:appActivity": "com.taobao.tao.TBMainActivity"
+}

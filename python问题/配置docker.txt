@@ -1,0 +1,6 @@
+  "registry-mirrors": [
+    "https://register.docker-cn.com"
+  ]
+https://www.amazon.cn/s?i=toys&srs=1546136071&bbn=1546134071&dc&qid=1652034161&ref=sr_nr_i_5&page=1
+https://www.amazon.cn/s?i=toys&srs=1546136071&bbn=1546134071&dc&qid=1652034178&ref=sr_pg_2&page=2
+https://www.amazon.cn/s?i=toys&srs=1546136071&bbn=1546134071&dc&qid=1652034482&ref=sr_pg_3&page=3

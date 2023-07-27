@@ -1,0 +1,83 @@
+
+
+redis 中blpop是读取并清除缓存，所以数据会消失，用别的方法读取就不会了
+
+redis持久化储存，redis会生成一个dump.rdb文件，会把redis的数据备份在里面，不会导致重新打开redis后出现数据丢失情况，如果删除了这个文件，重新打开redis，数据就会清空
+默认dump.rdb文件会出现在打开redis的路径，可以修改文件路径，具体自己百度
+
+cmd开启redis远程访问#定位到redis安装位置
+C:\Users\Administrator>d:
+D:\>cd D:\develop\redis\redis
+D:\develop\redis\redis>redis-server .\redis.windows-service.conf
+
+
+不登陆状态可以用切换ip，登陆状态可以重开新建一个浏览器登陆账户获取cookies，重新添加新的cookies
+
+
+
+qq邮箱账号--pop登录码（相当密码）--接收邮件服务器：1048726015@qq.com-----zfsnucortavobdah------pop.qq.com
+
+谷歌邮箱账号：fa267754@gmail.com----During81287----darelleticonsamson6pki297@outlook.com：只可用邮箱登录
+                       hodgkinsthomas03@gmail.com----f59t50bSx84----tazhymci24599706@mail.ru：可用账号或者邮箱登录
+                       alvarezwann@gmail.com----s61711cHtQ3----zbrarsyb17769449@mail.ru：还没注册
+
+
+速卖通买家：https://www.aliexpress.com/
+
+
+要添加参数浏览器才能打开：bro = uc.Chrome(version_main=104,use_subprocess=True)
+
+python/电子邮件/SMTP发送邮件-POP3收取邮件编程:https://blog.csdn.net/fan__lee/article/details/107708463?app_version=5.7.1&csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22107708463%22%2C%22source%22%3A%22weixin_44815164%22%7D&ctrtid=qCwjT&utm_source=app
+
+
+gerapy账号:swinz,密码：swinz123
+
+redis重复添加问题：链接有的参数是动态，所以会导致数据重复添加，只要观察链接形态，修改链接既可以避免重复
+
+ubuntu root密码：789789789
+
+ubuntu网络问题，添加网络节点：
+deb http://mirrors.163.com/ubuntu/ impish main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ impish-security main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ impish-updates main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ impish-proposed main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ impish-backports main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ impish main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ impish-security main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ impish-updates main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ impish-proposed main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ impish-backports main restricted universe multiverse
+
+
+ubuntu网络问题2：修改nameserver 为8.8.8.8
+# This is /run/systemd/resolve/stub-resolv.conf managed by man:systemd-resolved(8).
+# Do not edit.
+#
+# This file might be symlinked as /etc/resolv.conf. If you're looking at
+# /etc/resolv.conf and seeing this text, you have followed the symlink.
+#
+# This is a dynamic resolv.conf file for connecting local clients to the
+# internal DNS stub resolver of systemd-resolved. This file lists all
+# configured search domains.
+#
+# Run "resolvectl status" to see details about the uplink DNS servers
+# currently in use.
+#
+# Third party programs should typically not access this file directly, but only
+# through the symlink at /etc/resolv.conf. To manage man:resolv.conf(5) in a
+# different way, replace this symlink by a static file or a different symlink.
+#
+# See man:systemd-resolved.service(8) for details about the supported modes of
+# operation for /etc/resolv.conf.
+
+nameserver 8.8.8.8
+options edns0 trust-ad
+search .
+
+
+
+
+
+
+
+

@@ -1,0 +1,553 @@
+{
+  "error": null,
+  "error_msg": null,
+  "data": {
+    "itemid": 8415848982,
+    "shopid": 174359654,
+    "userid": 0,
+    "price_max_before_discount": -1,
+    "has_lowest_price_guarantee": false,
+    "price_before_discount": 0,
+    "price_min_before_discount": -1,
+    "exclusive_price_info": null,
+    "hidden_price_display": null,
+    "price_min": 100000,
+    "price_max": 500000,
+    "price": 100000,
+    "stock": 10782,
+    "discount": null,//折扣
+    "historical_sold": 63737,
+    "sold": 5142,
+    "show_discount": 0,
+    "raw_discount": 0,
+    "min_purchase_limit": 1,
+    "overall_purchase_limit": {
+      "order_max_purchase_limit": 0,
+      "overall_purchase_limit": null,
+      "item_overall_quota": null,
+      "start_date": null,
+      "end_date": null
+    },
+    "pack_size": null,
+    "is_live_streaming_price": null,
+    "show_free_return": null,
+    "name": "Ladies Apparel (livestream link)",
+    "ctime": 1613560448,
+    "item_status": "normal",
+    "status": 1,
+    "condition": 1,
+    "catid": 100017,
+    "description": "strictly for those who purchase on our livestream\n\n\n\nif you opt for normal mail, do add $1.50 to cart",
+    "is_mart": false,
+    "rich_text_description": null,
+    "show_shopee_verified_label": false,
+    "size_chart": "",
+    "reference_item_id": "",
+    "brand": null,
+    "item_rating": {
+      "rating_star": 4.976029962546816,
+      "rating_count": [ 1341, 1, 0, 9, 10, 1321 ]
+    },
+    "label_ids": [ 1014462 ],
+    "attributes": [
+      {
+        "name": "场合",
+        "value": "休闲",
+        "id": 100155,
+        "is_timestamp": false,
+        "brand_option": null,
+        "val_id": null
+      },
+      {
+        "name": "连衣裙/裙子款式",
+        "value": "其他",
+        "id": 100152,
+        "is_timestamp": false,
+        "brand_option": null,
+        "val_id": null
+      },
+      {
+        "name": "加大码",
+        "value": "否",
+        "id": 101004,
+        "is_timestamp": false,
+        "brand_option": null,
+        "val_id": null
+      },
+      {
+        "name": "连衣裙/裙子长度",
+        "value": "中长裙",
+        "id": 100151,
+        "is_timestamp": false,
+        "brand_option": null,
+        "val_id": null
+      },
+      {
+        "name": "原产国",
+        "value": "其他",
+        "id": 100037,
+        "is_timestamp": false,
+        "brand_option": null,
+        "val_id": null
+      },
+      {
+        "name": "图案",
+        "value": "扎染",
+        "id": 100162,
+        "is_timestamp": false,
+        "brand_option": null,
+        "val_id": null
+      }
+    ],
+    "liked": false,
+    "liked_count": 59,
+    "cmt_count": 1341,
+    "flag": 0,
+    "shopee_verified": false,
+    "is_adult": false,
+    "is_preferred_plus_seller": false,
+    "tier_variations": [
+      {
+        "name": "Price",
+        "options": [ "$1.50", "$2", "$3", "$5", "$1.70", "$4", "$1.40", "$1", "$1.80", "$1.30", "$1.90", "$1.10" ],
+        "images": null,
+        "properties": null,
+        "type": 0,
+        "summed_stocks": null
+      }
+    ],
+    "bundle_deal_id": 0,
+    "can_use_bundle_deal": false,
+    "size_chart_info": null,
+    "add_on_deal_info": null,
+    "bundle_deal_info": null,
+    "can_use_wholesale": false,
+    "wholesale_tier_list": [],
+    "is_group_buy_item": null,
+    "group_buy_info": null,
+    "welcome_package_type": 0,
+    "welcome_package_info": null,
+    "tax_code": null,
+    "invoice_option": null,
+    "complaint_policy": null,
+    "wp_eligibility": null,
+    "images": [ "d0e2e344a1a08d9ec27693b290fafcad", "22cf518a3c2c27e5a6a611db1fdb94ce", "e48c76218d57efeb3294542ce265680a", "27f091cda1be211bb59c778987ee890f" ],
+    "image": "d0e2e344a1a08d9ec27693b290fafcad",
+    "video_info_list": null,
+    "item_type": 0,
+    "is_official_shop": false,
+    "show_official_shop_label_in_title": false,
+    "shop_location": "新加坡",
+    "coin_earn_label": null,
+    "cb_option": 0,
+    "is_pre_order": false,
+    "estimated_days": 2,
+    "badge_icon_type": 0,
+    "show_free_shipping": false,
+    "shipping_icon_type": 0,
+    "cod_flag": 0,
+    "is_service_by_shopee": false,
+    "show_original_guarantee": false,
+    "categories": [
+      {
+        "catid": 100017,
+        "display_name": "Women Clothes",
+        "no_sub": false,
+        "is_default_subcat": false
+      },
+      {
+        "catid": 100104,
+        "display_name": "Dresses",
+        "no_sub": true,
+        "is_default_subcat": false
+      }
+    ],
+    "other_stock": 10782,
+    "item_has_post": true,
+    "discount_stock": 0,
+    "current_promotion_has_reserve_stock": false,
+    "current_promotion_reserved_stock": 0,
+    "normal_stock": 10782,
+    "brand_id": 0,
+    "is_alcohol_product": false,
+    "show_recycling_info": false,
+    "coin_info": {
+      "spend_cash_unit": 1000,
+      "coin_earn_items": []
+    },
+    "models": [
+      {
+        "itemid": 8415848982,
+        "status": 1,
+        "current_promotion_reserved_stock": 0,
+        "name": "$5",
+        "promotionid": 0,
+        "price": 500000, //实际价格
+        "price_stocks": [
+          {
+            "allocated_stock": 0,
+            "stock_breakdown_by_location": null
+          }
+        ],
+        "current_promotion_has_reserve_stock": false,
+        "normal_stock": 725,  //当前sku商品库存
+        "extinfo": {
+          "tier_index": [ 3 ],
+          "group_buy_info": null,
+          "is_pre_order": false,
+          "estimated_days": 2
+        },
+        "price_before_discount": 0, //折扣前价格
+        "modelid": 82918434697,
+        "stock": 725,
+        "has_gimmick_tag": false,
+        "key_measurement": null
+      },
+      {
+        "itemid": 8415848982,
+        "status": 1,
+        "current_promotion_reserved_stock": 0,
+        "name": "$1",    [ "$1.50", "$2", "$3", "$5", "$1.70", "$4", "$1.40", "$1", "$1.80", "$1.30", "$1.90", "$1.10" ]
+        "promotionid": 0,
+        "price": 100000,
+        "price_stocks": [
+          {
+            "allocated_stock": 0,
+            "stock_breakdown_by_location": null
+          }
+        ],
+        "current_promotion_has_reserve_stock": false,
+        "normal_stock": 3734,
+        "extinfo": {
+          "tier_index": [ 7 ],
+          "group_buy_info": null,
+          "is_pre_order": false,
+          "estimated_days": 2
+        },
+        "price_before_discount": 0,
+        "modelid": 67276840915,
+        "stock": 3734,
+        "has_gimmick_tag": false,
+        "key_measurement": null
+      },
+      {
+        "itemid": 8415848982,
+        "status": 1,
+        "current_promotion_reserved_stock": 0,
+        "name": "$1.40",
+        "promotionid": 0,
+        "price": 140000,
+        "price_stocks": [
+          {
+            "allocated_stock": 0,
+            "stock_breakdown_by_location": null
+          }
+        ],
+        "current_promotion_has_reserve_stock": false,
+        "normal_stock": 78,
+        "extinfo": {
+          "tier_index": [ 6 ],
+          "group_buy_info": null,
+          "is_pre_order": false,
+          "estimated_days": 2
+        },
+        "price_before_discount": 0,
+        "modelid": 67276840916,
+        "stock": 78,
+        "has_gimmick_tag": false,
+        "key_measurement": null
+      },
+      {
+        "itemid": 8415848982,
+        "status": 1,
+        "current_promotion_reserved_stock": 0,
+        "name": "$3",
+        "promotionid": 0,
+        "price": 300000,
+        "price_stocks": [
+          {
+            "allocated_stock": 0,
+            "stock_breakdown_by_location": null
+          }
+        ],
+        "current_promotion_has_reserve_stock": false,
+        "normal_stock": 4613,
+        "extinfo": {
+          "tier_index": [ 2 ],
+          "group_buy_info": null,
+          "is_pre_order": false,
+          "estimated_days": 2
+        },
+        "price_before_discount": 0,
+        "modelid": 82918434695,
+        "stock": 4613,
+        "has_gimmick_tag": false,
+        "key_measurement": null
+      },
+      {
+        "itemid": 8415848982,
+        "status": 1,
+        "current_promotion_reserved_stock": 0,
+        "name": "$1.30",
+        "promotionid": 0,
+        "price": 130000,
+        "price_stocks": [
+          {
+            "allocated_stock": 0,
+            "stock_breakdown_by_location": null
+          }
+        ],
+        "current_promotion_has_reserve_stock": false,
+        "normal_stock": 39,
+        "extinfo": {
+          "tier_index": [ 9 ],
+          "group_buy_info": null,
+          "is_pre_order": false,
+          "estimated_days": 2
+        },
+        "price_before_discount": 0,
+        "modelid": 140800472651,
+        "stock": 39,
+        "has_gimmick_tag": false,
+        "key_measurement": null
+      },
+      {
+        "itemid": 8415848982,
+        "status": 1,
+        "current_promotion_reserved_stock": 0,
+        "name": "$1.50",
+        "promotionid": 0,
+        "price": 150000,
+        "price_stocks": [
+          {
+            "allocated_stock": 0,
+            "stock_breakdown_by_location": null
+          }
+        ],
+        "current_promotion_has_reserve_stock": false,
+        "normal_stock": 89,
+        "extinfo": {
+          "tier_index": [ 0 ],
+          "group_buy_info": null,
+          "is_pre_order": false,
+          "estimated_days": 2
+        },
+        "price_before_discount": 0,
+        "modelid": 56019666574,
+        "stock": 89,
+        "has_gimmick_tag": false,
+        "key_measurement": null
+      },
+      {
+        "itemid": 8415848982,
+        "status": 1,
+        "current_promotion_reserved_stock": 0,
+        "name": "$1.90",
+        "promotionid": 0,
+        "price": 190000,
+        "price_stocks": [
+          {
+            "allocated_stock": 0,
+            "stock_breakdown_by_location": null
+          }
+        ],
+        "current_promotion_has_reserve_stock": false,
+        "normal_stock": 5,
+        "extinfo": {
+          "tier_index": [ 10 ],
+          "group_buy_info": null,
+          "is_pre_order": false,
+          "estimated_days": 2
+        },
+        "price_before_discount": 0,
+        "modelid": 68020711752,
+        "stock": 5,
+        "has_gimmick_tag": false,
+        "key_measurement": null
+      },
+      {
+        "itemid": 8415848982,
+        "status": 1,
+        "current_promotion_reserved_stock": 0,
+        "name": "$1.70",
+        "promotionid": 0,
+        "price": 170000,
+        "price_stocks": [
+          {
+            "allocated_stock": 0,
+            "stock_breakdown_by_location": null
+          }
+        ],
+        "current_promotion_has_reserve_stock": false,
+        "normal_stock": 0,
+        "extinfo": {
+          "tier_index": [ 4 ],
+          "group_buy_info": null,
+          "is_pre_order": false,
+          "estimated_days": 2
+        },
+        "price_before_discount": 0,
+        "modelid": 120373585979,
+        "stock": 0,
+        "has_gimmick_tag": false,
+        "key_measurement": null
+      },
+      {
+        "itemid": 8415848982,
+        "status": 1,
+        "current_promotion_reserved_stock": 0,
+        "name": "$2",
+        "promotionid": 0,
+        "price": 200000,
+        "price_stocks": [
+          {
+            "allocated_stock": 0,
+            "stock_breakdown_by_location": null
+          }
+        ],
+        "current_promotion_has_reserve_stock": false,
+        "normal_stock": 1461,
+        "extinfo": {
+          "tier_index": [ 1 ],
+          "group_buy_info": null,
+          "is_pre_order": false,
+          "estimated_days": 2
+        },
+        "price_before_discount": 0,
+        "modelid": 82918434694,
+        "stock": 1461,
+        "has_gimmick_tag": false,
+        "key_measurement": null
+      },
+      {
+        "itemid": 8415848982,
+        "status": 1,
+        "current_promotion_reserved_stock": 0,
+        "name": "$1.10",
+        "promotionid": 0,
+        "price": 110000,
+        "price_stocks": [
+          {
+            "allocated_stock": 0,
+            "stock_breakdown_by_location": null
+          }
+        ],
+        "current_promotion_has_reserve_stock": false,
+        "normal_stock": 0,
+        "extinfo": {
+          "tier_index": [ 11 ],
+          "group_buy_info": null,
+          "is_pre_order": false,
+          "estimated_days": 2
+        },
+        "price_before_discount": 0,
+        "modelid": 141423379295,
+        "stock": 0,
+        "has_gimmick_tag": false,
+        "key_measurement": null
+      },
+      {
+        "itemid": 8415848982,
+        "status": 1,
+        "current_promotion_reserved_stock": 0,
+        "name": "$1.80",
+        "promotionid": 0,
+        "price": 180000,
+        "price_stocks": [
+          {
+            "allocated_stock": 0,
+            "stock_breakdown_by_location": null
+          }
+        ],
+        "current_promotion_has_reserve_stock": false,
+        "normal_stock": 28,
+        "extinfo": {
+          "tier_index": [ 8 ],
+          "group_buy_info": null,
+          "is_pre_order": false,
+          "estimated_days": 2
+        },
+        "price_before_discount": 0,
+        "modelid": 103645449760,
+        "stock": 28,
+        "has_gimmick_tag": false,
+        "key_measurement": null
+      },
+      {
+        "itemid": 8415848982,
+        "status": 1,
+        "current_promotion_reserved_stock": 0,
+        "name": "$4",
+        "promotionid": 0,
+        "price": 400000,
+        "price_stocks": [
+          {
+            "allocated_stock": 0,
+            "stock_breakdown_by_location": null
+          }
+        ],
+        "current_promotion_has_reserve_stock": false,
+        "normal_stock": 10,
+        "extinfo": {
+          "tier_index": [ 5 ],
+          "group_buy_info": null,
+          "is_pre_order": false,
+          "estimated_days": 2
+        },
+        "price_before_discount": 0,
+        "modelid": 120373585977,
+        "stock": 10,
+        "has_gimmick_tag": false,
+        "key_measurement": null
+      }
+    ],
+    "spl_info": {
+      "installment_info": null,
+      "user_credit_info": null,
+      "channel_id": null,
+      "show_spl": false,
+      "show_spl_lite": false
+    },
+    "preview_info": null,
+    "fe_categories": [
+      {
+        "catid": 11012819,
+        "display_name": "女装",
+        "no_sub": false,
+        "is_default_subcat": false
+      },
+      {
+        "catid": 11027710,
+        "display_name": "Dresses",
+        "no_sub": false,
+        "is_default_subcat": false
+      },
+      {
+        "catid": 11027714,
+        "display_name": "短连衣裙",
+        "no_sub": true,
+        "is_default_subcat": false
+      }
+    ],
+    "presale_info": null,
+    "show_best_price_guarantee": false,
+    "item_has_video": false,
+    "is_cc_installment_payment_eligible": false,
+    "is_non_cc_installment_payment_eligible": false,
+    "flash_sale": null,
+    "upcoming_flash_sale": null,
+    "deep_discount": null,
+    "has_low_fulfillment_rate": false,
+    "is_partial_fulfilled": false,
+    "makeups": null,
+    "shop_vouchers": [],
+    "credit_insurance_data": null,
+    "global_sold": null,
+    "is_infant_milk_formula_product": false,
+    "should_show_amp_tag": true,
+    "sorted_variation_image_index_list": null,
+    "lowest_past_price": null,
+    "is_prescription_item": false
+  },
+  "is_indexable": true
+}

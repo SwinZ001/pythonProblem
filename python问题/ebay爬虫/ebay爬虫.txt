@@ -1,0 +1,27 @@
+全部类别·：https://www.ebay.com/n/all-categories#ebay-motors
+
+商品详情页解析后会是代表不同类型的列表（列表里一些url需要编码转换，不然访问错误
+比如"https:\u002F\u002Fcart.payments.ebay.com\u002Fsc\u002Fatc"转后"https://cart.payments.ebay.com/sc/atc"）
+
+在ebay.json文件
+据可在html搜索定位到存数据的<script>节点查
+1.商品网页信息（当前库存，购物车等）信息在列表第一个值为“raptor.vi.ActionPanel”的列表里
+
+
+2.sku信息在列表第一个值为“com.ebay.raptor.vi.msku.ItemVariations”的列表里：
+
+         sku属性-名节点：['itmVarModel']['menuModels']
+
+         sku属性-值节点：['itmVarModel']['menuItemMap']
+
+         sku属性-值对应id价格节点：['itmVarModel']['itemVariationsMap']
+
+3.商品描述在列表第一个值为“raptor.vi.OnDemandTransl”的列表里：
+         
+         商品描述以及评论url:['descUrl']
+
+在ebay(2).json文件
+4.商品描述和运费等数据可在html搜索定位到存数据的<script>节点查
+$vim_C=(window.$vim_C||[])
+
+

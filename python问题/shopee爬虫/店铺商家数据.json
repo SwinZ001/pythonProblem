@@ -1,0 +1,36 @@
+{
+  "bff_meta": null,
+  "error": null,
+  "error_msg": null,
+  "data": {
+    "shopid": 174359654,
+    "userid": 174362123,
+    "last_active_time": 1666029948,
+    "vacation": false,
+    "place": "BLk 612 Ang mo kio ave 4, #05-1141 , SG 560612",
+    "account": {
+      "portrait": "d40763bd40a2fb6574a352b526036790",
+      "username": "partybloom_sg",
+      "status": 1
+    },
+    "is_shopee_verified": false,
+    "is_preferred_plus_seller": false,
+    "is_official_shop": false,
+    "shop_location": "",
+    "item_count": 268, //店铺商品数
+    "rating_star": 4.968826,
+    "response_rate": 72, //聊天回应率
+    "session_info": null,
+    "name": "partybloom_sg",
+    "ctime": 1567163346, //加入时间。（当前时间戳 - 这个时间戳）
+    "response_time": 7905, //回应速度
+    "follower_count": 2961, //粉丝
+    "show_official_shop_label": false,
+    "rating_bad": 1,
+    "rating_good": 2329, //好评数
+    "rating_normal": 14,
+    "session_infos": null,
+    "show_shopee_mission": false,
+    "status": 1
+  }
+}

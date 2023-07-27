@@ -1,0 +1,72 @@
+中间键设置请求头：
+ua = random.choice(USER_AGENT_LIST)
+        request.headers['User-Agent'] = ua
+        request.headers['Accept'] = 'application/json, text/javascript, */*; q=0.01'
+        request.headers['Accept-Encoding'] = 'gzip, deflate, br'
+        request.headers['Accept-Language'] = 'zh-CN'
+        request.headers['Cookie'] = 'session-id=134-1000000-1000000; i18n-prefs=USD; lc-main=zh_CN; ubid-main=135-8795264-5935332; session-id-time=2082787201l; sp-cdn="L5Z9:CN"; skin=noskin; session-token="ar2dOjY0ujkHTkHhy2IixV6X5aLa+0ZJDVa7ghGeQaEKQ13WAjeFh1eNEz5HP3spgYzLq/IN71uussVekpKUB7X52yiK8YskoULC+OqDFuTwiLEIIJ/lSba1ksM3hb9/wGut20ZFnYxfRrpOVewm65hz5QlIJ4glGqsqsa2C0B5iLiQSDp6SwbHSGNW9ltiFu/MaY8xgsEbQB8blVJjyZvFFDOsce2Ub38eLpgpjN1Y="; csm-hit=tb:s-NV897NY130WFWYPX23JY|1668524705080&t:1668524707334&adb:adblk_no'
+
+在中间件设置：
+
+COOKIES_ENABLED = False时请求头为：（请求头都一样）
+                                                                 (会使用中间件请求头自定义的Cookie，没写Cookie则没有Cookie）
+                                                               （需要设置Cookie）
+                                                               （有设置headers就按照设置的headers，没有则自己生成headers，不过会503很久）
+
+
+COOKIES_ENABLED =True时请求头为：（请求头都一样）
+                                                                (会自己生成Cookie，不管中间件有没有Cookie，都使用自己生成Cookie）
+                                                              （不需要设置Cookie）
+                                                              （有设置headers就按照设置的headers，没有则自己生成headers，不过会503很久）
+
+
+
+
+在spider设置(需要传递，不然下一个函数不可用，传递的过程中cookies不变)：
+
+COOKIES_ENABLED = False： （有设置headers就按照设置的headers，没有则自己生成headers，不过会503很久）
+                                                （不设置cookies不会生成cookies）
+                                                （只能在header中写才会生成cookies）
+                                                  (不可使用cookies=cookies方式，这样也不会生成cookies），
+                                                （不可用在post请求的scrapy.FormRequest中，scrapy.FormRequest只支持cookies=cookies方式）
+                                                （有些headers加了某些参数会导致访问数据出错，所以要删除一些非必要参数，保留必要参数）
+                                                  
+
+COOKIES_ENABLED =True：   （不设置cookies会随机生成cookies）
+                                                （在header中设置cookies，会有cookies，但不是自己设置的cookies，是随机生成）
+                                                （可使用cookies=cookies方式，使用该方式，才会是自己设置的cookie,但是在cookies会有自己的cookies和自动生成的cookies，还是会导致访问不到，所以可以直接不设置                                                             cookies，使用自动生成的）
+                                                （可用在post请求的scrapy.FormRequest中，scrapy.FormRequest只支持cookies=cookies方式）
+                                                （有设置headers就按照设置的headers，没有则自己生成headers，不过会503很久）
+                                                （有些headers加了某些参数会导致访问数据出错，所以要删除一些非必要参数，保留必要参数）
+
+
+
+# 多个url时使用cookiejar来保持会话（session），保证每个url独立运行，不会导致数据混乱（可以不设置cookies）
+# （可以不设置这部分 cookie_dict）
+# cookie_dict = ['session-id=134-0000000-0000001; session-id-time=2082787201l; i18n-prefs=USD; lc-main=zh_CN; sp-cdn="L5Z9:CN"; ubid-main=131-6832861-0372514; ',
+         #       'session-id=134-0000000-0000002; session-id-time=2082787201l; i18n-prefs=USD; lc-main=zh_CN; sp-cdn="L5Z9:CN"; ubid-main=131-6832861-0372514; ']
+# urls = ['https://www.amazon.com/-/zh/dp/B08V4Z4VRY?th=1&psc=1','https://www.amazon.com/-/zh/dp/B09GJYM3R8?th=1&psc=1']
+# for i in range(len(urls)):
+        #     url = urls[i]
+        #     temp = cookie_dict[i]（可以不设置这部分）
+        #     cookies = {data.split("=")[0]: data.split("=")[-1] for data in temp.split('; ')}（可以不设置这部分）
+        #     yield scrapy.Request(
+        #         url=url,
+        #         cookies=cookies,（可以不设置这部分）
+        #         meta={'item': copy.deepcopy(item),'cookies': copy.deepcopy(cookies)（可以不设置这部分）,'cookiejar': i (标识可以是url,或者循环底标）},
+        #         callback=self.parse2,
+        #         dont_filter=True,
+        #     )
+
+
+
+
+
+
+
+
+
+
+
+
+
